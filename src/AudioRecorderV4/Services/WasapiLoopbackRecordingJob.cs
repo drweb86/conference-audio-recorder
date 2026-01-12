@@ -104,9 +104,17 @@ namespace AudioRecorderV4.Services
                     using (var outputWasapiLoopbackCapture = new WasapiLoopbackCapture(outputDevice))
                     using (var outputFileWriter = new WaveFileWriter(_waveFile, outputWasapiLoopbackCapture.WaveFormat))
                     {
+                        int writeCounter = 0;
                         EventHandler<WaveInEventArgs> outputCallback = (object sender, WaveInEventArgs data) =>
                         {
                             outputFileWriter.Write(data.Buffer, 0, data.BytesRecorded);
+
+                            // Flush periodically to prevent I/O buildup in file system buffers
+                            if (++writeCounter % 100 == 0)
+                            {
+                                outputFileWriter.Flush();
+                                writeCounter = 0;
+                            }
                         };
 
                         outputWasapiLoopbackCapture.DataAvailable += outputCallback;

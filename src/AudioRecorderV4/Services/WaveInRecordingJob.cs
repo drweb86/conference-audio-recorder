@@ -43,13 +43,24 @@ namespace AudioRecorderV4.Services
             using (var deviceEnumerator = new MMDeviceEnumerator())
             using (var waveSource = new WaveInEvent())
             {
+                // Configure buffer settings to prevent buffer overruns during long recordings
+                waveSource.BufferMilliseconds = 50;  // Reduce latency from default 100ms
+                waveSource.NumberOfBuffers = 4;      // Increase from default 3 for more headroom
                 waveSource.DeviceNumber = FindWaveInDeviceName(_inputDeviceFriendlyName);
 
                 using (var inputFileWriter = new WaveFileWriter(_waveFile, waveSource.WaveFormat))
                 {
+                    int writeCounter = 0;
                     EventHandler<WaveInEventArgs> outputCallback = (object sender, WaveInEventArgs data) =>
                     {
                         inputFileWriter.Write(data.Buffer, 0, data.BytesRecorded);
+
+                        // Flush periodically to prevent I/O buildup in file system buffers
+                        if (++writeCounter % 100 == 0)
+                        {
+                            inputFileWriter.Flush();
+                            writeCounter = 0;
+                        }
                     };
 
                     waveSource.DataAvailable += outputCallback;
