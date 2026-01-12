@@ -38,7 +38,7 @@
     <ProjectGuid>983b33c7-b1a1-4cf3-b1ed-b868d79c1646</ProjectGuid>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
-    <AssetTargetFallback>net6.0-windows$(TargetPlatformVersion);$(AssetTargetFallback)</AssetTargetFallback>
+    <AssetTargetFallback>net10.0-windows$(TargetPlatformVersion);$(AssetTargetFallback)</AssetTargetFallback>
     <DefaultLanguage>en-US</DefaultLanguage>
     <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
     <EntryPointProjectUniqueName>..\AudioRecorderV4\AudioRecorderV4.csproj</EntryPointProjectUniqueName>
@@ -140,10 +140,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="[1.0.0]">
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.251106002">
       <IncludeAssets>build</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="[10.0.22000.194]">
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.7463">
       <IncludeAssets>build</IncludeAssets>
     </PackageReference>
   </ItemGroup>

@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -118,75 +118,75 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Application.Text" xml:space="preserve">
-    <value>Application:</value>
+    <value>Aplicativo:</value>
   </data>
   <data name="ChangeFolder.Content" xml:space="preserve">
-    <value>Change Folder</value>
+    <value>Alterar Pasta</value>
   </data>
   <data name="ChooseAudioInputDevice.Text" xml:space="preserve">
-    <value>Choose audio input device (microphone):</value>
+    <value>Escolha o dispositivo de entrada de áudio (microfone):</value>
   </data>
   <data name="ChooseAudioOutputDevice.Text" xml:space="preserve">
-    <value>Choose audio output device (headphones):</value>
+    <value>Escolha o dispositivo de saída de áudio (fones de ouvido):</value>
   </data>
   <data name="ConferenceAudioRecorder" xml:space="preserve">
-    <value>Conference Audio Recorder</value>
+    <value>Gravador de Áudio de Conferência</value>
   </data>
   <data name="ConferenceRecordingsFolder" xml:space="preserve">
-    <value>Conference Recordings</value>
+    <value>Gravações de Conferência</value>
   </data>
   <data name="DeviceRecordingIsDisabled" xml:space="preserve">
-    <value>Device recording is disabled</value>
+    <value>A gravação do dispositivo está desabilitada</value>
   </data>
   <data name="GotIt" xml:space="preserve">
-    <value>Got it!</value>
+    <value>Entendi!</value>
   </data>
   <data name="Help1" xml:space="preserve">
-    <value>First, select audio devices that are used in conference software you'd like to record.</value>
+    <value>Primeiro, selecione os dispositivos de áudio usados no software de conferência que você deseja gravar.</value>
   </data>
   <data name="Help2" xml:space="preserve">
-    <value>Second, perform test recording. If you hear echo on recording, then probably microphone hears your speaker. In this case try to disable recording the speaker or use headphones.</value>
+    <value>Segundo, faça uma gravação de teste. Se você ouvir eco na gravação, provavelmente o microfone está captando o áudio do alto-falante. Nesse caso, tente desabilitar a gravação do alto-falante ou use fones de ouvido.</value>
   </data>
   <data name="Help3" xml:space="preserve">
-    <value>Third, click start recording at the beginning of a meeting, stop it when meeting ends.</value>
+    <value>Terceiro, clique em iniciar gravação no início de uma reunião e pare quando a reunião terminar.</value>
   </data>
   <data name="Help4" xml:space="preserve">
-    <value>MP3 file with recordings will be saved in the recordings folder. Click 'See recordings' button to navigate to it.</value>
+    <value>O arquivo MP3 com as gravações será salvo na pasta de gravações. Clique no botão 'Ver gravações' para navegar até ela.</value>
   </data>
   <data name="LicenseLink.Content" xml:space="preserve">
-    <value>License</value>
+    <value>Licença</value>
   </data>
   <data name="LogsFolder.Content" xml:space="preserve">
-    <value>Logs folder</value>
+    <value>Pasta de logs</value>
   </data>
   <data name="PrivatePolicyLink.Content" xml:space="preserve">
-    <value>Privacy Policy</value>
+    <value>Política de Privacidade</value>
   </data>
   <data name="Recording.Content" xml:space="preserve">
-    <value>Recording</value>
+    <value>Gravação</value>
   </data>
   <data name="RecordingFileName" xml:space="preserve">
-    <value>Recording {0} from {1} to {2}</value>
+    <value>Gravação {0} de {1} até {2}</value>
   </data>
   <data name="RecordingFromDeviceIsEnabled" xml:space="preserve">
-    <value>Recording from "{0}" device is enabled</value>
+    <value>A gravação do dispositivo "{0}" está habilitada</value>
   </data>
   <data name="SaveRecordingsToFolder.Text" xml:space="preserve">
-    <value>Save recordings to folder:</value>
+    <value>Salvar gravações na pasta:</value>
   </data>
   <data name="SeeRecordings.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
-    <value>See recordings</value>
+    <value>Ver gravações</value>
   </data>
   <data name="StartRecording" xml:space="preserve">
-    <value>Start Recording</value>
+    <value>Iniciar Gravação</value>
   </data>
   <data name="Stop" xml:space="preserve">
-    <value>Stop</value>
+    <value>Parar</value>
   </data>
   <data name="SupportLink.Content" xml:space="preserve">
-    <value>Support</value>
+    <value>Suporte</value>
   </data>
   <data name="TheApplicationView.Content" xml:space="preserve">
-    <value>About Application</value>
+    <value>Sobre o Aplicativo</value>
   </data>
 </root>

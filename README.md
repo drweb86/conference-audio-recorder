@@ -2,6 +2,8 @@
 
 Records audio input and output for conference calls, including Viber, Skype, Teams.
 
+Localized to Russian, Spanish (Español), Chinese Simplified (简体中文), German (Deutsch), Japanese (日本語), Portuguese Brazilian (Português do Brasil), Korean (한국어) languages.
+
 [Download at Windows Store](https://www.microsoft.com/en-us/p/conference-audio-recorder/9p1gzl37n0mt)
 
 # Screenshots

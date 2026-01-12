@@ -77,8 +77,22 @@ namespace HDE.AudioRecorder.Tools.AudioRecorder.Services
                 if (!Directory.Exists(folderName))
                     Directory.CreateDirectory(folderName);
 
+                if (_waveInRecordingJob?.WaveFile is not null)
+                {
+                    var waveInFile = FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - 🎤");
+                    ConvertWaveToMp3(_waveInRecordingJob?.WaveFile, waveInFile, _recordingStarted, _recordingEnded);
+                }
+
+                if (_recordSpeakerJob?.WaveFile is not null)
+                {
+                    var speakerFile = FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - 🔈");
+                    ConvertWaveToMp3(_recordSpeakerJob?.WaveFile, speakerFile, _recordingStarted, _recordingEnded);
+                }
+
                 var outputMp3FileName = FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName);
-                ConvertWaveToMp3(fileToConvert, outputMp3FileName);
+                ConvertWaveToMp3(fileToConvert, outputMp3FileName, _recordingStarted, _recordingEnded);
+                
+                
             }
             catch (Exception e)
             {
@@ -103,17 +117,20 @@ namespace HDE.AudioRecorder.Tools.AudioRecorder.Services
             }
         }
 
-        private void ConvertWaveToMp3(string sourceWaveFile, string destinationMp3File)
+        private void ConvertWaveToMp3(string sourceWaveFile, string destinationMp3File,
+            DateTime startRecording, DateTime endRecording)
         {
             var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForViewIndependentUse();
 
             var tag = new ID3TagData
             {
-                Title = Path.GetFileNameWithoutExtension(destinationMp3File),
+                Title = string.Format("Recording {0} from {1} to {2}", startRecording.ToString("yyyy-MM-dd"),
+                    startRecording.ToString("HH-mm-ss"),
+                    endRecording.ToString("HH-mm-ss")),
                 Artist = Environment.UserName,
-                Album = resourceLoader.GetString("AudioRecordings"),
+                Album = "Audio recordings",
                 Year = _recordingEnded.Year.ToString(),
-                Genre = resourceLoader.GetString("AudioRecording"),
+                Genre = "Audio recording",
             };
 
             using (var reader = new AudioFileReader(sourceWaveFile))

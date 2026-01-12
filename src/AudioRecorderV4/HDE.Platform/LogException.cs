@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Serialization;
 
 namespace HDE.Platform.Logging
 {
@@ -7,12 +6,6 @@ namespace HDE.Platform.Logging
 	public sealed class LogException: Exception
 	{
 		public LogException()
-		{ 
-		
-		}
-
-		private LogException(SerializationInfo info, StreamingContext context)
-			: base(info, context)
 		{ 
 		
 		}
