@@ -1,6 +1,7 @@
-MainPackage=C:\Users\Administrator\Documents\audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.3.0_arm64.msix
-SymbolPackage=C:\Users\Administrator\Documents\audio-recorder\src\AudioRecorderV4 (Package)\obj\arm64\Release\Symbols\A Startup Project (Package)_1.0.3.0_arm64.appxsym
-ResourcePack=C:\Users\Administrator\Documents\audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.3.0_scale-100.msix
-ResourcePack=C:\Users\Administrator\Documents\audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.3.0_scale-125.msix
-ResourcePack=C:\Users\Administrator\Documents\audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.3.0_scale-150.msix
-ResourcePack=C:\Users\Administrator\Documents\audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.3.0_scale-400.msix
+MainPackage=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.9.0_arm64.msix
+SymbolPackage=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\obj\arm64\Release\Symbols\A Startup Project (Package)_1.0.9.0_arm64.appxsym
+ResourcePack=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.9.0_language-ru.msix
+ResourcePack=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.9.0_scale-100.msix
+ResourcePack=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.9.0_scale-125.msix
+ResourcePack=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.9.0_scale-150.msix
+ResourcePack=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\bin\arm64\Release\A Startup Project (Package)_1.0.9.0_scale-400.msix

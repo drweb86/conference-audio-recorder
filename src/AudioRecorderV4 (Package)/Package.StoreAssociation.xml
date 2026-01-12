@@ -366,6 +366,9 @@
       <ReservedName>Conference Audio Recorder</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
-  <AccountPackageIdentityNames />
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9P1GZL37N0MT" />
+  <AccountPackageIdentityNames>
+    <MainPackageIdentityName>26873SiarheiKuchuk.FTPSServer</MainPackageIdentityName>
+    <MainPackageIdentityName>26873SiarheiKuchuk.GimpTEST</MainPackageIdentityName>
+  </AccountPackageIdentityNames>
+  <PackageInfoList LandingUrl="https://devcenterapi.dce.mp.microsoft.com/dashboard/Application?appId=9P1GZL37N0MT" />
 </StoreAssociation>

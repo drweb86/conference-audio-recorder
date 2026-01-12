@@ -9,7 +9,7 @@
   <Identity
     Name="26873SiarheiKuchuk.ConferenceAudioRecorder"
     Publisher="CN=48445635-F577-4A99-ABC2-E3554955850E"
-    Version="1.0.4.0" />
+    Version="1.0.9.0" />
 
   <Properties>
     <DisplayName>Conference Audio Recorder</DisplayName>

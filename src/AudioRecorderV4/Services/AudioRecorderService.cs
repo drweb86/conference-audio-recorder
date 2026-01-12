@@ -1,5 +1,4 @@
-﻿using AudioRecorderV4.Services;
-using AudioRecorderV4.Utils;
+﻿using AudioRecorderV4.Utils;
 using HDE.Platform.Logging;
 using NAudio.Lame;
 using NAudio.Wave;
@@ -7,19 +6,12 @@ using NAudio.Wave.SampleProviders;
 using System;
 using System.IO;
 using System.Linq;
-using Windows.Storage;
 
-namespace HDE.AudioRecorder.Tools.AudioRecorder.Services
+namespace AudioRecorderV4.Services
 {
-    internal class AudioRecorderService
+    internal class AudioRecorderService(ILog log)
     {
-        private readonly ILog _log;
-
-        public AudioRecorderService(ILog log)
-        {
-            _log = log;
-        }
-
+        private readonly ILog _log = log;
         private DateTime _recordingStarted;
         private DateTime _recordingEnded;
         private WasapiLoopbackRecordingJob _recordSpeakerJob;
@@ -120,9 +112,7 @@ namespace HDE.AudioRecorder.Tools.AudioRecorder.Services
         private void ConvertWaveToMp3(string sourceWaveFile, string destinationMp3File,
             DateTime startRecording, DateTime endRecording)
         {
-            var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForViewIndependentUse();
-
-            var tag = new ID3TagData
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             var tag = new ID3TagData
             {
                 Title = string.Format("Recording {0} from {1} to {2}", startRecording.ToString("yyyy-MM-dd"),
                     startRecording.ToString("HH-mm-ss"),
@@ -133,11 +123,9 @@ namespace HDE.AudioRecorder.Tools.AudioRecorder.Services
                 Genre = "Audio recording",
             };
 
-            using (var reader = new AudioFileReader(sourceWaveFile))
-            using (var writer = new LameMP3FileWriter(destinationMp3File, reader.WaveFormat, 320, tag))
-            {
-                reader.CopyTo(writer);
-            }
+            using var reader = new AudioFileReader(sourceWaveFile);
+            using var writer = new LameMP3FileWriter(destinationMp3File, reader.WaveFormat, 320, tag);
+            reader.CopyTo(writer);
         }
 
         private void Dump(string file, WaveFormat wave)
@@ -148,48 +136,44 @@ namespace HDE.AudioRecorder.Tools.AudioRecorder.Services
         private void MixFiles(string inputWaveFile1, string inputWaveFile2, string resultWaveFile)
         {
             _log.Debug("Preparing to mix files using MediaFoundationResampler (required Vista+, Server with Windows Desktop Experience).");
-            using (var stream1 = new FileStream(inputWaveFile1, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-            using (var stream2 = new FileStream(inputWaveFile2, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-            using (var reader1 = new WaveFileReader(stream1))
-            using (var reader2 = new WaveFileReader(stream2))
+            using var stream1 = new FileStream(inputWaveFile1, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+            using var stream2 = new FileStream(inputWaveFile2, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+            using var reader1 = new WaveFileReader(stream1);
+            using var reader2 = new WaveFileReader(stream2);
+            var waveFormats = new[] { reader1.WaveFormat, reader2.WaveFormat };
+            Dump(inputWaveFile1, reader1.WaveFormat);
+            Dump(inputWaveFile2, reader2.WaveFormat);
+
+            var maxChannels = waveFormats.Max(formats => formats.Channels);
+            var maxRate = waveFormats.Max(formats => formats.SampleRate);
+
+            var maxAllowedRate = 48000;
+            var maxAllowedChannels = 2;
+            var outputFormat = new WaveFormat(
+                maxRate > maxAllowedRate ? maxAllowedRate : maxRate,
+                16,
+                maxChannels > maxAllowedChannels ? maxAllowedChannels : maxChannels);
+            Dump(resultWaveFile, outputFormat);
+
+            var maxQuality = 60;
+            try
             {
-                var waveFormats = new[] { reader1.WaveFormat, reader2.WaveFormat };
-                Dump(inputWaveFile1, reader1.WaveFormat);
-                Dump(inputWaveFile2, reader2.WaveFormat);
-
-                var maxChannels = waveFormats.Max(formats => formats.Channels);
-                var maxRate = waveFormats.Max(formats => formats.SampleRate);
-
-                var maxAllowedRate = 48000;
-                var maxAllowedChannels = 2;
-                var outputFormat = new WaveFormat(
-                    maxRate > maxAllowedRate ? maxAllowedRate : maxRate,
-                    16,
-                    maxChannels > maxAllowedChannels ? maxAllowedChannels : maxChannels);
-                Dump(resultWaveFile, outputFormat);
-
-                var maxQuality = 60;
-                try
+                using var resampler1 = new MediaFoundationResampler(reader1, outputFormat) { ResamplerQuality = maxQuality };
+                using var resampler2 = new MediaFoundationResampler(reader2, outputFormat) { ResamplerQuality = maxQuality };
+                var resamplers = new[]
                 {
-                    using (var resampler1 = new MediaFoundationResampler(reader1, outputFormat) { ResamplerQuality = maxQuality })
-                    using (var resampler2 = new MediaFoundationResampler(reader2, outputFormat) { ResamplerQuality = maxQuality })
-                    {
-                        var resamplers = new[]
-                        {
                             resampler1.ToSampleProvider(),
                             resampler2.ToSampleProvider()
                         };
 
-                        var mixer = new MixingSampleProvider(resamplers);
+                var mixer = new MixingSampleProvider(resamplers);
 
-                        WaveFileWriter.CreateWaveFile16(resultWaveFile, mixer);
-                    }
-                }
-                catch (Exception e)
-                {
-                    _log.Error(e);
-                    throw;
-                }
+                WaveFileWriter.CreateWaveFile16(resultWaveFile, mixer);
+            }
+            catch (Exception e)
+            {
+                _log.Error(e);
+                throw;
             }
         }
     }
