@@ -1,11 +1,15 @@
 # Conference Audio Recorder
 
-Records the microphone and the speakers during a conference call, including Viber, Skype, and Teams, and saves MP3 files.
+> Records the microphone and the speakers during a conference call, including Viber, Skype, and Teams, and saves MP3 files.
 
-The mixed recording is saved together with the separate microphone and speaker files. Those file names end with ` - microphone` and ` - speaker`.
+> The mixed recording is saved together with the separate microphone and speaker files. Those file names end with ` - microphone` and ` - speaker`.
+
+[![Image Gallery](./help/Assets/Image%20Gallery.gif)](./help/Screenshots.md)
+
+[Screenshots](./help/Screenshots.md)
 
 <details>
-<summary>Supported languages (70+)</summary>
+<summary>🌐 Supported languages (70+)</summary>
 
 Afrikaans, Albanian, Arabic, Armenian, Asturian, Basque, Belarusian,
 Bengali, Bosnian, Breton, Bulgarian, Catalan, Chinese, Croatian, Czech,
@@ -20,48 +24,70 @@ Urdu, Uzbek, Vietnamese, Welsh, Yue Chinese, English
 
 </details>
 
+## Features
+
+- Records the microphone and the speakers at the same time
+- Keeps each track, then writes the mixed MP3
+- Dark theme by default, with light and system themes in Settings
+
 ## Requirements
 
 **Windows 11 x64, ARM64** or **Ubuntu 24+**.
 
-## Installation
+## 📦 Installation Options
 
-### Windows
+<details>
 
-WinGet:
+<summary>📦 Installation for Windows</summary>
+
+A. [Microsoft Store](https://apps.microsoft.com/detail/9p1gzl37n0mt)
+
+Best option. Store will keep application up to date.
+
+B. WinGet
 
 ```
 winget install --id SiarheiKuchuk.ConferenceAudioRecorder
 ```
 
-Or download `conference-audio-recorder_*_windows_setup.exe` from the [latest release](https://github.com/drweb86/conference-audio-recorder/releases/latest). The installer can install for the current user or for all users.
+C. Setup [look for asset **windows_setup.exe**](https://github.com/drweb86/conference-audio-recorder/releases/latest)
 
-Microsoft Store: [Conference Audio Recorder](https://www.microsoft.com/en-us/p/conference-audio-recorder/9p1gzl37n0mt)
+The installer can install for the current user or for all users. You update the application yourself.
 
-### Ubuntu
+D. Binaries [look for windows_archive.7z](https://github.com/drweb86/conference-audio-recorder/releases/latest)
 
-#### Method 1. APT repository
+A self-contained build. Run `x64\ConferenceAudioRecorder.exe` or `arm64\ConferenceAudioRecorder.exe`. You update the application yourself.
 
-One-time setup. Copy and paste in a terminal:
+</details>
+
+<details>
+
+<summary>📦 Installation for Linux</summary>
+
+A. Installation via APT Repository
+
+Best option. System will keep application updated.
+
+One-Time Setup - add repository
 
 ```
 curl -fsSL https://drweb86.github.io/conference-audio-recorder/gpg-key.pub | sudo gpg --dearmor -o /usr/share/keyrings/conference-audio-recorder.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/conference-audio-recorder.gpg] https://drweb86.github.io/conference-audio-recorder stable main" | sudo tee /etc/apt/sources.list.d/conference-audio-recorder.list > /dev/null
 ```
 
-Install:
+Install
 
 ```
 sudo apt update && sudo apt install conference-audio-recorder
 ```
 
-Update:
+Update
 
 ```
 sudo apt update && sudo apt upgrade conference-audio-recorder
 ```
 
-Uninstall:
+Uninstall
 
 ```
 sudo apt remove conference-audio-recorder
@@ -70,53 +96,45 @@ sudo rm /etc/apt/sources.list.d/conference-audio-recorder.list /usr/share/keyrin
 
 Recordings and settings in `~/.local/share/ConferenceAudioRecorder` are kept.
 
-#### Method 2. .deb download
+B. DEB [look for asset linux_arm64.deb and linux_amd64.deb](https://github.com/drweb86/conference-audio-recorder/releases/latest)
 
-Download the `.deb` for your architecture from the [latest release](https://github.com/drweb86/conference-audio-recorder/releases/latest):
+For amd64:
 
 ```
 sudo dpkg -i conference-audio-recorder_*_linux_amd64.deb
 sudo apt-get install -f
 ```
 
-ARM64:
+For ARM64:
 
 ```
 sudo dpkg -i conference-audio-recorder_*_linux_arm64.deb
 sudo apt-get install -f
 ```
 
-Uninstall:
+Uninstall
 
 ```
 sudo apt remove conference-audio-recorder
 ```
 
-#### Method 3. Bash script
+C. Bash script
 
-```
-wget -O - https://raw.githubusercontent.com/drweb86/conference-audio-recorder/main/src2/ubuntu-install.sh | bash
-```
+Installation:
 
-Preview build from the main branch:
+`wget -O - https://raw.githubusercontent.com/drweb86/conference-audio-recorder/main/src2/ubuntu-install.sh | bash`
 
-```
-wget -O - https://raw.githubusercontent.com/drweb86/conference-audio-recorder/main/src2/ubuntu-install.sh | bash -s -- --latest
-```
+Installation of preview:
 
-Uninstall a script install:
+`wget -O - https://raw.githubusercontent.com/drweb86/conference-audio-recorder/main/src2/ubuntu-install.sh | bash -s -- --latest`
 
-```
-wget -O - https://raw.githubusercontent.com/drweb86/conference-audio-recorder/main/src2/ubuntu-uninstall.sh | bash
-```
+Uninstallation (source install only):
 
-After an APT or .deb install, the command is `conference-audio-recorder`.
+`wget -O - https://raw.githubusercontent.com/drweb86/conference-audio-recorder/main/src2/ubuntu-uninstall.sh | bash`
 
-## Features
+After installation (APT or .deb), the command is `conference-audio-recorder`.
 
-- Records the microphone and the speakers at the same time
-- Keeps each track, then writes the mixed MP3
-- Dark theme by default, with light and system themes in Settings
+</details>
 
 ## Documents
 

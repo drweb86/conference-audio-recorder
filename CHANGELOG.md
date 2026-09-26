@@ -1,5 +1,4 @@
 # 2026.09.26
-(unpublished)
 
 ## New Features
 
@@ -17,3 +16,13 @@
 ## Changes
 
 - Documentation is improved.
+
+## 1.0.9.0
+
+- Recording from microphone and speaker is placed near final recordings (just in case so user can have freedom to mix it by himself)
+- Spanish (Español), Chinese Simplified (简体中文), German (Deutsch), Japanese (日本語), Portuguese Brazilian (Português do Brasil), Korean (한국어) languages.
+- attempt to reduce latency.
+
+## 1.0.4.0
+
+- Initial release with core functionality.
