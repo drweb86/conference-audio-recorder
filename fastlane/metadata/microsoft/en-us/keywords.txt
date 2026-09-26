@@ -1,7 +1,6 @@
 conference call recorder
 microphone speakers
-Teams Skype Viber
+Teams Viber
 MP3 meeting audio
 separate audio tracks
-Windows 11
 mixed call recording
