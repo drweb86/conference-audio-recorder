@@ -1,7 +1,6 @@
 using System;
 using System.Globalization;
 using Avalonia.Data.Converters;
-using Avalonia.Media;
 using ConferenceAudioRecorder.Localization;
 
 namespace ConferenceAudioRecorder.Converters;
@@ -11,25 +10,6 @@ public class NotNullConverter : IValueConverter
     public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
     {
         return value != null;
-    }
-
-    public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-    {
-        throw new NotSupportedException();
-    }
-}
-
-public class IsRecordingToBackgroundConverter : IValueConverter
-{
-    public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-    {
-        if (value is not bool recording)
-            return Avalonia.AvaloniaProperty.UnsetValue;
-
-        var color = recording
-            ? Color.FromArgb(255, 49, 137, 196)
-            : Color.FromArgb(255, 233, 66, 55);
-        return new SolidColorBrush(color);
     }
 
     public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

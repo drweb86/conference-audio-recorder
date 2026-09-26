@@ -16,14 +16,12 @@ public partial class RecordingView : UserControl
     {
         InitializeComponent();
         DataContext = _model;
-        InputPopup.DataContext = _model;
-        OutputPopup.DataContext = _model;
+        InputMenu.DataContext = _model;
+        OutputMenu.DataContext = _model;
         _model.Refresh();
     }
 
     public void RefreshProperties() => _model.Refresh();
-
-    public bool FocusRecordButton() => RecordButton.Focus();
 
     private async void OnRecordClick(object sender, RoutedEventArgs e)
     {
@@ -77,26 +75,16 @@ public partial class RecordingView : UserControl
         _model.AudioOutputDevice = App.Controller.ToggleAudioOutputDevice();
     }
 
-    private void OnOpenInputMenu(object sender, RoutedEventArgs e)
-    {
-        InputPopup.IsOpen = !InputPopup.IsOpen;
-    }
-
-    private void OnOpenOutputMenu(object sender, RoutedEventArgs e)
-    {
-        OutputPopup.IsOpen = !OutputPopup.IsOpen;
-    }
-
     private void OnInputSelected(object sender, SelectionChangedEventArgs e)
     {
         if (!_model.IsRefreshing)
-            InputPopup.IsOpen = false;
+            InputMenuButton.Flyout?.Hide();
     }
 
     private void OnOutputSelected(object sender, SelectionChangedEventArgs e)
     {
         if (!_model.IsRefreshing)
-            OutputPopup.IsOpen = false;
+            OutputMenuButton.Flyout?.Hide();
     }
 }
 

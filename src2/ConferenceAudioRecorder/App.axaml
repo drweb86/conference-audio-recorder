@@ -1,7 +1,22 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sty="using:Avalonia.Styling"
              x:Class="ConferenceAudioRecorder.App"
              RequestedThemeVariant="Dark">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="{x:Static sty:ThemeVariant.Light}">
+                    <SolidColorBrush x:Key="DeviceMenuBackgroundBrush" Color="#FFF7F7F7" />
+                    <SolidColorBrush x:Key="DeviceMenuBorderBrush" Color="#FFB4B4B4" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="{x:Static sty:ThemeVariant.Dark}">
+                    <SolidColorBrush x:Key="DeviceMenuBackgroundBrush" Color="#FF3A3A3A" />
+                    <SolidColorBrush x:Key="DeviceMenuBorderBrush" Color="#FF8D8D8D" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
     <Application.Styles>
         <FluentTheme />
         <Style Selector="Button.hyperlink">
@@ -11,22 +26,142 @@
             <Setter Property="HorizontalAlignment" Value="Left" />
             <Setter Property="HorizontalContentAlignment" Value="Left" />
         </Style>
-        <Style Selector="Button.device">
+        <Style Selector="Button.navtoggle">
             <Setter Property="Background" Value="Transparent" />
-            <Setter Property="CornerRadius" Value="4,0,0,4" />
-            <Setter Property="MinWidth" Value="44" />
-            <Setter Property="Height" Value="32" />
-            <Setter Property="Padding" Value="8,0" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="MinHeight" Value="40" />
+            <Setter Property="Padding" Value="8,6" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+            <Setter Property="CornerRadius" Value="6" />
         </Style>
-        <Style Selector="Button.device.selected">
-            <Setter Property="Background" Value="{DynamicResource SystemAccentColor}" />
+        <Style Selector="Button.navtoggle /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+        </Style>
+        <Style Selector="Button.navtoggle:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="{DynamicResource ButtonBackgroundPointerOver}" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+        <Style Selector="Button.navtoggle:pressed /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="{DynamicResource ButtonBackgroundPressed}" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+        <Style Selector="Button.record /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="#FFE94237" />
+            <Setter Property="BorderBrush" Value="#FFE94237" />
             <Setter Property="Foreground" Value="White" />
         </Style>
-        <Style Selector="Button.chevron">
+        <Style Selector="Button.record:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="#FFF05B52" />
+            <Setter Property="BorderBrush" Value="#FFF05B52" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+        <Style Selector="Button.record:pressed /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="#FFD13438" />
+            <Setter Property="BorderBrush" Value="#FFD13438" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+        <Style Selector="Button.record.recording /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="#FF3189C4" />
+            <Setter Property="BorderBrush" Value="#FF3189C4" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+        <Style Selector="Button.record.recording:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="#FF4A9AD4" />
+            <Setter Property="BorderBrush" Value="#FF4A9AD4" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+        <Style Selector="Button.record.recording:pressed /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="#FF2176B0" />
+            <Setter Property="BorderBrush" Value="#FF2176B0" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+        <Style Selector="Button.record:disabled /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="{DynamicResource ButtonBackgroundDisabled}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource ButtonBorderBrushDisabled}" />
+            <Setter Property="Foreground" Value="{DynamicResource ButtonForegroundDisabled}" />
+        </Style>
+        <Style Selector="Button.folder /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Foreground" Value="#FFFFD600" />
+        </Style>
+        <Style Selector="Button.folder:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Foreground" Value="#FFFFD600" />
+        </Style>
+        <Style Selector="Button.folder:pressed /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Foreground" Value="#FFFFD600" />
+        </Style>
+        <Style Selector="Button.folder:disabled /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Foreground" Value="#80FFD600" />
+        </Style>
+        <Style Selector="Border.devicesplit">
+            <Setter Property="Background" Value="{DynamicResource ButtonBackground}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource ButtonBorderBrush}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="4" />
+        </Style>
+        <Style Selector="Border.devicesplit.selected">
+            <Setter Property="Background" Value="{DynamicResource AccentButtonBackground}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource AccentButtonBorderBrush}" />
+        </Style>
+        <Style Selector="Border.devicesplit:disabled">
+            <Setter Property="Opacity" Value="0.55" />
+        </Style>
+        <Style Selector="Border.devicesplit Button">
             <Setter Property="Background" Value="Transparent" />
-            <Setter Property="CornerRadius" Value="0,4,4,0" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="8,0" />
             <Setter Property="Height" Value="32" />
+            <Setter Property="CornerRadius" Value="0" />
+        </Style>
+        <Style Selector="Border.devicesplit Button /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+        </Style>
+        <Style Selector="Border.devicesplit Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+        <Style Selector="Border.devicesplit Button:pressed /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+        <Style Selector="Border.devicesplit Button:disabled /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+        <Style Selector="Border.devicesplit.selected Button">
+            <Setter Property="Foreground" Value="{DynamicResource AccentButtonForeground}" />
+        </Style>
+        <Style Selector="Border.devicesplit.selected Button /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Foreground" Value="{DynamicResource AccentButtonForeground}" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+        <Style Selector="Border.devicesplit.selected Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Foreground" Value="{DynamicResource AccentButtonForeground}" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+        <Style Selector="Border.devicesplit.selected Button:pressed /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Foreground" Value="{DynamicResource AccentButtonForeground}" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+        <Style Selector="FlyoutPresenter.deviceMenu">
+            <Setter Property="Background" Value="{DynamicResource DeviceMenuBackgroundBrush}" />
+            <Setter Property="BorderThickness" Value="0" />
             <Setter Property="Padding" Value="0" />
+        </Style>
+        <Style Selector="Border.deviceMenu">
+            <Setter Property="Background" Value="{DynamicResource DeviceMenuBackgroundBrush}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource DeviceMenuBorderBrush}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="6" />
+            <Setter Property="Padding" Value="12" />
+            <Setter Property="BoxShadow" Value="0 8 24 0 #66000000" />
+            <Setter Property="MinWidth" Value="280" />
         </Style>
         <Style Selector="RadioButton.nav">
             <Setter Property="Background" Value="Transparent" />
