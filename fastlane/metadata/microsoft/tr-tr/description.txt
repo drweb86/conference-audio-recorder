@@ -1,0 +1,7 @@
+Conference Audio Recorder, Microsoft Teams, Skype ve Viber dahil bir konferans araması sırasında mikrofonu ve hoparlörleri kaydeder. Karışık sesin MP3 dosyasını kaydeder ve mikrofon ile hoparlör dosyalarını yanında tutar.
+
+Klasörü, örnekleme hızını ve MP3 kalitesini seçin. Uygulama koyu temayla açılır. Açık temaya geçebilir veya sistem temasını izleyebilirsiniz.
+
+Kayıtlar bu bilgisayarda kalır. Uygulama onları yüklemez; reklam ve izleme yoktur. Hesap gerekmez.
+
+Conference Audio Recorder açık kaynaktır. Kendi kodu CC0 1.0 Universal'dir. Üçüncü taraf bileşenler kendi lisanslarını korur.

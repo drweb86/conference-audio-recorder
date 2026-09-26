@@ -1,0 +1,1 @@
+Records the microphone and the speakers together, then saves a mixed MP3 and the separate tracks. Runs on Windows 11 x64 and ARM64. Choose a dark, light, or system theme. Recordings stay on this PC.

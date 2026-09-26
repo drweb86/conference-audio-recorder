@@ -1,0 +1,1 @@
+Felveszi a mikrofont és a hangszórókat hívás közben, köztük Teams, Skype és Viber alatt. Kevert MP3-at és külön sávokat ment. A felvételek ezen a PC-n maradnak.

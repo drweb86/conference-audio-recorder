@@ -1,0 +1,9 @@
+Enregistre le microphone et les haut-parleurs en même temps.
+Enregistre un MP3 mixé et des fichiers séparés pour le microphone et les haut-parleurs.
+Pour Teams, Skype, Viber et les autres appels sur ce PC.
+Choisissez le dossier où les enregistrements sont enregistrés.
+Choisissez la fréquence d'échantillonnage et la qualité MP3.
+Thème sombre par défaut, ou clair, ou celui du système.
+Les enregistrements restent sur ce PC. L'application ne les envoie pas.
+Pas de compte, pas de publicité et pas de suivi.
+Open source. Le code propre de l'application est CC0 1.0 Universal.

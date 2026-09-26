@@ -1,0 +1,7 @@
+Conference Audio Recorder tallentaa mikrofonin ja kaiuttimet neuvottelupuhelun aikana, mukaan lukien Microsoft Teams, Skype ja Viber. Se tallentaa miksatun äänen MP3-tiedostona ja jättää mikrofonin ja kaiuttimien tiedostot viereen.
+
+Valitse kansio, näytteenottotaajuus ja MP3-laatu. Sovellus avautuu tummalla teemalla. Voit vaihtaa vaaleaan teemaan tai seurata järjestelmän teemaa.
+
+Tallenteet jäävät tälle tietokoneelle. Sovellus ei lähetä niitä, eikä siinä ole mainoksia tai seurantaa. Tiliä ei tarvita.
+
+Conference Audio Recorder on avointa lähdekoodia. Sen oma koodi on CC0 1.0 Universal. Kolmansien osapuolten osat säilyttävät omat lisenssinsä.

@@ -1,0 +1,9 @@
+Records the microphone and the speakers at the same time.
+Saves a mixed MP3 plus separate microphone and speaker files.
+Use it with Teams, Skype, Viber, and other calls on this PC.
+Choose the folder where recordings are saved.
+Choose the sample rate and the MP3 quality.
+Dark theme by default, or light, or follow the system.
+Recordings stay on this PC. The app does not upload them.
+No account, no ads, and no tracking.
+Open source. The app's own code is CC0 1.0 Universal.

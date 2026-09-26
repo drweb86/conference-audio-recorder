@@ -1,0 +1,1 @@
+Grava o microfone e as colunas durante uma chamada, incluindo Teams, Skype e Viber. Guarda um MP3 misturado e faixas separadas. As gravações ficam neste PC.

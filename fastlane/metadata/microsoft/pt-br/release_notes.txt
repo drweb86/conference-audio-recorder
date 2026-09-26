@@ -1,0 +1,1 @@
+Grava o microfone e os alto-falantes juntos e salva um MP3 mixado e as faixas separadas. Roda no Windows 11 x64 e ARM64. Tema escuro, claro ou do sistema. As gravações ficam neste PC.

@@ -1,0 +1,9 @@
+Mikrofonu ve hoparlörleri aynı anda kaydeder.
+Karışık bir MP3 ile ayrı mikrofon ve hoparlör dosyaları kaydeder.
+Bu bilgisayardaki Teams, Skype, Viber ve diğer aramalar için.
+Kayıtların kaydedileceği klasörü seçin.
+Örnekleme hızını ve MP3 kalitesini seçin.
+Varsayılan koyu tema, ya da açık, ya da sistemle aynı.
+Kayıtlar bu bilgisayarda kalır. Uygulama onları yüklemez.
+Hesap yok, reklam yok ve izleme yok.
+Açık kaynak. Uygulamanın kendi kodu CC0 1.0 Universal.

@@ -1,0 +1,1 @@
+Optager mikrofon og højttalere sammen og gemmer en mixet MP3 og de separate spor. Kører på Windows 11 x64 og ARM64. Mørkt, lyst eller systemtema. Optagelser bliver på denne pc.

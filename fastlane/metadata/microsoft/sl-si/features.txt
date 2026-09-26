@@ -1,0 +1,9 @@
+Snema mikrofon in zvočnike hkrati.
+Shrani mešani MP3 in ločene datoteke mikrofona in zvočnikov.
+Za Teams, Skype, Viber in druge klice na tem računalniku.
+Izberite mapo, v katero se shranjujejo posnetki.
+Izberite frekvenco vzorčenja in kakovost MP3.
+Temna tema privzeto, ali svetla, ali kot v sistemu.
+Posnetki ostanejo na tem računalniku. Aplikacija jih ne pošilja.
+Brez računa, brez oglasov in brez sledenja.
+Odprta koda. Lastna koda aplikacije je CC0 1.0 Universal.

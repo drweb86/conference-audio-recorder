@@ -1,0 +1,1 @@
+Tar opp mikrofon og høyttalere sammen og lagrer en mikset MP3 og de separate sporene. Kjører på Windows 11 x64 og ARM64. Mørkt, lyst eller systemtema. Opptakene blir på denne PC-en.

@@ -1,0 +1,9 @@
+Ghi micro và loa cùng một lúc.
+Lưu một MP3 đã trộn cùng các tệp micro và loa riêng.
+Dùng với Teams, Skype, Viber và các cuộc gọi khác trên máy này.
+Chọn thư mục lưu bản ghi.
+Chọn tần số lấy mẫu và chất lượng MP3.
+Giao diện tối theo mặc định, hoặc sáng, hoặc theo hệ thống.
+Bản ghi ở lại trên máy tính này. Ứng dụng không tải chúng lên.
+Không tài khoản, không quảng cáo và không theo dõi.
+Mã nguồn mở. Mã của chính ứng dụng là CC0 1.0 Universal.

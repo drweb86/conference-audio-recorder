@@ -1,0 +1,9 @@
+Registra il microfono e gli altoparlanti nello stesso momento.
+Salva un MP3 mixato e file separati per microfono e altoparlanti.
+Per Teams, Skype, Viber e altre chiamate su questo PC.
+Scegli la cartella in cui vengono salvate le registrazioni.
+Scegli la frequenza di campionamento e la qualità MP3.
+Tema scuro come predefinito, oppure chiaro, oppure quello di sistema.
+Le registrazioni restano su questo PC. L'app non le carica.
+Nessun account, nessuna pubblicità e nessun tracciamento.
+Open source. Il codice dell'app è CC0 1.0 Universal.

@@ -1,0 +1,1 @@
+Graba el micrófono y los altavoces a la vez y guarda un MP3 mezclado y las pistas separadas. Funciona en Windows 11 x64 y ARM64. Tema oscuro, claro o del sistema. Las grabaciones se quedan en este PC.

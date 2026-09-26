@@ -1,0 +1,7 @@
+Conference Audio Recorder snima mikrofon i zvučnike tokom konferencijskog poziva, uključujući Microsoft Teams, Skype i Viber. Čuva MP3 miksovanog zvuka i pored njega ostavlja datoteke mikrofona i zvučnika.
+
+Izaberite fasciklu, učestalost uzorkovanja i kvalitet MP3. Aplikacija se otvara u tamnoj temi. Možete preći na svetlu temu ili pratiti temu sistema.
+
+Snimci ostaju na ovom računaru. Aplikacija ih ne šalje i nema reklama ni praćenja. Nalog nije potreban.
+
+Conference Audio Recorder je otvorenog koda. Sopstveni kod je CC0 1.0 Universal. Komponente trećih strana zadržavaju svoje licence.

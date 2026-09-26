@@ -1,0 +1,7 @@
+Conference Audio Recorder merekam mikrofon dan speaker selama panggilan konferensi, termasuk Microsoft Teams, Skype, dan Viber. Aplikasi menyimpan MP3 audio yang sudah dicampur dan meletakkan berkas mikrofon serta speaker di sampingnya.
+
+Pilih folder, laju sampel, dan kualitas MP3. Aplikasi terbuka dengan tema gelap. Anda dapat beralih ke tema terang atau mengikuti tema sistem.
+
+Rekaman tetap di PC ini. Aplikasi tidak mengunggahnya, dan tidak ada iklan atau pelacakan. Akun tidak diperlukan.
+
+Conference Audio Recorder bersifat sumber terbuka. Kode miliknya adalah CC0 1.0 Universal. Komponen pihak ketiga mempertahankan lisensinya.

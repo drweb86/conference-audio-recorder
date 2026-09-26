@@ -1,0 +1,9 @@
+Egyszerre veszi fel a mikrofont és a hangszórókat.
+Kevert MP3-at ment, valamint külön mikrofon- és hangszórófájlokat.
+Teams, Skype, Viber és más hívásokhoz ezen a PC-n.
+Válassza ki a mappát, ahová a felvételek kerülnek.
+Válassza ki a mintavételi frekvenciát és az MP3 minőségét.
+Alapból sötét téma, vagy világos, vagy a rendszer szerinti.
+A felvételek ezen a PC-n maradnak. Az alkalmazás nem tölti fel őket.
+Nincs fiók, nincs reklám és nincs követés.
+Nyílt forráskód. Az alkalmazás saját kódja CC0 1.0 Universal.

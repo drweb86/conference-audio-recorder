@@ -1,0 +1,7 @@
+Conference Audio Recorder 在會議通話中錄製咪高風和喇叭，包括 Microsoft Teams、Skype 和 Viber。它儲存混合音訊的 MP3，並把咪高風和喇叭檔案放在旁邊。
+
+可以選擇資料夾、取樣率和 MP3 品質。應用程式以深色主題開啟。可以改用淺色主題，或跟隨系統主題。
+
+錄音留在這部電腦上。應用程式不會上載錄音，也沒有廣告和追蹤。不需要帳戶。
+
+Conference Audio Recorder 是開放原始碼軟件。應用程式自身的程式碼為 CC0 1.0 Universal。第三方元件保留各自的授權。

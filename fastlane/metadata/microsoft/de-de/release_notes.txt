@@ -1,0 +1,1 @@
+Nimmt Mikrofon und Lautsprecher gemeinsam auf und speichert eine gemischte MP3-Datei sowie die getrennten Spuren. Läuft unter Windows 11 x64 und ARM64. Dunkles, helles oder Systemdesign. Aufnahmen bleiben auf diesem PC.

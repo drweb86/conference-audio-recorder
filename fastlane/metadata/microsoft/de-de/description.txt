@@ -1,0 +1,7 @@
+Conference Audio Recorder nimmt das Mikrofon und die Lautsprecher während eines Konferenzgesprächs auf, einschließlich Microsoft Teams, Skype und Viber. Das Programm speichert eine MP3-Datei mit dem gemischten Ton und legt die Mikrofon- und Lautsprecherdateien daneben ab.
+
+Wählen Sie den Ordner, die Abtastrate und die MP3-Qualität. Die App startet im dunklen Design. Sie können ein helles Design wählen oder dem Systemdesign folgen.
+
+Aufnahmen bleiben auf diesem PC. Die App lädt sie nicht hoch und enthält keine Werbung und kein Tracking. Ein Konto ist nicht nötig.
+
+Conference Audio Recorder ist Open Source. Der eigene Code ist CC0 1.0 Universal. Komponenten Dritter behalten ihre Lizenzen.

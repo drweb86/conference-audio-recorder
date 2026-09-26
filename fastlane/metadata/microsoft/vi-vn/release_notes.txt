@@ -1,0 +1,1 @@
+Ghi micro và loa cùng nhau, rồi lưu một MP3 đã trộn và các track riêng. Chạy trên Windows 11 x64 và ARM64. Giao diện tối, sáng hoặc theo hệ thống. Bản ghi ở lại trên máy tính này.

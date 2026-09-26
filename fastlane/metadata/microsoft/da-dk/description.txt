@@ -1,0 +1,7 @@
+Conference Audio Recorder optager mikrofonen og højttalerne under et konferenceopkald, herunder Microsoft Teams, Skype og Viber. Den gemmer en MP3 med den mixede lyd og lægger mikrofon- og højttalerfilerne ved siden af.
+
+Vælg mappen, samplingfrekvensen og MP3-kvaliteten. Appen åbner i et mørkt tema. Du kan skifte til et lyst tema eller følge systemtemaet.
+
+Optagelser bliver på denne pc. Appen uploader dem ikke og har ingen reklamer eller sporing. En konto er ikke nødvendig.
+
+Conference Audio Recorder er open source. Dens egen kode er CC0 1.0 Universal. Tredjepartskomponenter beholder deres licenser.

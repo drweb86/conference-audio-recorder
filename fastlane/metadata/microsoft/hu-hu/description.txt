@@ -1,0 +1,7 @@
+A Conference Audio Recorder felveszi a mikrofont és a hangszórókat konferenciahívás közben, beleértve a Microsoft Teams, a Skype és a Viber hívásait. MP3-ba menti a kevert hangot, és mellé teszi a mikrofon és a hangszórók fájljait.
+
+Válassza ki a mappát, a mintavételi frekvenciát és az MP3 minőségét. Az alkalmazás sötét témával nyílik meg. Válthat világos témára, vagy követheti a rendszer témáját.
+
+A felvételek ezen a PC-n maradnak. Az alkalmazás nem tölti fel őket, és nincs benne reklám vagy követés. Fiók nem szükséges.
+
+A Conference Audio Recorder nyílt forráskódú. Saját kódja CC0 1.0 Universal. A harmadik felek összetevői megtartják a saját licenceiket.

@@ -1,0 +1,1 @@
+Enregistre le microphone et les haut-parleurs ensemble, puis enregistre un MP3 mixé et les pistes séparées. Fonctionne sous Windows 11 x64 et ARM64. Thème sombre, clair ou système. Les enregistrements restent sur ce PC.

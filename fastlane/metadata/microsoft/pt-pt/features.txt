@@ -1,0 +1,9 @@
+Grava o microfone e as colunas ao mesmo tempo.
+Guarda um MP3 misturado e ficheiros separados do microfone e das colunas.
+Para Teams, Skype, Viber e outras chamadas neste PC.
+Escolha a pasta onde as gravações são guardadas.
+Escolha a taxa de amostragem e a qualidade do MP3.
+Tema escuro por predefinição, ou claro, ou o do sistema.
+As gravações ficam neste PC. A aplicação não as envia.
+Sem conta, sem anúncios e sem rastreio.
+Código aberto. O código da própria aplicação é CC0 1.0 Universal.

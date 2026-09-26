@@ -1,0 +1,7 @@
+Conference Audio Recorder konferens qo‘ng‘irog‘i paytida mikrofon va karnaylarni yozib oladi, jumladan Microsoft Teams, Skype va Viber. U aralash ovozni MP3 qilib saqlaydi va mikrofon hamda karnay fayllarini yonida qoldiradi.
+
+Jildni, namuna chastotasini va MP3 sifatini tanlang. Ilova qorong‘i mavzuda ochiladi. Yorug‘ mavzuga o‘tishingiz yoki tizim mavzusiga amal qilishingiz mumkin.
+
+Yozuvlar shu kompyuterda qoladi. Ilova ularni yuklamaydi, unda reklama va kuzatuv yo‘q. Hisob shart emas.
+
+Conference Audio Recorder ochiq manbali. Uning o‘z kodi CC0 1.0 Universal. Uchinchi tomon qismlari o‘z litsenziyalarini saqlaydi.

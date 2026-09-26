@@ -1,0 +1,9 @@
+Optager mikrofonen og højttalerne samtidig.
+Gemmer en mixet MP3 plus separate mikrofon- og højttalerfiler.
+Til Teams, Skype, Viber og andre opkald på denne pc.
+Vælg den mappe, hvor optagelser gemmes.
+Vælg samplingfrekvensen og MP3-kvaliteten.
+Mørkt tema som standard, eller lyst, eller følg systemet.
+Optagelser bliver på denne pc. Appen uploader dem ikke.
+Ingen konto, ingen reklamer og ingen sporing.
+Open source. Appens egen kode er CC0 1.0 Universal.

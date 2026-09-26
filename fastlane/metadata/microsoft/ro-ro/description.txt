@@ -1,0 +1,7 @@
+Conference Audio Recorder înregistrează microfonul și difuzoarele în timpul unei conferințe, inclusiv Microsoft Teams, Skype și Viber. Salvează un MP3 cu sunetul mixat și păstrează alături fișierele microfonului și ale difuzoarelor.
+
+Alegeți folderul, rata de eșantionare și calitatea MP3. Aplicația se deschide cu tema întunecată. Puteți trece la tema luminoasă sau urma tema sistemului.
+
+Înregistrările rămân pe acest PC. Aplicația nu le încarcă și nu are reclame sau urmărire. Nu este nevoie de un cont.
+
+Conference Audio Recorder este open source. Codul propriu este CC0 1.0 Universal. Componentele terțe își păstrează licențele.

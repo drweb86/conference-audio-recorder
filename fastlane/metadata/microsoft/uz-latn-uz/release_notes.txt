@@ -1,0 +1,1 @@
+Mikrofon va karnaylarni birga yozib oladi, so‘ng aralash MP3 va alohida treklarni saqlaydi. Windows 11 x64 va ARM64 da ishlaydi. Qorong‘i, yorug‘ yoki tizim mavzusi. Yozuvlar shu kompyuterda qoladi.

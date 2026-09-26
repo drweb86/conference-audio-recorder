@@ -1,0 +1,7 @@
+Conference Audio Recorder nagrywa mikrofon i głośniki podczas konferencji, w tym Microsoft Teams, Skype i Viber. Zapisuje plik MP3 ze zmiksowanym dźwiękiem i zostawia obok pliki mikrofonu i głośników.
+
+Wybierz folder, częstotliwość próbkowania i jakość MP3. Aplikacja otwiera się w ciemnym motywie. Możesz przełączyć jasny motyw albo podążać za motywem systemu.
+
+Nagrania zostają na tym komputerze. Aplikacja ich nie wysyła i nie zawiera reklam ani śledzenia. Konto nie jest potrzebne.
+
+Conference Audio Recorder to oprogramowanie open source. Własny kod to CC0 1.0 Universal. Składniki innych firm zachowują własne licencje.

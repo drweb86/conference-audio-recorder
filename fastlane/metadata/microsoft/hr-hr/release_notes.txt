@@ -1,0 +1,1 @@
+Snima mikrofon i zvučnike zajedno, zatim sprema miksani MP3 i odvojene zapise. Radi na Windows 11 x64 i ARM64. Tamna, svijetla ili sistemska tema. Snimke ostaju na ovom računalu.

@@ -1,0 +1,1 @@
+Mikrofonu ve hoparlörleri birlikte kaydeder, sonra karışık bir MP3 ve ayrı parçaları kaydeder. Windows 11 x64 ve ARM64 üzerinde çalışır. Koyu, açık veya sistem teması. Kayıtlar bu bilgisayarda kalır.

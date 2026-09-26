@@ -1,0 +1,1 @@
+Neemt microfoon en luidsprekers samen op en slaat een gemixte MP3 en de aparte sporen op. Werkt op Windows 11 x64 en ARM64. Donker, licht of systeemthema. Opnamen blijven op deze pc.

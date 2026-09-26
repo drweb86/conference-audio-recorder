@@ -1,0 +1,9 @@
+Neemt de microfoon en de luidsprekers tegelijk op.
+Slaat een gemixte MP3 op plus aparte microfoon- en luidsprekerbestanden.
+Voor Teams, Skype, Viber en andere gesprekken op deze pc.
+Kies de map waarin opnamen worden opgeslagen.
+Kies de samplefrequentie en de MP3-kwaliteit.
+Donker thema als standaard, of licht, of volg het systeem.
+Opnamen blijven op deze pc. De app uploadt ze niet.
+Geen account, geen advertenties en geen tracking.
+Open source. De eigen code van de app is CC0 1.0 Universal.

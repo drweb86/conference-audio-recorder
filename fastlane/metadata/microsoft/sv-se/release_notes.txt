@@ -1,0 +1,1 @@
+Spelar in mikrofon och högtalare tillsammans och sparar en mixad MP3 och de separata spåren. Körs på Windows 11 x64 och ARM64. Mörkt, ljust eller systemtema. Inspelningarna stannar på den här datorn.

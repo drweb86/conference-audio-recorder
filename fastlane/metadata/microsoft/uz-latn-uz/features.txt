@@ -1,0 +1,9 @@
+Mikrofon va karnaylarni bir vaqtda yozib oladi.
+Aralash MP3 hamda alohida mikrofon va karnay fayllarini saqlaydi.
+Shu kompyuterdagi Teams, Skype, Viber va boshqa qo‘ng‘iroqlar uchun.
+Yozuvlar saqlanadigan jildni tanlang.
+Namuna chastotasi va MP3 sifatini tanlang.
+Odatiy qorong‘i mavzu, yoki yorug‘, yoki tizimdagi kabi.
+Yozuvlar shu kompyuterda qoladi. Ilova ularni yuklamaydi.
+Hisobsiz, reklamasiz va kuzatuvsiz.
+Ochiq manba. Ilovaning o‘z kodi CC0 1.0 Universal.

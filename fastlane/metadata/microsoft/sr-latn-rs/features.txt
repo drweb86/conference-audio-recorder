@@ -1,0 +1,9 @@
+Snima mikrofon i zvučnike u isto vreme.
+Čuva miksovani MP3 i odvojene datoteke mikrofona i zvučnika.
+Za Teams, Skype, Viber i druge pozive na ovom računaru.
+Izaberite fasciklu u koju se čuvaju snimci.
+Izaberite učestalost uzorkovanja i kvalitet MP3.
+Tamna tema podrazumevano, ili svetla, ili kao u sistemu.
+Snimci ostaju na ovom računaru. Aplikacija ih ne šalje.
+Bez naloga, bez reklama i bez praćenja.
+Otvoreni kod. Sopstveni kod aplikacije je CC0 1.0 Universal.

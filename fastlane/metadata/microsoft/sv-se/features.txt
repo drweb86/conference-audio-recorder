@@ -1,0 +1,9 @@
+Spelar in mikrofonen och högtalarna samtidigt.
+Sparar en mixad MP3 plus separata mikrofon- och högtalarfiler.
+För Teams, Skype, Viber och andra samtal på den här datorn.
+Välj mappen där inspelningar sparas.
+Välj samplingsfrekvens och MP3-kvalitet.
+Mörkt tema som standard, eller ljust, eller följ systemet.
+Inspelningarna stannar på den här datorn. Appen laddar inte upp dem.
+Inget konto, ingen reklam och ingen spårning.
+Öppen källkod. Appens egen kod är CC0 1.0 Universal.

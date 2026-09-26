@@ -1,0 +1,1 @@
+Tallentaa mikrofonin ja kaiuttimet yhdessä ja tallentaa miksatun MP3:n sekä erilliset raidat. Toimii Windows 11 x64- ja ARM64-versioissa. Tumma, vaalea tai järjestelmän teema. Tallenteet jäävät tälle tietokoneelle.

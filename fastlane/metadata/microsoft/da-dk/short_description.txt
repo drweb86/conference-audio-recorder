@@ -1,0 +1,1 @@
+Optager mikrofonen og højttalerne under et opkald, herunder Teams, Skype og Viber. Gemmer en mixet MP3 og separate spor. Optagelser bliver på denne pc.

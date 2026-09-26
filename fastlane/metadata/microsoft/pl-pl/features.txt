@@ -1,0 +1,9 @@
+Nagrywa mikrofon i głośniki w tym samym czasie.
+Zapisuje zmiksowany plik MP3 oraz osobne pliki mikrofonu i głośników.
+Do Teams, Skype, Viber i innych rozmów na tym komputerze.
+Wybierz folder, w którym zapisywane są nagrania.
+Wybierz częstotliwość próbkowania i jakość MP3.
+Ciemny motyw domyślnie, albo jasny, albo jak w systemie.
+Nagrania zostają na tym komputerze. Aplikacja ich nie wysyła.
+Bez konta, bez reklam i bez śledzenia.
+Open source. Własny kod aplikacji to CC0 1.0 Universal.

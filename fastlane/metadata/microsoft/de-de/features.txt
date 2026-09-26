@@ -1,0 +1,9 @@
+Nimmt Mikrofon und Lautsprecher gleichzeitig auf.
+Speichert eine gemischte MP3-Datei und getrennte Mikrofon- und Lautsprecherdateien.
+Für Teams, Skype, Viber und andere Gespräche auf diesem PC.
+Wählen Sie den Ordner, in dem Aufnahmen gespeichert werden.
+Wählen Sie die Abtastrate und die MP3-Qualität.
+Dunkles Design als Standard, oder hell, oder wie das System.
+Aufnahmen bleiben auf diesem PC. Die App lädt sie nicht hoch.
+Kein Konto, keine Werbung und kein Tracking.
+Open Source. Der eigene Code der App ist CC0 1.0 Universal.

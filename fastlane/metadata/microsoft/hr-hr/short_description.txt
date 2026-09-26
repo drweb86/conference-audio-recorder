@@ -1,0 +1,1 @@
+Snima mikrofon i zvučnike tijekom poziva, uključujući Teams, Skype i Viber. Sprema miksani MP3 i odvojene zapise. Snimke ostaju na ovom računalu.

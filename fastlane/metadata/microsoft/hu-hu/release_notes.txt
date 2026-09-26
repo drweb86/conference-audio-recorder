@@ -1,0 +1,1 @@
+Együtt veszi fel a mikrofont és a hangszórókat, majd kevert MP3-at és külön sávokat ment. Windows 11 x64 és ARM64 rendszeren fut. Sötét, világos vagy rendszertéma. A felvételek ezen a PC-n maradnak.

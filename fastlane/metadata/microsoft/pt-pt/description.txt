@@ -1,0 +1,7 @@
+Conference Audio Recorder grava o microfone e as colunas durante uma conferência, incluindo Microsoft Teams, Skype e Viber. Guarda um MP3 do áudio misturado e mantém os ficheiros do microfone e das colunas ao lado.
+
+Escolha a pasta, a taxa de amostragem e a qualidade do MP3. A aplicação abre no tema escuro. Pode mudar para o tema claro ou seguir o tema do sistema.
+
+As gravações ficam neste PC. A aplicação não as envia e não tem anúncios nem rastreio. Não é precisa uma conta.
+
+Conference Audio Recorder é código aberto. O código da própria aplicação é CC0 1.0 Universal. Os componentes de terceiros mantêm as próprias licenças.

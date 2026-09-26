@@ -1,0 +1,1 @@
+Tallentaa mikrofonin ja kaiuttimet puhelun aikana, myös Teamsissa, Skypessa ja Viberissä. Tallentaa miksatun MP3:n ja erilliset raidat. Tallenteet jäävät tälle tietokoneelle.

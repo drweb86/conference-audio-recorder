@@ -1,0 +1,1 @@
+Nahrává mikrofon a reproduktory společně a uloží smíchané MP3 i oddělené stopy. Běží ve Windows 11 x64 a ARM64. Tmavý, světlý nebo systémový motiv. Nahrávky zůstanou v tomto počítači.

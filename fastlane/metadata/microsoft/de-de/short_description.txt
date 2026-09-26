@@ -1,0 +1,1 @@
+Nimmt Mikrofon und Lautsprecher während eines Gesprächs auf, auch in Teams, Skype und Viber. Speichert eine gemischte MP3-Datei und getrennte Spuren. Aufnahmen bleiben auf diesem PC.

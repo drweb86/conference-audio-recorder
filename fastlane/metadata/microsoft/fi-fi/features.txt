@@ -1,0 +1,9 @@
+Tallentaa mikrofonin ja kaiuttimet samaan aikaan.
+Tallentaa miksatun MP3:n sekä erilliset mikrofoni- ja kaiutintiedostot.
+Teams-, Skype-, Viber- ja muihin puheluihin tällä tietokoneella.
+Valitse kansio, johon tallenteet tallennetaan.
+Valitse näytteenottotaajuus ja MP3-laatu.
+Tumma teema oletuksena, tai vaalea, tai järjestelmän mukainen.
+Tallenteet jäävät tälle tietokoneelle. Sovellus ei lähetä niitä.
+Ei tiliä, ei mainoksia eikä seurantaa.
+Avoin lähdekoodi. Sovelluksen oma koodi on CC0 1.0 Universal.

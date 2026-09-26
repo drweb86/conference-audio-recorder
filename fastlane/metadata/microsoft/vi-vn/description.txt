@@ -1,0 +1,7 @@
+Conference Audio Recorder ghi micro và loa trong cuộc gọi hội nghị, gồm Microsoft Teams, Skype và Viber. Ứng dụng lưu một MP3 của âm thanh đã trộn và giữ các tệp micro và loa bên cạnh.
+
+Chọn thư mục, tần số lấy mẫu và chất lượng MP3. Ứng dụng mở bằng giao diện tối. Bạn có thể chuyển sang giao diện sáng hoặc theo giao diện hệ thống.
+
+Bản ghi ở lại trên máy tính này. Ứng dụng không tải chúng lên, không có quảng cáo và không theo dõi. Không cần tài khoản.
+
+Conference Audio Recorder là mã nguồn mở. Mã của chính ứng dụng là CC0 1.0 Universal. Thành phần của bên thứ ba giữ giấy phép của họ.

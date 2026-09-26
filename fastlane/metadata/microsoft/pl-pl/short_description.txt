@@ -1,0 +1,1 @@
+Nagrywa mikrofon i głośniki podczas rozmowy, także w Teams, Skype i Viber. Zapisuje zmiksowany plik MP3 i osobne ścieżki. Nagrania zostają na tym komputerze.

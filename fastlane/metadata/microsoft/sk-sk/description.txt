@@ -1,0 +1,7 @@
+Conference Audio Recorder nahráva mikrofón a reproduktory počas konferenčného hovoru, vrátane Microsoft Teams, Skype a Viber. Uloží MP3 so zmiešaným zvukom a vedľa neho nechá súbory mikrofónu a reproduktorov.
+
+Vyberte priečinok, vzorkovaciu frekvenciu a kvalitu MP3. Aplikácia sa otvorí v tmavom motíve. Môžete prepnúť na svetlý motív alebo nasledovať motív systému.
+
+Nahrávky zostanú v tomto počítači. Aplikácia ich neodosiela a neobsahuje reklamu ani sledovanie. Účet nie je potrebný.
+
+Conference Audio Recorder je open source. Vlastný kód je CC0 1.0 Universal. Komponenty tretích strán si ponechávajú svoje licencie.

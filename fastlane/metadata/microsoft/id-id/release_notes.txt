@@ -1,0 +1,1 @@
+Merekam mikrofon dan speaker bersama-sama, lalu menyimpan MP3 campuran dan trek terpisah. Berjalan di Windows 11 x64 dan ARM64. Tema gelap, terang, atau sistem. Rekaman tetap di PC ini.

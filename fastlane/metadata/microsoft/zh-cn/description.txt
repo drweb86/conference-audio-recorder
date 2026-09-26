@@ -1,0 +1,7 @@
+Conference Audio Recorder 在会议通话中录制麦克风和扬声器，包括 Microsoft Teams、Skype 和 Viber。它保存混合音频的 MP3，并把麦克风和扬声器文件放在旁边。
+
+可以选择文件夹、采样率和 MP3 质量。应用以深色主题打开。可以改用浅色主题，或跟随系统主题。
+
+录音留在这台电脑上。应用不会上传录音，也没有广告和跟踪。不需要账户。
+
+Conference Audio Recorder 是开源软件。应用自身的代码为 CC0 1.0 Universal。第三方组件保留各自的许可证。

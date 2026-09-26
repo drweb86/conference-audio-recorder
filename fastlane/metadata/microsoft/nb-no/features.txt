@@ -1,0 +1,9 @@
+Tar opp mikrofonen og høyttalerne samtidig.
+Lagrer en mikset MP3 pluss separate mikrofon- og høyttalerfiler.
+For Teams, Skype, Viber og andre samtaler på denne PC-en.
+Velg mappen der opptak lagres.
+Velg samplingsfrekvens og MP3-kvalitet.
+Mørkt tema som standard, eller lyst, eller følg systemet.
+Opptakene blir på denne PC-en. Appen laster dem ikke opp.
+Ingen konto, ingen reklame og ingen sporing.
+Åpen kildekode. Appens egen kode er CC0 1.0 Universal.

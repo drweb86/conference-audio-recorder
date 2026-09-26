@@ -1,0 +1,9 @@
+Merekam mikrofon dan speaker pada saat yang sama.
+Menyimpan MP3 campuran serta berkas mikrofon dan speaker yang terpisah.
+Untuk Teams, Skype, Viber, dan panggilan lain di PC ini.
+Pilih folder tempat rekaman disimpan.
+Pilih laju sampel dan kualitas MP3.
+Tema gelap secara bawaan, atau terang, atau mengikuti sistem.
+Rekaman tetap di PC ini. Aplikasi tidak mengunggahnya.
+Tanpa akun, tanpa iklan, dan tanpa pelacakan.
+Sumber terbuka. Kode milik aplikasi adalah CC0 1.0 Universal.

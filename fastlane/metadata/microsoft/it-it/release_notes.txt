@@ -1,0 +1,1 @@
+Registra insieme microfono e altoparlanti, poi salva un MP3 mixato e le tracce separate. Funziona su Windows 11 x64 e ARM64. Tema scuro, chiaro o di sistema. Le registrazioni restano su questo PC.

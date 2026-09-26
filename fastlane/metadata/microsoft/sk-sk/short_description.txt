@@ -1,0 +1,1 @@
+Nahráva mikrofón a reproduktory počas hovoru, vrátane Teams, Skype a Viber. Uloží zmiešané MP3 a oddelené stopy. Nahrávky zostanú v tomto počítači.

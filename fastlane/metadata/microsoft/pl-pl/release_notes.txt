@@ -1,0 +1,1 @@
+Nagrywa mikrofon i głośniki razem, a potem zapisuje zmiksowany plik MP3 i osobne ścieżki. Działa w Windows 11 x64 i ARM64. Ciemny, jasny lub systemowy motyw. Nagrania zostają na tym komputerze.

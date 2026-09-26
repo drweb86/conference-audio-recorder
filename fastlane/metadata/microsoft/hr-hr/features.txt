@@ -1,0 +1,9 @@
+Snima mikrofon i zvučnike u isto vrijeme.
+Sprema miksani MP3 i odvojene datoteke mikrofona i zvučnika.
+Za Teams, Skype, Viber i druge pozive na ovom računalu.
+Odaberite mapu u koju se spremaju snimke.
+Odaberite frekvenciju uzorkovanja i kvalitetu MP3.
+Tamna tema prema zadanim postavkama, ili svijetla, ili kao u sustavu.
+Snimke ostaju na ovom računalu. Aplikacija ih ne šalje.
+Bez računa, bez oglasa i bez praćenja.
+Otvoreni kôd. Vlastiti kôd aplikacije je CC0 1.0 Universal.

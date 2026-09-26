@@ -1,0 +1,1 @@
+Enregistre le microphone et les haut-parleurs pendant un appel, y compris Teams, Skype et Viber. Enregistre un MP3 mixé et des pistes séparées. Les fichiers restent sur ce PC.

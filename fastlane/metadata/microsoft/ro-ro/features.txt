@@ -1,0 +1,9 @@
+Înregistrează microfonul și difuzoarele în același timp.
+Salvează un MP3 mixat și fișiere separate pentru microfon și difuzoare.
+Pentru Teams, Skype, Viber și alte apeluri pe acest PC.
+Alegeți folderul în care sunt salvate înregistrările.
+Alegeți rata de eșantionare și calitatea MP3.
+Temă întunecată implicit, sau luminoasă, sau cea a sistemului.
+Înregistrările rămân pe acest PC. Aplicația nu le încarcă.
+Fără cont, fără reclame și fără urmărire.
+Open source. Codul propriu al aplicației este CC0 1.0 Universal.

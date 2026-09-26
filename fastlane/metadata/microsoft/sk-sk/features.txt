@@ -1,0 +1,9 @@
+Nahráva mikrofón a reproduktory súčasne.
+Uloží zmiešané MP3 a oddelené súbory mikrofónu a reproduktorov.
+Pre Teams, Skype, Viber a ďalšie hovory v tomto počítači.
+Vyberte priečinok, do ktorého sa nahrávky ukladajú.
+Vyberte vzorkovaciu frekvenciu a kvalitu MP3.
+Tmavý motív ako predvolený, alebo svetlý, alebo podľa systému.
+Nahrávky zostanú v tomto počítači. Aplikácia ich neodosiela.
+Bez účtu, bez reklám a bez sledovania.
+Open source. Vlastný kód aplikácie je CC0 1.0 Universal.

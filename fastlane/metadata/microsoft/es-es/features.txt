@@ -1,0 +1,9 @@
+Graba el micrófono y los altavoces al mismo tiempo.
+Guarda un MP3 mezclado y archivos separados del micrófono y los altavoces.
+Sirve para Teams, Skype, Viber y otras llamadas en este PC.
+Elija la carpeta donde se guardan las grabaciones.
+Elija la frecuencia de muestreo y la calidad MP3.
+Tema oscuro de forma predeterminada, o claro, o el del sistema.
+Las grabaciones se quedan en este PC. La aplicación no las sube.
+Sin cuenta, sin anuncios y sin seguimiento.
+Código abierto. El código propio de la aplicación es CC0 1.0 Universal.
