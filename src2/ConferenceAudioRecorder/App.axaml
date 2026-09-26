@@ -1,0 +1,44 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="ConferenceAudioRecorder.App"
+             RequestedThemeVariant="Default">
+    <Application.Styles>
+        <FluentTheme />
+        <Style Selector="Button.hyperlink">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Foreground" Value="{DynamicResource SystemAccentColor}" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+        </Style>
+        <Style Selector="Button.device">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="CornerRadius" Value="4,0,0,4" />
+            <Setter Property="MinWidth" Value="44" />
+            <Setter Property="Height" Value="32" />
+            <Setter Property="Padding" Value="8,0" />
+        </Style>
+        <Style Selector="Button.device.selected">
+            <Setter Property="Background" Value="{DynamicResource SystemAccentColor}" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+        <Style Selector="Button.chevron">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="CornerRadius" Value="0,4,4,0" />
+            <Setter Property="Height" Value="32" />
+            <Setter Property="Padding" Value="0" />
+        </Style>
+        <Style Selector="RadioButton.nav">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="MinHeight" Value="40" />
+            <Setter Property="Padding" Value="8,6" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+            <Setter Property="CornerRadius" Value="6" />
+        </Style>
+        <Style Selector="RadioButton.nav:checked">
+            <Setter Property="Background" Value="{DynamicResource SystemAccentColor}" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+    </Application.Styles>
+</Application>

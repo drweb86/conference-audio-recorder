@@ -1,0 +1,12 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:ConferenceAudioRecorder.Localization"
+             x:Class="ConferenceAudioRecorder.Views.AboutView"
+             Margin="16">
+    <StackPanel Spacing="8" HorizontalAlignment="Left">
+        <Button Classes="hyperlink" Content="{loc:Loc LogsFolder}" Click="OnOpenLogsFolder" />
+        <Button Classes="hyperlink" Content="{loc:Loc SupportLink}" Click="OnOpenSupportLink" />
+        <Button Classes="hyperlink" Content="{loc:Loc LicenseLink}" Click="OnOpenLicenseLink" />
+        <Button Classes="hyperlink" Content="{loc:Loc PrivatePolicyLink}" Click="OnOpenPrivatePolicyLink" />
+    </StackPanel>
+</UserControl>

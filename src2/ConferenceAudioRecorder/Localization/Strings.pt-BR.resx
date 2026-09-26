@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Application" xml:space="preserve">
+    <value>Aplicativo:</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>Alterar Pasta</value>
+  </data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve">
+    <value>Escolha o dispositivo de entrada de áudio (microfone):</value>
+  </data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve">
+    <value>Escolha o dispositivo de saída de áudio (fones de ouvido):</value>
+  </data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve">
+    <value>Gravador de Áudio de Conferência</value>
+  </data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve">
+    <value>Gravações de Conferência</value>
+  </data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve">
+    <value>A gravação do dispositivo está desabilitada</value>
+  </data>
+  <data name="GotIt" xml:space="preserve">
+    <value>Entendi!</value>
+  </data>
+  <data name="Help1" xml:space="preserve">
+    <value>Primeiro, selecione os dispositivos de áudio usados no software de conferência que você deseja gravar.</value>
+  </data>
+  <data name="Help2" xml:space="preserve">
+    <value>Segundo, faça uma gravação de teste. Se você ouvir eco na gravação, provavelmente o microfone está captando o áudio do alto-falante. Nesse caso, tente desabilitar a gravação do alto-falante ou use fones de ouvido.</value>
+  </data>
+  <data name="Help3" xml:space="preserve">
+    <value>Terceiro, clique em iniciar gravação no início de uma reunião e pare quando a reunião terminar.</value>
+  </data>
+  <data name="Help4" xml:space="preserve">
+    <value>O arquivo MP3 com as gravações será salvo na pasta de gravações. Clique no botão 'Ver gravações' para navegar até ela.</value>
+  </data>
+  <data name="LicenseLink" xml:space="preserve">
+    <value>Licença</value>
+  </data>
+  <data name="LogsFolder" xml:space="preserve">
+    <value>Pasta de logs</value>
+  </data>
+  <data name="PrivatePolicyLink" xml:space="preserve">
+    <value>Política de Privacidade</value>
+  </data>
+  <data name="Recording" xml:space="preserve">
+    <value>Gravação</value>
+  </data>
+  <data name="RecordingFileName" xml:space="preserve">
+    <value>Gravação {0} de {1} até {2}</value>
+  </data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve">
+    <value>A gravação do dispositivo "{0}" está habilitada</value>
+  </data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve">
+    <value>Salvar gravações na pasta:</value>
+  </data>
+  <data name="SeeRecordings" xml:space="preserve">
+    <value>Ver gravações</value>
+  </data>
+  <data name="StartRecording" xml:space="preserve">
+    <value>Iniciar Gravação</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Parar</value>
+  </data>
+  <data name="SupportLink" xml:space="preserve">
+    <value>Suporte</value>
+  </data>
+  <data name="TheApplicationView" xml:space="preserve">
+    <value>Sobre o Aplicativo</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+</root>

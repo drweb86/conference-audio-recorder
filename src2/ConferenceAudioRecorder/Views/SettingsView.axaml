@@ -1,0 +1,19 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:ConferenceAudioRecorder.Localization"
+             xmlns:icons="clr-namespace:ConferenceAudioRecorder"
+             x:Class="ConferenceAudioRecorder.Views.SettingsView"
+             Margin="16">
+    <StackPanel Spacing="8" MaxWidth="520" HorizontalAlignment="Left">
+        <TextBlock Text="{loc:Loc SaveRecordingsToFolder}" />
+        <StackPanel Orientation="Horizontal" Spacing="8">
+            <PathIcon Data="{x:Static icons:AppIcons.Folder}" Width="16" Height="16" VerticalAlignment="Center" />
+            <Button Classes="hyperlink"
+                    Content="{Binding SaveRecordingToFolder}"
+                    Click="OnOpenRecordingsFolder" />
+        </StackPanel>
+        <Button Content="{loc:Loc ChangeFolder}"
+                HorizontalAlignment="Left"
+                Click="OnChangeFolder" />
+    </StackPanel>
+</UserControl>

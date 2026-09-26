@@ -1,0 +1,151 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:ConferenceAudioRecorder.Localization"
+             xmlns:converters="clr-namespace:ConferenceAudioRecorder.Converters"
+             xmlns:icons="clr-namespace:ConferenceAudioRecorder"
+             x:Class="ConferenceAudioRecorder.Views.RecordingView"
+             VerticalAlignment="Center"
+             HorizontalAlignment="Center">
+    <UserControl.Resources>
+        <converters:TooltipConverter x:Key="TooltipConverter" />
+        <converters:IsRecordingToBackgroundConverter x:Key="IsRecordingToBackgroundConverter" />
+        <converters:IsRecordingToIconConverter x:Key="IsRecordingToIconConverter" />
+        <converters:IsRecordingToTooltipConverter x:Key="IsRecordingToTooltipConverter" />
+        <converters:NotNullConverter x:Key="NotNullConverter" />
+        <converters:AudioInputDeviceToIconConverter x:Key="AudioInputDeviceToIconConverter" />
+        <converters:AudioOutputDeviceToIconConverter x:Key="AudioOutputDeviceToIconConverter" />
+    </UserControl.Resources>
+
+    <Grid Margin="16" ColumnDefinitions="Auto,Auto,Auto" RowDefinitions="Auto,Auto">
+        <Button Grid.Row="0"
+                Grid.RowSpan="2"
+                Grid.Column="0"
+                Classes="accent"
+                Margin="0,0,8,0"
+                Width="100"
+                Height="68"
+                CornerRadius="7"
+                Foreground="White"
+                Click="OnRecordClick"
+                IsEnabled="{Binding IsAudioRecordingEnabled}"
+                ToolTip.Tip="{Binding IsAudioRecording, Converter={StaticResource IsRecordingToTooltipConverter}}"
+                Background="{Binding IsAudioRecording, Converter={StaticResource IsRecordingToBackgroundConverter}}">
+            <PathIcon Width="36"
+                      Height="36"
+                      Foreground="White"
+                      Data="{Binding IsAudioRecording, Converter={StaticResource IsRecordingToIconConverter}}" />
+        </Button>
+
+        <Border x:Name="InputSplit"
+                Grid.Row="0"
+                Grid.Column="1"
+                Margin="4,0,4,4"
+                CornerRadius="4"
+                BorderThickness="1"
+                BorderBrush="{DynamicResource ThemeBorderLowBrush}">
+            <DockPanel>
+                <Button DockPanel.Dock="Right"
+                        Classes="chevron"
+                        Width="28"
+                        Click="OnOpenInputMenu"
+                        IsEnabled="{Binding IsAudioInputDeviceEnabled}"
+                        Content="&#x25BE;" />
+                <Button Classes="device"
+                        Click="OnToggleInput"
+                        IsEnabled="{Binding IsAudioInputDeviceEnabled}"
+                        Classes.selected="{Binding AudioInputDevice, Converter={StaticResource NotNullConverter}}"
+                        ToolTip.Tip="{Binding AudioInputDevice, Converter={StaticResource TooltipConverter}}">
+                    <PathIcon Width="16"
+                              Height="16"
+                              Data="{Binding AudioInputDevice, Converter={StaticResource AudioInputDeviceToIconConverter}}" />
+                </Button>
+            </DockPanel>
+        </Border>
+
+        <Popup x:Name="InputPopup"
+               Placement="Bottom"
+               PlacementTarget="{Binding #InputSplit}">
+            <Border Background="{DynamicResource ThemeBackgroundBrush}"
+                    BorderBrush="{DynamicResource ThemeBorderLowBrush}"
+                    BorderThickness="1"
+                    Padding="12"
+                    CornerRadius="6"
+                    MinWidth="280"
+                    BoxShadow="0 4 16 0 #40000000">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="{loc:Loc ChooseAudioInputDevice}" TextWrapping="Wrap" />
+                    <ListBox MaxHeight="220"
+                             ItemsSource="{Binding InputDevices}"
+                             SelectedItem="{Binding AudioInputDevice, Mode=TwoWay}"
+                             SelectionChanged="OnInputSelected" />
+                </StackPanel>
+            </Border>
+        </Popup>
+
+        <Border x:Name="OutputSplit"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="4,4,4,0"
+                CornerRadius="4"
+                BorderThickness="1"
+                BorderBrush="{DynamicResource ThemeBorderLowBrush}">
+            <DockPanel>
+                <Button DockPanel.Dock="Right"
+                        Classes="chevron"
+                        Width="28"
+                        Click="OnOpenOutputMenu"
+                        IsEnabled="{Binding IsAudioOutputDeviceEnabled}"
+                        Content="&#x25BE;" />
+                <Button Classes="device"
+                        Click="OnToggleOutput"
+                        IsEnabled="{Binding IsAudioOutputDeviceEnabled}"
+                        Classes.selected="{Binding AudioOutputDevice, Converter={StaticResource NotNullConverter}}"
+                        ToolTip.Tip="{Binding AudioOutputDevice, Converter={StaticResource TooltipConverter}}">
+                    <PathIcon Width="16"
+                              Height="16"
+                              Data="{Binding AudioOutputDevice, Converter={StaticResource AudioOutputDeviceToIconConverter}}" />
+                </Button>
+            </DockPanel>
+        </Border>
+
+        <Popup x:Name="OutputPopup"
+               Placement="Bottom"
+               PlacementTarget="{Binding #OutputSplit}">
+            <Border Background="{DynamicResource ThemeBackgroundBrush}"
+                    BorderBrush="{DynamicResource ThemeBorderLowBrush}"
+                    BorderThickness="1"
+                    Padding="12"
+                    CornerRadius="6"
+                    MinWidth="280"
+                    BoxShadow="0 4 16 0 #40000000">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="{loc:Loc ChooseAudioOutputDevice}" TextWrapping="Wrap" />
+                    <ListBox MaxHeight="220"
+                             ItemsSource="{Binding OutputDevices}"
+                             SelectedItem="{Binding AudioOutputDevice, Mode=TwoWay}"
+                             SelectionChanged="OnOutputSelected" />
+                </StackPanel>
+            </Border>
+        </Popup>
+
+        <Button Grid.Row="0"
+                Grid.Column="2"
+                Classes="accent"
+                Margin="4,0,0,4"
+                Width="44"
+                Height="32"
+                Click="OnSeeRecordingsClick"
+                ToolTip.Tip="{loc:Loc SeeRecordings}">
+            <PathIcon Data="{x:Static icons:AppIcons.Folder}" Width="16" Height="16" />
+        </Button>
+
+        <Button Grid.Row="1"
+                Grid.Column="2"
+                Margin="4,4,0,0"
+                Width="44"
+                Height="32"
+                Click="OnShowHelp">
+            <PathIcon Data="{x:Static icons:AppIcons.Help}" Width="16" Height="16" />
+        </Button>
+    </Grid>
+</UserControl>

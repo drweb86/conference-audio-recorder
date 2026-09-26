@@ -1,0 +1,43 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:ConferenceAudioRecorder.Localization"
+        xmlns:icons="clr-namespace:ConferenceAudioRecorder"
+        x:Class="ConferenceAudioRecorder.MainWindow"
+        Width="680"
+        Height="420"
+        MinWidth="560"
+        MinHeight="320"
+        WindowStartupLocation="CenterScreen">
+    <Grid ColumnDefinitions="188,*">
+        <Border Grid.Column="0"
+                BorderThickness="0,0,1,0"
+                BorderBrush="{DynamicResource ThemeBorderLowBrush}"
+                Padding="8">
+            <StackPanel Spacing="4">
+                <RadioButton x:Name="RecordingNav"
+                             Classes="nav"
+                             GroupName="pages"
+                             IsChecked="True"
+                             Click="OnShowRecording">
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <PathIcon Data="{x:Static icons:AppIcons.Record}" Width="16" Height="16" />
+                        <TextBlock Text="{loc:Loc Recording}" VerticalAlignment="Center" />
+                    </StackPanel>
+                </RadioButton>
+                <RadioButton Classes="nav" GroupName="pages" Click="OnShowSettings">
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <PathIcon Data="{x:Static icons:AppIcons.Settings}" Width="16" Height="16" />
+                        <TextBlock Text="{loc:Loc Settings}" VerticalAlignment="Center" />
+                    </StackPanel>
+                </RadioButton>
+                <RadioButton Classes="nav" GroupName="pages" Click="OnShowAbout">
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <PathIcon Data="{x:Static icons:AppIcons.Info}" Width="16" Height="16" />
+                        <TextBlock Text="{loc:Loc TheApplicationView}" VerticalAlignment="Center" />
+                    </StackPanel>
+                </RadioButton>
+            </StackPanel>
+        </Border>
+        <ContentControl x:Name="PageHost" Grid.Column="1" />
+    </Grid>
+</Window>
