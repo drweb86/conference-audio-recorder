@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplikazioa:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Aldatu karpeta</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Aukeratu audio-sarrera (mikrofonoa):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Aukeratu audio-irteera (entzuleak):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Bileren audio-grabagailua</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Bilera-grabazioak</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Gailuaren grabazioa desgaituta dago</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Ulertuta</value></data>
+  <data name="Help1" xml:space="preserve"><value>Lehenik, aukeratu bilerako programak erabiltzen dituen audio-gailuak.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Ondoren, egin proba-grabazio bat. Oihartzuna entzuten baduzu, mikrofonoak bozgorailua entzuten du. Desgaitu bozgorailuaren grabazioa edo erabili entzuleak.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Bilera hasten denean hasi grabatzen, eta amaitzean gelditu.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 fitxategia grabazioen karpetan gordetzen da. "Ikusi grabazioak" botoiak karpeta hori irekitzen du.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lizentzia</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Egunkarien karpeta</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Pribatutasun-politika</value></data>
+  <data name="Recording" xml:space="preserve"><value>Grabazioa</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Grabazioa {0}, {1}etik {2}ra</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>"{0}" gailutik grabatzea gaituta dago</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Gorde grabazioak karpetan:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Ikusi grabazioak</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Hasi grabatzen</value></data>
+  <data name="Stop" xml:space="preserve"><value>Gelditu</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Laguntza</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Aplikazioari buruz</value></data>
+  <data name="Settings" xml:space="preserve"><value>Ezarpenak</value></data>
+  <data name="Theme" xml:space="preserve"><value>Gaia</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Iluna</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Argia</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Erabili sistemaren gaia</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Hizkuntza</value></data>
+  <data name="Close" xml:space="preserve"><value>Itxi</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Hirugarrenen oharrak</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Hirugarrenen osagaiek beren lizentziak gordetzen dituzte. Lizentzien testuak ingelesez daude.</value></data>
+</root>

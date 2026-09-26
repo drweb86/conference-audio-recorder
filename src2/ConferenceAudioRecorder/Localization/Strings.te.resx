@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>అప్లికేషన్:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>ఫోల్డర్ మార్చు</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>ఆడియో ఇన్‌పుట్ పరికరాన్ని ఎంచుకోండి (మైక్రోఫోన్):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>ఆడియో అవుట్‌పుట్ పరికరాన్ని ఎంచుకోండి (హెడ్‌ఫోన్):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>సమావేశ ఆడియో రికార్డర్</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>సమావేశ రికార్డింగ్‌లు</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>పరికర రికార్డింగ్ ఆఫ్ చేయబడింది</value></data>
+  <data name="GotIt" xml:space="preserve"><value>అర్థమైంది</value></data>
+  <data name="Help1" xml:space="preserve"><value>ముందు సమావేశ సాఫ్ట్‌వేర్ ఉపయోగించే ఆడియో పరికరాలను ఎంచుకోండి.</value></data>
+  <data name="Help2" xml:space="preserve"><value>తర్వాత పరీక్ష రికార్డింగ్ చేయండి. ప్రతిధ్వని వినిపిస్తే మైక్రోఫోన్ స్పీకర్‌ను వింటోంది. స్పీకర్ రికార్డింగ్ ఆఫ్ చేయండి లేదా హెడ్‌ఫోన్ వాడండి.</value></data>
+  <data name="Help3" xml:space="preserve"><value>సమావేశం మొదలైనప్పుడు రికార్డింగ్ ప్రారంభించి, అయిపోయాక ఆపండి.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 ఫైలు రికార్డింగ్‌ల ఫోల్డర్‌లో సేవ్ అవుతుంది. "రికార్డింగ్‌లు చూడండి" ఆ ఫోల్డర్‌ను తెరుస్తుంది.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>లైసెన్స్</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>లాగ్ ఫోల్డర్</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>గోప్యతా విధానం</value></data>
+  <data name="Recording" xml:space="preserve"><value>రికార్డింగ్</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>రికార్డింగ్ {0}, {1} నుండి {2} వరకు</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>"{0}" పరికరం నుండి రికార్డింగ్ ఆన్‌లో ఉంది</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>రికార్డింగ్‌లను ఫోల్డర్‌లో సేవ్ చేయి:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>రికార్డింగ్‌లు చూడండి</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>రికార్డింగ్ ప్రారంభించు</value></data>
+  <data name="Stop" xml:space="preserve"><value>ఆపు</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>మద్దతు</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>అప్లికేషన్ గురించి</value></data>
+  <data name="Settings" xml:space="preserve"><value>సెట్టింగ్‌లు</value></data>
+  <data name="Theme" xml:space="preserve"><value>థీమ్</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>చీకటి</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>లేత</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>సిస్టమ్ థీమ్ వాడు</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>భాష</value></data>
+  <data name="Close" xml:space="preserve"><value>మూసివేయి</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>మూడవ పక్ష ప్రకటనలు</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>మూడవ పక్ష భాగాలు తమ లైసెన్స్‌లను ఉంచుకుంటాయి. లైసెన్స్ పాఠ్యం ఇంగ్లీషులో ఉంటుంది.</value></data>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Program:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Byt mapp</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Välj ljudingång (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Välj ljudutgång (hörlurar):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferensljudinspelare</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferensinspelningar</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Inspelning från enheten är avstängd</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Jag förstår</value></data>
+  <data name="Help1" xml:space="preserve"><value>Välj först de ljudenheter som konferensprogrammet använder.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Gör sedan en testinspelning. Om du hör eko fångar mikrofonen högtalaren. Stäng av högtalarinspelning eller använd hörlurar.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Starta inspelningen när mötet börjar och stoppa den när mötet slutar.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3-filen sparas i inspelningsmappen. Knappen "Visa inspelningar" öppnar den.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licens</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Loggmapp</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Integritetspolicy</value></data>
+  <data name="Recording" xml:space="preserve"><value>Inspelning</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Inspelning {0} från {1} till {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Inspelning från enheten "{0}" är på</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Spara inspelningar i mapp:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Visa inspelningar</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Starta inspelning</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stopp</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Support</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Om programmet</value></data>
+  <data name="Settings" xml:space="preserve"><value>Inställningar</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Mörkt</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Ljust</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Använd systemets tema</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Språk</value></data>
+  <data name="Close" xml:space="preserve"><value>Stäng</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Tredjepartsmeddelanden</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Tredjepartskomponenter behåller sina egna licenser. Licenstexterna återges på engelska.</value></data>
+</root>

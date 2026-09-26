@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Applicazione:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Cambià u cartulare</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Sceglite u dispusitivu d'entrata audio (microfonu):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Sceglite u dispusitivu di surtita audio (cuffie):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Arregistratore audio di cunferenze</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Arregistramenti di cunferenze</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>L'arregistramentu di u dispusitivu hè disattivatu</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Capitu</value></data>
+  <data name="Help1" xml:space="preserve"><value>Prima, sceglite i dispusitivi audio usati da u prugramma di cunferenza.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Dopu fate un pruvinu. S'è vo sentite un ecu, u microfonu sente u parlante. Disattivate l'arregistramentu di u parlante o aduprate e cuffie.</value></data>
+  <data name="Help3" xml:space="preserve"><value>À l'iniziu di a riunione cuminciate l'arregistramentu è fermate lu à a fine.</value></data>
+  <data name="Help4" xml:space="preserve"><value>U schedariu MP3 hè salvatu in u cartulare di l'arregistramenti. U buttone «Vede l'arregistramenti» l'apre.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licenza</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Cartulare di i ghjurnali</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Pulitica di cunfidenzialità</value></data>
+  <data name="Recording" xml:space="preserve"><value>Arregistramentu</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Arregistramentu {0} da {1} à {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>L'arregistramentu da u dispusitivu "{0}" hè attivatu</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Salvà l'arregistramenti in u cartulare:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Vede l'arregistramenti</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Cumincià l'arregistramentu</value></data>
+  <data name="Stop" xml:space="preserve"><value>Firmà</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Assistenza</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Apprupositu di l'applicazione</value></data>
+  <data name="Settings" xml:space="preserve"><value>Parametri</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Scuru</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Chjaru</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Usà u tema di u sistema</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Lingua</value></data>
+  <data name="Close" xml:space="preserve"><value>Chjude</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Avisi di terzi</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>I cumpunenti di terzi tenenu e so licenze. I testi di licenza sò in inglese.</value></data>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Rakendus:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Muuda kausta</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Vali helisisend (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Vali heliväljund (kõrvaklapid):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konverentsi helisalvestaja</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konverentsi salvestised</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Seadme salvestamine on väljas</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Sain aru</value></data>
+  <data name="Help1" xml:space="preserve"><value>Kõigepealt vali heliseadmed, mida konverentsitarkvara kasutab.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Seejärel tee proovisalvestis. Kui kuuled kaja, kuuleb mikrofon kõlarit. Lülita kõlari salvestamine välja või kasuta kõrvaklappe.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Koosoleku alguses alusta salvestamist ja lõpeta see koosoleku lõpus.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3-fail salvestatakse salvestiste kausta. Nupp „Vaata salvestisi“ avab selle kausta.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Litsents</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Logikaust</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Privaatsuspoliitika</value></data>
+  <data name="Recording" xml:space="preserve"><value>Salvestamine</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Salvestis {0} kell {1} kuni {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Salvestamine seadmest "{0}" on sees</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Salvesta salvestised kausta:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Vaata salvestisi</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Alusta salvestamist</value></data>
+  <data name="Stop" xml:space="preserve"><value>Peata</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Tugi</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Rakendusest</value></data>
+  <data name="Settings" xml:space="preserve"><value>Sätted</value></data>
+  <data name="Theme" xml:space="preserve"><value>Teema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Tume</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Hele</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Kasuta süsteemi teemat</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Keel</value></data>
+  <data name="Close" xml:space="preserve"><value>Sulge</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Kolmandate osapoolte teatised</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Kolmandate osapoolte komponendid säilitavad oma litsentsid. Litsentsitekstid on inglise keeles.</value></data>
+</root>

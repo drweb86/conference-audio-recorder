@@ -30,4 +30,22 @@ internal class UpdateSettingsCommand
             controller.Services.AudioRecorderSettingsService.Save(controller.Model.Settings);
         }
     }
+
+    public void UpdateTheme(AudioRecorderToolController controller, string theme)
+    {
+        if (controller.Model.Settings.Theme != theme)
+        {
+            controller.Model.Settings.Theme = theme;
+            controller.Services.AudioRecorderSettingsService.Save(controller.Model.Settings);
+        }
+    }
+
+    public void UpdateDocumentLanguage(AudioRecorderToolController controller, string languageCode)
+    {
+        if (controller.Model.Settings.DocumentLanguage != languageCode)
+        {
+            controller.Model.Settings.DocumentLanguage = languageCode;
+            controller.Services.AudioRecorderSettingsService.Save(controller.Model.Settings);
+        }
+    }
 }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Forrit:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Breyta möppu</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Veldu hljóðinntak (hljóðnemi):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Veldu hljóðúttak (heyrnartól):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Hljóðupptökutæki fyrir fundi</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Fundarupptökur</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Upptaka tækis er óvirk</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Skil</value></data>
+  <data name="Help1" xml:space="preserve"><value>Veldu fyrst hljóðtækin sem fundarforritið notar.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Taktu svo prufuupptöku. Ef þú heyrir bergmál heyrist hátalarinn í hljóðnemanum. Slökktu á upptöku hátalara eða notaðu heyrnartól.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Byrjaðu upptöku þegar fundurinn hefst og stöðvaðu hana þegar hann lýkur.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3-skráin vistast í upptökumöppunni. Hnappurinn „Skoða upptökur“ opnar hana.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Leyfi</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Annálamappa</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Persónuverndarstefna</value></data>
+  <data name="Recording" xml:space="preserve"><value>Upptaka</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Upptaka {0} frá {1} til {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Upptaka frá tækinu "{0}" er virk</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Vista upptökur í möppu:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Skoða upptökur</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Hefja upptöku</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stöðva</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Aðstoð</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Um forritið</value></data>
+  <data name="Settings" xml:space="preserve"><value>Stillingar</value></data>
+  <data name="Theme" xml:space="preserve"><value>Þema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Dökkt</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Ljóst</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Nota kerfisþema</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Tungumál</value></data>
+  <data name="Close" xml:space="preserve"><value>Loka</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Tilkynningar þriðju aðila</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Íhlutir þriðju aðila halda eigin leyfum. Leyfistextarnir eru á ensku.</value></data>
+</root>

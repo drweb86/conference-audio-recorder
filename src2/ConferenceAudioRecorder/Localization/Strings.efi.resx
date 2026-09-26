@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Usụn̄:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Kpuhọ folda</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Sat defais uduk ikwọ (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Sat defais uduak ikwọ (hedfon):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Andirekọd ikwọ mbono</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Mmekọd mbono</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Ema nime ndirekọd defais</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Ndiọhọ</value></data>
+  <data name="Help1" xml:space="preserve"><value>Akpa, sat mme defais ikwọ emi usụn̄ mbono akamade.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Emi, nam rekọd nduño. Edieke afo okopde echo, mikrofon osụhọde spika. Nime ndirekọd spika midighe kama hedfon.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Ke ntọñọ mbono tọñọ ndirekọd, nyụn̄ tre ke ema.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Faịl MP3 edọñ ke folda mmekọd. Bọtin "Se mmekọd" ekọbọde folda oro.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Laisin</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Folda log</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Usụn̄ ndibeñkpọ</value></data>
+  <data name="Recording" xml:space="preserve"><value>Ndrekọd</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Rekọd {0} ke {1} sim {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Ndrekọd oto defais "{0}" odomo</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Mịn̄ mmekọd ke folda:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Se mmekọd</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Tọñọ ndirekọd</value></data>
+  <data name="Stop" xml:space="preserve"><value>Tre</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Unwam</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Ban̄a usụn̄</value></data>
+  <data name="Settings" xml:space="preserve"><value>Ubono</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tim</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Ekịm</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Añwan̄a</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Kama tim sistem</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Usem</value></data>
+  <data name="Close" xml:space="preserve"><value>Bed</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Ntọt mbon en̄wen</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Mme ikpeghe mbon en̄wen enyene laisin mmọ. Ewet etop laisin ke English.</value></data>
+</root>

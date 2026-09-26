@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>অ্যাপ্লিকেশন:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>ফোল্ডার বদলান</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>অডিও ইনপুট ডিভাইস বেছে নিন (মাইক্রোফোন):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>অডিও আউটপুট ডিভাইস বেছে নিন (হেডফোন):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>কনফারেন্স অডিও রেকর্ডার</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>কনফারেন্স রেকর্ডিং</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>ডিভাইস রেকর্ডিং বন্ধ আছে</value></data>
+  <data name="GotIt" xml:space="preserve"><value>বুঝেছি</value></data>
+  <data name="Help1" xml:space="preserve"><value>প্রথমে কনফারেন্স সফটওয়্যার যে অডিও ডিভাইস ব্যবহার করে সেগুলো বেছে নিন।</value></data>
+  <data name="Help2" xml:space="preserve"><value>তারপর একটি পরীক্ষামূলক রেকর্ডিং করুন। প্রতিধ্বনি শুনলে মাইক্রোফোন স্পিকার শুনছে। স্পিকার রেকর্ডিং বন্ধ করুন বা হেডফোন ব্যবহার করুন।</value></data>
+  <data name="Help3" xml:space="preserve"><value>মিটিং শুরু হলে রেকর্ডিং শুরু করুন এবং শেষ হলে থামান।</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 ফাইল রেকর্ডিং ফোল্ডারে সেভ হয়। "রেকর্ডিং দেখুন" সেই ফোল্ডার খোলে।</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>লাইসেন্স</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>লগ ফোল্ডার</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>গোপনীয়তা নীতি</value></data>
+  <data name="Recording" xml:space="preserve"><value>রেকর্ডিং</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>রেকর্ডিং {0}, {1} থেকে {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>"{0}" ডিভাইস থেকে রেকর্ডিং চালু আছে</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>রেকর্ডিং এই ফোল্ডারে সেভ করুন:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>রেকর্ডিং দেখুন</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>রেকর্ডিং শুরু</value></data>
+  <data name="Stop" xml:space="preserve"><value>থামান</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>সহায়তা</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>অ্যাপ সম্পর্কে</value></data>
+  <data name="Settings" xml:space="preserve"><value>সেটিংস</value></data>
+  <data name="Theme" xml:space="preserve"><value>থিম</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>গাঢ়</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>হালকা</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>সিস্টেম থিম ব্যবহার করুন</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>ভাষা</value></data>
+  <data name="Close" xml:space="preserve"><value>বন্ধ</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>তৃতীয় পক্ষের বিজ্ঞপ্তি</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>তৃতীয় পক্ষের উপাদান নিজস্ব লাইসেন্স রাখে। লাইসেন্সের পাঠ্য ইংরেজিতে।</value></data>
+</root>

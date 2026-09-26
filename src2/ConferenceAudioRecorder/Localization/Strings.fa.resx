@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>برنامه:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>تغییر پوشه</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>دستگاه ورودی صدا (میکروفون) را انتخاب کنید:</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>دستگاه خروجی صدا (هدفون) را انتخاب کنید:</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>ضبط‌کننده صدای جلسه</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>ضبط‌های جلسه</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>ضبط دستگاه خاموش است</value></data>
+  <data name="GotIt" xml:space="preserve"><value>متوجه شدم</value></data>
+  <data name="Help1" xml:space="preserve"><value>ابتدا دستگاه‌های صوتی را که نرم‌افزار جلسه استفاده می‌کند انتخاب کنید.</value></data>
+  <data name="Help2" xml:space="preserve"><value>سپس یک ضبط آزمایشی بگیرید. اگر پژواک شنیدید، میکروفون صدای بلندگو را می‌گیرد. ضبط بلندگو را خاموش کنید یا از هدفون استفاده کنید.</value></data>
+  <data name="Help3" xml:space="preserve"><value>در آغاز جلسه ضبط را شروع کنید و در پایان آن را متوقف کنید.</value></data>
+  <data name="Help4" xml:space="preserve"><value>فایل MP3 در پوشه ضبط‌ها ذخیره می‌شود. دکمه «دیدن ضبط‌ها» آن پوشه را باز می‌کند.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>مجوز</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>پوشه گزارش‌ها</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>سیاست حریم خصوصی</value></data>
+  <data name="Recording" xml:space="preserve"><value>ضبط</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>ضبط {0} از {1} تا {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>ضبط از دستگاه «{0}» روشن است</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>ذخیره ضبط‌ها در پوشه:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>دیدن ضبط‌ها</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>شروع ضبط</value></data>
+  <data name="Stop" xml:space="preserve"><value>توقف</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>پشتیبانی</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>درباره برنامه</value></data>
+  <data name="Settings" xml:space="preserve"><value>تنظیمات</value></data>
+  <data name="Theme" xml:space="preserve"><value>پوسته</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>تیره</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>روشن</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>استفاده از پوسته سیستم</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>زبان</value></data>
+  <data name="Close" xml:space="preserve"><value>بستن</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>اطلاعیه‌های شخص ثالث</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>اجزای شخص ثالث مجوز خود را حفظ می‌کنند. متن مجوزها به انگلیسی آمده است.</value></data>
+</root>

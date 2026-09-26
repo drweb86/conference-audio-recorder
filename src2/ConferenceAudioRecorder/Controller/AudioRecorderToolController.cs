@@ -97,6 +97,18 @@ internal class AudioRecorderToolController : IDisposable
             new UpdateSettingsCommand().UpdateSaveRecordingToFolder(this, saveRecordingToFolder);
     }
 
+    public void UpdateTheme(string theme)
+    {
+        lock (_gate)
+            new UpdateSettingsCommand().UpdateTheme(this, theme);
+    }
+
+    public void UpdateDocumentLanguage(string languageCode)
+    {
+        lock (_gate)
+            new UpdateSettingsCommand().UpdateDocumentLanguage(this, languageCode);
+    }
+
     public string ToggleAudioInputDevice()
     {
         lock (_gate)

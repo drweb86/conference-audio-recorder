@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplicación:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Cambiar carpeta</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Elige el dispositivo de entrada de audio (micrófono):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Elige el dispositivo de salida de audio (audífonos):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Grabadora de audio de conferencias</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Grabaciones de conferencias</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>La grabación del dispositivo está desactivada</value></data>
+  <data name="GotIt" xml:space="preserve"><value>¡Entendido!</value></data>
+  <data name="Help1" xml:space="preserve"><value>Primero, selecciona los dispositivos de audio que usa el programa de conferencias que quieres grabar.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Después, haz una grabación de prueba. Si escuchas eco, es probable que el micrófono oiga el altavoz. Desactiva la grabación del altavoz o usa audífonos.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Al empezar la reunión, inicia la grabación y detenla cuando termine.</value></data>
+  <data name="Help4" xml:space="preserve"><value>El archivo MP3 se guarda en la carpeta de grabaciones. Usa 'Ver grabaciones' para abrirla.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licencia</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Carpeta de registros</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Política de privacidad</value></data>
+  <data name="Recording" xml:space="preserve"><value>Grabación</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Grabación {0} desde {1} hasta {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>La grabación del dispositivo "{0}" está activada</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Guardar grabaciones en la carpeta:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Ver grabaciones</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Iniciar grabación</value></data>
+  <data name="Stop" xml:space="preserve"><value>Detener</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Soporte</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Acerca de la aplicación</value></data>
+  <data name="Settings" xml:space="preserve"><value>Configuración</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Oscuro</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Claro</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Usar el tema del sistema</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Idioma</value></data>
+  <data name="Close" xml:space="preserve"><value>Cerrar</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Avisos de terceros</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Los componentes de terceros conservan sus propias licencias. Los textos de las licencias están en inglés.</value></data>
+</root>

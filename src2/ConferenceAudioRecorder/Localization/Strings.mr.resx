@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>अॅप:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>फोल्डर बदला</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>ऑडिओ इनपुट साधन निवडा (मायक):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>ऑडिओ आउटपुट साधन निवडा (हेडफोन):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>परिषद ऑडिओ रेकॉर्डर</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>परिषद रेकॉर्डिंग</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>साधनाचे रेकॉर्डिंग बंद आहे</value></data>
+  <data name="GotIt" xml:space="preserve"><value>समजले</value></data>
+  <data name="Help1" xml:space="preserve"><value>आधी परिषद सॉफ्टवेअर वापरत असलेली ऑडिओ साधने निवडा.</value></data>
+  <data name="Help2" xml:space="preserve"><value>नंतर चाचणी रेकॉर्डिंग करा. प्रतिध्वनी ऐकू आल्यास मायक स्पीकर ऐकत आहे. स्पीकर रेकॉर्डिंग बंद करा किंवा हेडफोन वापरा.</value></data>
+  <data name="Help3" xml:space="preserve"><value>बैठक सुरू होताच रेकॉर्डिंग सुरू करा आणि संपल्यावर थांबवा.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 फाइल रेकॉर्डिंग फोल्डरमध्ये जतन होते. "रेकॉर्डिंग पहा" ते फोल्डर उघडते.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>परवाना</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>लॉग फोल्डर</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>गोपनीयता धोरण</value></data>
+  <data name="Recording" xml:space="preserve"><value>रेकॉर्डिंग</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>रेकॉर्डिंग {0}, {1} ते {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>"{0}" साधनावरून रेकॉर्डिंग सुरू आहे</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>रेकॉर्डिंग या फोल्डरमध्ये जतन करा:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>रेकॉर्डिंग पहा</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>रेकॉर्डिंग सुरू करा</value></data>
+  <data name="Stop" xml:space="preserve"><value>थांबवा</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>मदत</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>अॅपबद्दल</value></data>
+  <data name="Settings" xml:space="preserve"><value>सेटिंग्ज</value></data>
+  <data name="Theme" xml:space="preserve"><value>थीम</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>गडद</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>फिकट</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>सिस्टम थीम वापरा</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>भाषा</value></data>
+  <data name="Close" xml:space="preserve"><value>बंद करा</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>तृतीय-पक्ष सूचना</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>तृतीय-पक्ष घटक त्यांचे परवाने ठेवतात. परवाना मजकूर इंग्रजीत आहे.</value></data>
+</root>

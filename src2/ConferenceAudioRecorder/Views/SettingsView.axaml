@@ -15,5 +15,10 @@
         <Button Content="{loc:Loc ChangeFolder}"
                 HorizontalAlignment="Left"
                 Click="OnChangeFolder" />
+        <TextBlock Text="{loc:Loc Theme}" Margin="0,12,0,0" />
+        <ComboBox x:Name="ThemeBox"
+                  HorizontalAlignment="Left"
+                  MinWidth="220"
+                  SelectionChanged="OnThemeChanged" />
     </StackPanel>
 </UserControl>

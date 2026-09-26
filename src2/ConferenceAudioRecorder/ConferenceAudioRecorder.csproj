@@ -7,6 +7,8 @@
     <RootNamespace>ConferenceAudioRecorder</RootNamespace>
     <AssemblyName>ConferenceAudioRecorder</AssemblyName>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <Version>2026.9.26</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,5 +24,25 @@
     <PackageReference Include="NAudio.Core" Version="3.1.0" />
     <PackageReference Include="NAudio.SoundFile" Version="3.1.0" />
     <PackageReference Include="NAudio.Wasapi" Version="3.1.0" />
+    <PackageReference Include="NLog" Version="6.0.5" />
   </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\licenses\*.md" Exclude="..\..\licenses\README.md" LogicalName="ConferenceAudioRecorder.License.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="..\..\privacy\desktop\*.md" Exclude="..\..\privacy\desktop\README.md" LogicalName="ConferenceAudioRecorder.Privacy.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="..\..\notices\*.md" Exclude="..\..\notices\README.md" LogicalName="ConferenceAudioRecorder.Notices.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <RespectAlreadyAssignedItemCulture>true</RespectAlreadyAssignedItemCulture>
+  </PropertyGroup>
+
+  <Target Name="AssignLocalizationCultures" BeforeTargets="AssignTargetPaths">
+    <ItemGroup>
+      <EmbeddedResource Condition="'%(Extension)' == '.resx' and $([System.String]::Copy('%(Filename)').StartsWith('Strings.'))">
+        <Culture>$([System.String]::Copy('%(Filename)').Substring(8))</Culture>
+        <WithCulture>true</WithCulture>
+      </EmbeddedResource>
+    </ItemGroup>
+  </Target>
 </Project>

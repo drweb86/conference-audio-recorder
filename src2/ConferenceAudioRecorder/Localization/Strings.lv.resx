@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Lietotne:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Mainīt mapi</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Izvēlieties skaņas ieeju (mikrofons):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Izvēlieties skaņas izeju (austiņas):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferenču skaņas ierakstītājs</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferenču ieraksti</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Ierīces ieraksts ir izslēgts</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Sapratu</value></data>
+  <data name="Help1" xml:space="preserve"><value>Vispirms izvēlieties skaņas ierīces, ko izmanto konferences programma.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Pēc tam izveidojiet izmēģinājuma ierakstu. Ja dzirdat atbalsi, mikrofons dzird skaļruni. Izslēdziet skaļruņa ierakstu vai lietojiet austiņas.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Sapulces sākumā sāciet ierakstu un beigās apturiet to.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 fails tiek saglabāts ierakstu mapē. Poga „Skatīt ierakstus“ to atver.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licence</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Žurnālu mape</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Privātuma politika</value></data>
+  <data name="Recording" xml:space="preserve"><value>Ieraksts</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Ieraksts {0} no {1} līdz {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Ieraksts no ierīces "{0}" ir ieslēgts</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Saglabāt ierakstus mapē:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Skatīt ierakstus</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Sākt ierakstu</value></data>
+  <data name="Stop" xml:space="preserve"><value>Apturēt</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Atbalsts</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Par lietotni</value></data>
+  <data name="Settings" xml:space="preserve"><value>Iestatījumi</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tēma</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Tumša</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Gaiša</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Lietot sistēmas tēmu</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Valoda</value></data>
+  <data name="Close" xml:space="preserve"><value>Aizvērt</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Trešo pušu paziņojumi</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Trešo pušu komponenti patur savas licences. Licenču teksti ir angļu valodā.</value></data>
+</root>

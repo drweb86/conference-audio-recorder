@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplacaid:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Atharraich pasgan</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Tagh inneal inntrigidh fuaime (micreafon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Tagh inneal às-chuir fuaime (headphones):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Clàradair fuaime cho-labhairt</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Clàraidhean co-labhairt</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Tha clàradh an uidheim dheth</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Tha mi a' tuigsinn</value></data>
+  <data name="Help1" xml:space="preserve"><value>An toiseach, tagh na h-innealan fuaime a chleachdas am bathar-bog co-labhairt.</value></data>
+  <data name="Help2" xml:space="preserve"><value>An uair sin dèan clàradh deuchainn. Ma chluinneas tu mac-talla, tha am micreafon a' cluinntinn an neach-labhairt. Cuir clàradh an neach-labhairt dheth no cleachd headphones.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Nuair a thòisicheas a' choinneamh, tòisich air clàradh, agus stad nuair a bhios i deiseil.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Thèid am faidhle MP3 a shàbhaladh ann am pasgan nan clàraidhean. Fosglaidh "Seall clàraidhean" am pasgan sin.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Ceadachas</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Pasgan logaichean</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Poileasaidh prìobhaideachd</value></data>
+  <data name="Recording" xml:space="preserve"><value>Clàradh</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Clàradh {0} o {1} gu {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Tha clàradh on uidheam "{0}" air</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Sàbhail clàraidhean sa phasgan:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Seall clàraidhean</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Tòisich air clàradh</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stad</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Taic</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Mun aplacaid</value></data>
+  <data name="Settings" xml:space="preserve"><value>Roghainnean</value></data>
+  <data name="Theme" xml:space="preserve"><value>Ùrlar</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Dorcha</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Soilleir</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Cleachd ùrlar an t-siostaim</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Cànan</value></data>
+  <data name="Close" xml:space="preserve"><value>Dùin</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Brathan treas-phàrtaidh</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Cumaidh co-phàirtean treas-phàrtaidh an ceadachasan fhèin. Tha teacsaichean nan ceadachasan sa Bheurla.</value></data>
+</root>

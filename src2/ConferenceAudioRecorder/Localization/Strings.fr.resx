@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Application :</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Changer de dossier</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Choisissez le périphérique d'entrée audio (microphone) :</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Choisissez le périphérique de sortie audio (casque) :</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Enregistreur audio de conférence</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Enregistrements de conférence</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>L'enregistrement de l'appareil est désactivé</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Compris !</value></data>
+  <data name="Help1" xml:space="preserve"><value>D'abord, sélectionnez les périphériques audio utilisés par le logiciel de conférence à enregistrer.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Ensuite, faites un essai. Si vous entendez un écho, le microphone capte le haut-parleur. Désactivez l'enregistrement du haut-parleur ou utilisez un casque.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Au début de la réunion, démarrez l'enregistrement, puis arrêtez-le à la fin.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Le fichier MP3 est enregistré dans le dossier des enregistrements. Cliquez sur « Voir les enregistrements » pour l'ouvrir.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licence</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Dossier des journaux</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Politique de confidentialité</value></data>
+  <data name="Recording" xml:space="preserve"><value>Enregistrement</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Enregistrement {0} de {1} à {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>L'enregistrement depuis l'appareil « {0} » est activé</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Enregistrer les fichiers dans le dossier :</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Voir les enregistrements</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Démarrer l'enregistrement</value></data>
+  <data name="Stop" xml:space="preserve"><value>Arrêter</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Assistance</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>À propos</value></data>
+  <data name="Settings" xml:space="preserve"><value>Paramètres</value></data>
+  <data name="Theme" xml:space="preserve"><value>Thème</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Sombre</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Clair</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Utiliser le thème du système</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Langue</value></data>
+  <data name="Close" xml:space="preserve"><value>Fermer</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Mentions de tiers</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Les composants tiers conservent leurs propres licences. Les textes de licence sont reproduits en anglais.</value></data>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplikacioni:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Ndrysho dosjen</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Zgjidhni pajisjen hyrëse të zërit (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Zgjidhni pajisjen dalëse të zërit (kufje):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Regjistrues i zërit të konferencave</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Regjistrime konferencash</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Regjistrimi i pajisjes është i fikur</value></data>
+  <data name="GotIt" xml:space="preserve"><value>E kuptova</value></data>
+  <data name="Help1" xml:space="preserve"><value>Së pari zgjidhni pajisjet e zërit që përdor programi i konferencës.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Pastaj bëni një regjistrim prove. Nëse dëgjoni jehonë, mikrofoni dëgjon altoparlantin. Fikni regjistrimin e altoparlantit ose përdorni kufje.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Në fillim të takimit filloni regjistrimin dhe ndaleni kur të mbarojë.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Skedari MP3 ruhet në dosjen e regjistrimeve. Butoni «Shih regjistrimet» e hap atë.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licenca</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Dosja e regjistrave</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Politika e privatësisë</value></data>
+  <data name="Recording" xml:space="preserve"><value>Regjistrim</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Regjistrim {0} nga {1} deri në {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Regjistrimi nga pajisja "{0}" është i ndezur</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Ruaj regjistrimet në dosje:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Shih regjistrimet</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Fillo regjistrimin</value></data>
+  <data name="Stop" xml:space="preserve"><value>Ndalo</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Mbështetje</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Rreth aplikacionit</value></data>
+  <data name="Settings" xml:space="preserve"><value>Cilësimet</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>E errët</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>E çelët</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Përdor temën e sistemit</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Gjuha</value></data>
+  <data name="Close" xml:space="preserve"><value>Mbyll</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Njoftime të palëve të treta</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Përbërësit e palëve të treta mbajnë licencat e tyre. Tekstet e licencave janë në anglisht.</value></data>
+</root>

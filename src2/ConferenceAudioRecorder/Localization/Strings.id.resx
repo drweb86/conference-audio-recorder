@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplikasi:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Ubah folder</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Pilih perangkat masukan audio (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Pilih perangkat keluaran audio (headphone):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Perekam audio konferensi</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Rekaman konferensi</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Perekaman perangkat dinonaktifkan</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Mengerti</value></data>
+  <data name="Help1" xml:space="preserve"><value>Pertama, pilih perangkat audio yang dipakai aplikasi konferensi yang ingin direkam.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Lalu buat rekaman uji. Jika terdengar gema, mikrofon menangkap speaker. Nonaktifkan perekaman speaker atau gunakan headphone.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Mulai merekam saat rapat dimulai, dan hentikan saat rapat selesai.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Berkas MP3 disimpan di folder rekaman. Tombol "Lihat rekaman" membuka folder itu.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lisensi</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Folder log</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Kebijakan privasi</value></data>
+  <data name="Recording" xml:space="preserve"><value>Rekaman</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Rekaman {0} dari {1} sampai {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Perekaman dari perangkat "{0}" aktif</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Simpan rekaman ke folder:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Lihat rekaman</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Mulai merekam</value></data>
+  <data name="Stop" xml:space="preserve"><value>Berhenti</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Dukungan</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Tentang aplikasi</value></data>
+  <data name="Settings" xml:space="preserve"><value>Pengaturan</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Gelap</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Terang</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Gunakan tema sistem</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Bahasa</value></data>
+  <data name="Close" xml:space="preserve"><value>Tutup</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Pemberitahuan pihak ketiga</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Komponen pihak ketiga tetap memakai lisensinya sendiri. Teks lisensi ditulis dalam bahasa Inggris.</value></data>
+</root>

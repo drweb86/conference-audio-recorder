@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplikacja:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Zmień folder</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Wybierz urządzenie wejściowe (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Wybierz urządzenie wyjściowe (słuchawki):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Rejestrator audio konferencji</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Nagrania konferencji</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Nagrywanie urządzenia jest wyłączone</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Rozumiem</value></data>
+  <data name="Help1" xml:space="preserve"><value>Najpierw wybierz urządzenia audio używane przez program konferencyjny, który chcesz nagrać.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Następnie zrób nagranie próbne. Jeśli słychać echo, mikrofon słyszy głośnik. Wyłącz nagrywanie głośnika albo użyj słuchawek.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Na początku spotkania rozpocznij nagrywanie i zatrzymaj je, gdy spotkanie się skończy.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Plik MP3 trafia do folderu nagrań. Przycisk „Zobacz nagrania” otwiera ten folder.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licencja</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Folder dzienników</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Polityka prywatności</value></data>
+  <data name="Recording" xml:space="preserve"><value>Nagrywanie</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Nagranie {0} od {1} do {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Nagrywanie z urządzenia „{0}” jest włączone</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Zapisuj nagrania do folderu:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Zobacz nagrania</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Rozpocznij nagrywanie</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Pomoc</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>O aplikacji</value></data>
+  <data name="Settings" xml:space="preserve"><value>Ustawienia</value></data>
+  <data name="Theme" xml:space="preserve"><value>Motyw</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Ciemny</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Jasny</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Użyj motywu systemu</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Język</value></data>
+  <data name="Close" xml:space="preserve"><value>Zamknij</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Informacje o składnikach innych firm</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Składniki innych firm zachowują własne licencje. Treść licencji jest po angielsku.</value></data>
+</root>

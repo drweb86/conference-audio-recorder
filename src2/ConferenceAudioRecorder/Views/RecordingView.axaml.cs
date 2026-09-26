@@ -23,6 +23,8 @@ public partial class RecordingView : UserControl
 
     public void RefreshProperties() => _model.Refresh();
 
+    public bool FocusRecordButton() => RecordButton.Focus();
+
     private async void OnRecordClick(object sender, RoutedEventArgs e)
     {
         if (_model.IsBusy)

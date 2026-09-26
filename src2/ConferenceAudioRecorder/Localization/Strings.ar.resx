@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>التطبيق:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>تغيير المجلد</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>اختر جهاز إدخال الصوت (الميكروفون):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>اختر جهاز إخراج الصوت (سماعات الرأس):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>مسجّل صوت الاجتماعات</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>تسجيلات الاجتماعات</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>تسجيل الجهاز متوقف</value></data>
+  <data name="GotIt" xml:space="preserve"><value>حسنًا</value></data>
+  <data name="Help1" xml:space="preserve"><value>أولًا، اختر أجهزة الصوت التي يستخدمها برنامج الاجتماع الذي تريد تسجيله.</value></data>
+  <data name="Help2" xml:space="preserve"><value>ثم أجرِ تسجيلًا تجريبيًا. إذا سمعت صدى، فالميكروفون يلتقط صوت السماعة. أوقف تسجيل السماعة أو استخدم سماعات الرأس.</value></data>
+  <data name="Help3" xml:space="preserve"><value>عند بداية الاجتماع ابدأ التسجيل، وأوقفه عند الانتهاء.</value></data>
+  <data name="Help4" xml:space="preserve"><value>يُحفظ ملف MP3 في مجلد التسجيلات. زر «عرض التسجيلات» يفتح المجلد.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>الترخيص</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>مجلد السجلات</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>سياسة الخصوصية</value></data>
+  <data name="Recording" xml:space="preserve"><value>التسجيل</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>تسجيل {0} من {1} إلى {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>التسجيل من الجهاز "{0}" مفعّل</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>حفظ التسجيلات في المجلد:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>عرض التسجيلات</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>بدء التسجيل</value></data>
+  <data name="Stop" xml:space="preserve"><value>إيقاف</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>الدعم</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>حول التطبيق</value></data>
+  <data name="Settings" xml:space="preserve"><value>الإعدادات</value></data>
+  <data name="Theme" xml:space="preserve"><value>السمة</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>داكنة</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>فاتحة</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>استخدام سمة النظام</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>اللغة</value></data>
+  <data name="Close" xml:space="preserve"><value>إغلاق</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>إشعارات الجهات الخارجية</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>تحتفظ مكونات الجهات الخارجية بتراخيصها. نصوص التراخيص واردة بالإنجليزية.</value></data>
+</root>

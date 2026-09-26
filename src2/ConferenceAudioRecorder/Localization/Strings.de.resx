@@ -1,90 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="Application" xml:space="preserve">
-    <value>Anwendung:</value>
-  </data>
-  <data name="ChangeFolder" xml:space="preserve">
-    <value>Ordner ändern</value>
-  </data>
-  <data name="ChooseAudioInputDevice" xml:space="preserve">
-    <value>Audioeingabegerät wählen (Mikrofon):</value>
-  </data>
-  <data name="ChooseAudioOutputDevice" xml:space="preserve">
-    <value>Audioausgabegerät wählen (Kopfhörer):</value>
-  </data>
-  <data name="ConferenceAudioRecorder" xml:space="preserve">
-    <value>Konferenz-Audiorekorder</value>
-  </data>
-  <data name="ConferenceRecordingsFolder" xml:space="preserve">
-    <value>Konferenzaufnahmen</value>
-  </data>
-  <data name="DeviceRecordingIsDisabled" xml:space="preserve">
-    <value>Geräteaufnahme ist deaktiviert</value>
-  </data>
-  <data name="GotIt" xml:space="preserve">
-    <value>Verstanden!</value>
-  </data>
-  <data name="Help1" xml:space="preserve">
-    <value>Wählen Sie zunächst die Audiogeräte aus, die in der Konferenzsoftware verwendet werden, die Sie aufzeichnen möchten.</value>
-  </data>
-  <data name="Help2" xml:space="preserve">
-    <value>Führen Sie zweitens eine Testaufnahme durch. Wenn Sie ein Echo in der Aufnahme hören, hört das Mikrofon wahrscheinlich Ihren Lautsprecher. Versuchen Sie in diesem Fall, die Aufnahme des Lautsprechers zu deaktivieren oder verwenden Sie Kopfhörer.</value>
-  </data>
-  <data name="Help3" xml:space="preserve">
-    <value>Klicken Sie drittens zu Beginn eines Meetings auf Aufnahme starten und stoppen Sie sie, wenn das Meeting endet.</value>
-  </data>
-  <data name="Help4" xml:space="preserve">
-    <value>Die MP3-Datei mit den Aufnahmen wird im Aufnahmeordner gespeichert. Klicken Sie auf die Schaltfläche „Aufnahmen anzeigen", um dorthin zu navigieren.</value>
-  </data>
-  <data name="LicenseLink" xml:space="preserve">
-    <value>Lizenz</value>
-  </data>
-  <data name="LogsFolder" xml:space="preserve">
-    <value>Protokollordner</value>
-  </data>
-  <data name="PrivatePolicyLink" xml:space="preserve">
-    <value>Datenschutzrichtlinie</value>
-  </data>
-  <data name="Recording" xml:space="preserve">
-    <value>Aufnahme</value>
-  </data>
-  <data name="RecordingFileName" xml:space="preserve">
-    <value>Aufnahme {0} von {1} bis {2}</value>
-  </data>
-  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve">
-    <value>Aufnahme vom Gerät „{0}" ist aktiviert</value>
-  </data>
-  <data name="SaveRecordingsToFolder" xml:space="preserve">
-    <value>Aufnahmen im Ordner speichern:</value>
-  </data>
-  <data name="SeeRecordings" xml:space="preserve">
-    <value>Aufnahmen anzeigen</value>
-  </data>
-  <data name="StartRecording" xml:space="preserve">
-    <value>Aufnahme starten</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Stoppen</value>
-  </data>
-  <data name="SupportLink" xml:space="preserve">
-    <value>Support</value>
-  </data>
-  <data name="TheApplicationView" xml:space="preserve">
-    <value>Über die Anwendung</value>
-  </data>
-  <data name="Settings" xml:space="preserve">
-    <value>Einstellungen</value>
-  </data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Anwendung:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Ordner ändern</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Audioeingabegerät wählen (Mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Audioausgabegerät wählen (Kopfhörer):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferenz-Audiorekorder</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferenzaufnahmen</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Geräteaufnahme ist deaktiviert</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Verstanden!</value></data>
+  <data name="Help1" xml:space="preserve"><value>Wählen Sie zunächst die Audiogeräte aus, die in der Konferenzsoftware verwendet werden, die Sie aufzeichnen möchten.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Führen Sie zweitens eine Testaufnahme durch. Wenn Sie ein Echo in der Aufnahme hören, hört das Mikrofon wahrscheinlich Ihren Lautsprecher. Versuchen Sie in diesem Fall, die Aufnahme des Lautsprechers zu deaktivieren oder verwenden Sie Kopfhörer.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Klicken Sie drittens zu Beginn eines Meetings auf Aufnahme starten und stoppen Sie sie, wenn das Meeting endet.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Die MP3-Datei mit den Aufnahmen wird im Aufnahmeordner gespeichert. Klicken Sie auf die Schaltfläche „Aufnahmen anzeigen“, um dorthin zu navigieren.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lizenz</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Protokollordner</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Datenschutzrichtlinie</value></data>
+  <data name="Recording" xml:space="preserve"><value>Aufnahme</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Aufnahme {0} von {1} bis {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Aufnahme vom Gerät „{0}“ ist aktiviert</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Aufnahmen im Ordner speichern:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Aufnahmen anzeigen</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Aufnahme starten</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stoppen</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Support</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Über die Anwendung</value></data>
+  <data name="Settings" xml:space="preserve"><value>Einstellungen</value></data>
+  <data name="Theme" xml:space="preserve"><value>Design</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Dunkel</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Hell</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Systemdesign verwenden</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Sprache</value></data>
+  <data name="Close" xml:space="preserve"><value>Schließen</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Hinweise zu Drittanbietern</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Komponenten von Drittanbietern behalten ihre eigenen Lizenzen. Die Lizenztexte stehen auf Englisch.</value></data>
 </root>

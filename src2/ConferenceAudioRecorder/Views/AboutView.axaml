@@ -6,7 +6,8 @@
     <StackPanel Spacing="8" HorizontalAlignment="Left">
         <Button Classes="hyperlink" Content="{loc:Loc LogsFolder}" Click="OnOpenLogsFolder" />
         <Button Classes="hyperlink" Content="{loc:Loc SupportLink}" Click="OnOpenSupportLink" />
-        <Button Classes="hyperlink" Content="{loc:Loc LicenseLink}" Click="OnOpenLicenseLink" />
-        <Button Classes="hyperlink" Content="{loc:Loc PrivatePolicyLink}" Click="OnOpenPrivatePolicyLink" />
+        <Button Classes="hyperlink" Content="{loc:Loc LicenseLink}" Click="OnOpenLicense" />
+        <Button Classes="hyperlink" Content="{loc:Loc ThirdPartyNotices}" Click="OnOpenThirdParty" />
+        <Button Classes="hyperlink" Content="{loc:Loc PrivatePolicyLink}" Click="OnOpenPrivacy" />
     </StackPanel>
 </UserControl>

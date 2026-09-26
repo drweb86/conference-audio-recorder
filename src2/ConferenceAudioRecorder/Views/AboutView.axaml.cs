@@ -1,5 +1,6 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using ConferenceAudioRecorder.Legal;
 
 namespace ConferenceAudioRecorder.Views;
 
@@ -14,7 +15,15 @@ public partial class AboutView : UserControl
 
     private void OnOpenSupportLink(object sender, RoutedEventArgs e) => App.Controller.OpenSupportLink();
 
-    private void OnOpenLicenseLink(object sender, RoutedEventArgs e) => App.Controller.OpenLicenseLink();
+    private void OnOpenLicense(object sender, RoutedEventArgs e) => Show(LegalDocumentKind.License);
 
-    private void OnOpenPrivatePolicyLink(object sender, RoutedEventArgs e) => App.Controller.OpenPrivatePolicyLink();
+    private void OnOpenThirdParty(object sender, RoutedEventArgs e) => Show(LegalDocumentKind.ThirdParty);
+
+    private void OnOpenPrivacy(object sender, RoutedEventArgs e) => Show(LegalDocumentKind.Privacy);
+
+    private void Show(LegalDocumentKind kind)
+    {
+        if (TopLevel.GetTopLevel(this) is MainWindow window)
+            window.ShowDocument(kind);
+    }
 }

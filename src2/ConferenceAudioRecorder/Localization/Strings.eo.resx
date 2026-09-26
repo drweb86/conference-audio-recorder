@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplikaĵo:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Ŝanĝi dosierujon</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Elektu la soneniran aparaton (mikrofono):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Elektu la soneliran aparaton (kapaŭskultiloj):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferenca sonregistrilo</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferencaj registraĵoj</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Aparata registrado estas malŝaltita</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Komprenite</value></data>
+  <data name="Help1" xml:space="preserve"><value>Unue elektu la sonaparatojn, kiujn uzas la konferenca programo.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Poste faru provregistron. Se vi aŭdas eĥon, la mikrofono aŭdas la laŭtparolilon. Malŝaltu la registradon de la laŭtparolilo aŭ uzu kapaŭskultilojn.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Komence de la kunveno ekregistru, kaj haltu kiam ĝi finiĝas.</value></data>
+  <data name="Help4" xml:space="preserve"><value>La MP3-dosiero konserviĝas en la dosierujo de registraĵoj. La butono "Vidi registraĵojn" malfermas ĝin.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Permesilo</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Dosierujo de protokoloj</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Privateca politiko</value></data>
+  <data name="Recording" xml:space="preserve"><value>Registrado</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Registraĵo {0} de {1} ĝis {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Registrado de la aparato "{0}" estas ŝaltita</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Konservi registraĵojn en la dosierujo:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Vidi registraĵojn</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Ekregistri</value></data>
+  <data name="Stop" xml:space="preserve"><value>Halti</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Subteno</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Pri la aplikaĵo</value></data>
+  <data name="Settings" xml:space="preserve"><value>Agordoj</value></data>
+  <data name="Theme" xml:space="preserve"><value>Etoso</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Malhela</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Hela</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Uzi la sisteman etoson</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Lingvo</value></data>
+  <data name="Close" xml:space="preserve"><value>Fermi</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Sciigoj pri triaj komponantoj</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Triaj komponantoj konservas siajn proprajn permesilojn. La permesilaj tekstoj estas en la angla.</value></data>
+</root>

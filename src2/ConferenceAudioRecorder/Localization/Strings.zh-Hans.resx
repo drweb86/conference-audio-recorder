@@ -1,90 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="Application" xml:space="preserve">
-    <value>应用程序：</value>
-  </data>
-  <data name="ChangeFolder" xml:space="preserve">
-    <value>更改文件夹</value>
-  </data>
-  <data name="ChooseAudioInputDevice" xml:space="preserve">
-    <value>选择音频输入设备（麦克风）：</value>
-  </data>
-  <data name="ChooseAudioOutputDevice" xml:space="preserve">
-    <value>选择音频输出设备（耳机）：</value>
-  </data>
-  <data name="ConferenceAudioRecorder" xml:space="preserve">
-    <value>会议录音器</value>
-  </data>
-  <data name="ConferenceRecordingsFolder" xml:space="preserve">
-    <value>会议录音</value>
-  </data>
-  <data name="DeviceRecordingIsDisabled" xml:space="preserve">
-    <value>设备录音已禁用</value>
-  </data>
-  <data name="GotIt" xml:space="preserve">
-    <value>明白了！</value>
-  </data>
-  <data name="Help1" xml:space="preserve">
-    <value>首先，选择您想要录音的会议软件所使用的音频设备。</value>
-  </data>
-  <data name="Help2" xml:space="preserve">
-    <value>其次，进行测试录音。如果您在录音中听到回声，那么可能是麦克风听到了您的扬声器。在这种情况下，请尝试禁用扬声器录音或使用耳机。</value>
-  </data>
-  <data name="Help3" xml:space="preserve">
-    <value>第三，在会议开始时点击开始录音，会议结束时停止录音。</value>
-  </data>
-  <data name="Help4" xml:space="preserve">
-    <value>录音的MP3文件将保存在录音文件夹中。点击"查看录音"按钮即可导航到该文件夹。</value>
-  </data>
-  <data name="LicenseLink" xml:space="preserve">
-    <value>许可证</value>
-  </data>
-  <data name="LogsFolder" xml:space="preserve">
-    <value>日志文件夹</value>
-  </data>
-  <data name="PrivatePolicyLink" xml:space="preserve">
-    <value>隐私政策</value>
-  </data>
-  <data name="Recording" xml:space="preserve">
-    <value>录音</value>
-  </data>
-  <data name="RecordingFileName" xml:space="preserve">
-    <value>录音 {0} 从 {1} 到 {2}</value>
-  </data>
-  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve">
-    <value>已启用从"{0}"设备录音</value>
-  </data>
-  <data name="SaveRecordingsToFolder" xml:space="preserve">
-    <value>保存录音到文件夹：</value>
-  </data>
-  <data name="SeeRecordings" xml:space="preserve">
-    <value>查看录音</value>
-  </data>
-  <data name="StartRecording" xml:space="preserve">
-    <value>开始录音</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>停止</value>
-  </data>
-  <data name="SupportLink" xml:space="preserve">
-    <value>支持</value>
-  </data>
-  <data name="TheApplicationView" xml:space="preserve">
-    <value>关于应用程序</value>
-  </data>
-  <data name="Settings" xml:space="preserve">
-    <value>设置</value>
-  </data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>应用程序：</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>更改文件夹</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>选择音频输入设备（麦克风）：</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>选择音频输出设备（耳机）：</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>会议录音器</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>会议录音</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>设备录音已禁用</value></data>
+  <data name="GotIt" xml:space="preserve"><value>明白了！</value></data>
+  <data name="Help1" xml:space="preserve"><value>首先，选择您想要录音的会议软件所使用的音频设备。</value></data>
+  <data name="Help2" xml:space="preserve"><value>其次，进行测试录音。如果您在录音中听到回声，那么可能是麦克风听到了您的扬声器。在这种情况下，请尝试禁用扬声器录音或使用耳机。</value></data>
+  <data name="Help3" xml:space="preserve"><value>第三，在会议开始时点击开始录音，会议结束时停止录音。</value></data>
+  <data name="Help4" xml:space="preserve"><value>录音的 MP3 文件将保存在录音文件夹中。点击“查看录音”按钮即可打开该文件夹。</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>许可证</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>日志文件夹</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>隐私政策</value></data>
+  <data name="Recording" xml:space="preserve"><value>录音</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>录音 {0} 从 {1} 到 {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>已启用从“{0}”设备录音</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>保存录音到文件夹：</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>查看录音</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>开始录音</value></data>
+  <data name="Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>支持</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>关于应用程序</value></data>
+  <data name="Settings" xml:space="preserve"><value>设置</value></data>
+  <data name="Theme" xml:space="preserve"><value>主题</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>深色</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>浅色</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>使用系统主题</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>语言</value></data>
+  <data name="Close" xml:space="preserve"><value>关闭</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>第三方声明</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>第三方组件保留其自身许可证。许可证正文以英文提供。</value></data>
 </root>

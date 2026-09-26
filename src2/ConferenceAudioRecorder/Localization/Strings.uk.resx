@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Програма:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Змінити теку</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Виберіть пристрій введення звуку (мікрофон):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Виберіть пристрій виведення звуку (навушники):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Запис аудіоконференцій</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Записи конференцій</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Запис із пристрою вимкнено</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Зрозуміло</value></data>
+  <data name="Help1" xml:space="preserve"><value>Спочатку виберіть аудіопристрої, які використовує програма для конференцій.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Потім зробіть пробний запис. Якщо чути луну, мікрофон чує динамік. Вимкніть запис динаміка або скористайтеся навушниками.</value></data>
+  <data name="Help3" xml:space="preserve"><value>На початку зустрічі почніть запис, а наприкінці зупиніть його.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Файл MP3 зберігається в теці записів. Кнопка «Переглянути записи» відкриває її.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Ліцензія</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Тека журналів</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Конфіденційність</value></data>
+  <data name="Recording" xml:space="preserve"><value>Запис</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Запис {0} з {1} до {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Запис із пристрою «{0}» увімкнено</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Зберігати записи в теку:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Переглянути записи</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Почати запис</value></data>
+  <data name="Stop" xml:space="preserve"><value>Стоп</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Підтримка</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Про програму</value></data>
+  <data name="Settings" xml:space="preserve"><value>Параметри</value></data>
+  <data name="Theme" xml:space="preserve"><value>Тема</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Темна</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Світла</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Як у системі</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Мова</value></data>
+  <data name="Close" xml:space="preserve"><value>Закрити</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Повідомлення про сторонні компоненти</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Сторонні компоненти зберігають власні ліцензії. Тексти ліцензій наведено англійською.</value></data>
+</root>

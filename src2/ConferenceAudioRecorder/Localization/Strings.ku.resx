@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Sepan:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Peldankê biguherîne</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Amûra têketina deng (mîkrofon) hilbijêre:</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Amûra derketina deng (guhî) hilbijêre:</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Tomarkera dengê konferansê</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Tomarên konferansê</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Tomarkirina amûrê girtî ye</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Fêm kir</value></data>
+  <data name="Help1" xml:space="preserve"><value>Pêşî amûrên deng ên ku bernameya konferansê bi kar tîne hilbijêre.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Paşê tomarek ceribandinê çêke. Heke dengvedan bibihîzî, mîkrofon bilêvkê dibihîze. Tomarkirina bilêvkê bigire an guhî bi kar bîne.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Demê civîn dest pê dike tomarê bide destpêkirin û demê xelas dibe rawestîne.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Pela MP3 di peldanka tomaran de tê tomarkirin. Bişkoka "Tomaran bibîne" wê peldankê vedike.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lîsans</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Peldanka rojnameyan</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Polîtîkaya nepenîtiyê</value></data>
+  <data name="Recording" xml:space="preserve"><value>Tomar</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Tomar {0} ji {1} heta {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Tomarkirin ji amûra "{0}" vekirî ye</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Tomaran di peldankê de tomar bike:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Tomaran bibîne</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Tomarê bide destpêkirin</value></data>
+  <data name="Stop" xml:space="preserve"><value>Rawestîne</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Piştgirî</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Derbarê sepanê</value></data>
+  <data name="Settings" xml:space="preserve"><value>Mîheng</value></data>
+  <data name="Theme" xml:space="preserve"><value>Rûkar</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Tarî</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Ronak</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Rûkara pergalê bi kar bîne</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Ziman</value></data>
+  <data name="Close" xml:space="preserve"><value>Bigire</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Agahiyên aliyê sêyem</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Pêkhateyên aliyê sêyem lîsansên xwe diparêzin. Nivîsên lîsansê bi îngilîzî ne.</value></data>
+</root>

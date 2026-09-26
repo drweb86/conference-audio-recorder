@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Хэрэглээ:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Хавтас солих</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Дууны оролтын төхөөрөмж сонгоно уу (микрофон):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Дууны гаралтын төхөөрөмж сонгоно уу (чихэвч):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Хурлын дуу бичигч</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Хурлын бичлэгүүд</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Төхөөрөмжийн бичлэг унтраалттай</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Ойлголоо</value></data>
+  <data name="Help1" xml:space="preserve"><value>Эхлээд хурлын програм ашиглаж буй дууны төхөөрөмжүүдийг сонгоно уу.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Дараа нь туршилтын бичлэг хийнэ үү. Цуурай сонсогдвол микрофон чанга яригчийг сонсож байна. Чанга яригчийн бичлэгийг унтраах эсвэл чихэвч ашиглана уу.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Уулзалт эхлэхэд бичлэгийг эхлүүлж, дуусахад зогсооно уу.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 файл бичлэгийн хавтаст хадгалагдана. «Бичлэг үзэх» товч тэр хавтсыг нээнэ.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Лиценз</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Бүртгэлийн хавтас</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Нууцлалын бодлого</value></data>
+  <data name="Recording" xml:space="preserve"><value>Бичлэг</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Бичлэг {0}, {1}-ээс {2} хүртэл</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>«{0}» төхөөрөмжөөс бичиж байна</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Бичлэгүүдийг хавтаст хадгалах:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Бичлэг үзэх</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Бичлэг эхлүүлэх</value></data>
+  <data name="Stop" xml:space="preserve"><value>Зогсоох</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Дэмжлэг</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Хэрэглээний тухай</value></data>
+  <data name="Settings" xml:space="preserve"><value>Тохиргоо</value></data>
+  <data name="Theme" xml:space="preserve"><value>Загвар</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Бараан</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Цайвар</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Системийн загвар ашиглах</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Хэл</value></data>
+  <data name="Close" xml:space="preserve"><value>Хаах</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Гуравдагч этгээдийн мэдэгдэл</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Гуравдагч этгээдийн бүрэлдэхүүн хэсгүүд өөрсдийн лицензээ хадгална. Лицензийн текст англиар байна.</value></data>
+</root>

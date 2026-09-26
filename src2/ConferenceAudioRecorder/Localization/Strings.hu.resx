@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Alkalmazás:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Mappa módosítása</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Válassza ki a bemeneti hangeszközt (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Válassza ki a kimeneti hangeszközt (fejhallgató):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferencia-hangrögzítő</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferenciafelvételek</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Az eszköz rögzítése ki van kapcsolva</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Értem</value></data>
+  <data name="Help1" xml:space="preserve"><value>Először válassza ki a konferenciaprogram által használt hangeszközöket.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Ezután készítsen próbarögzítést. Ha visszhangot hall, a mikrofon a hangszórót veszi. Kapcsolja ki a hangszóró rögzítését, vagy használjon fejhallgatót.</value></data>
+  <data name="Help3" xml:space="preserve"><value>A találkozó elején indítsa el a rögzítést, és a végén állítsa le.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Az MP3 a felvételek mappájába kerül. A „Felvételek megtekintése” gomb megnyitja.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licenc</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Naplómappa</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Adatvédelmi irányelvek</value></data>
+  <data name="Recording" xml:space="preserve"><value>Rögzítés</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Felvétel {0}, {1}–{2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>A(z) „{0}” eszköz rögzítése be van kapcsolva</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Felvételek mentése ebbe a mappába:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Felvételek megtekintése</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Rögzítés indítása</value></data>
+  <data name="Stop" xml:space="preserve"><value>Leállítás</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Támogatás</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Az alkalmazásról</value></data>
+  <data name="Settings" xml:space="preserve"><value>Beállítások</value></data>
+  <data name="Theme" xml:space="preserve"><value>Téma</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Sötét</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Világos</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Rendszertéma használata</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Nyelv</value></data>
+  <data name="Close" xml:space="preserve"><value>Bezárás</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Harmadik felek közleményei</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>A harmadik felek összetevői megtartják saját licenceiket. A licencszövegek angolul szerepelnek.</value></data>
+</root>

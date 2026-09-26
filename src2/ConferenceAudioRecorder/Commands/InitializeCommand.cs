@@ -37,6 +37,9 @@ internal class InitializeCommand
             controller.Model.Settings.AudioOutputDevice = defaultOutputDevice;
         }
 
+        if (string.IsNullOrWhiteSpace(controller.Model.Settings.Theme))
+            controller.Model.Settings.Theme = "Dark";
+
         if (string.IsNullOrWhiteSpace(controller.Model.Settings.SaveRecordingToFolder))
         {
             var localizedFolder = Strings.Get("ConferenceRecordingsFolder");

@@ -17,7 +17,8 @@
     </UserControl.Resources>
 
     <Grid Margin="16" ColumnDefinitions="Auto,Auto,Auto" RowDefinitions="Auto,Auto">
-        <Button Grid.Row="0"
+        <Button x:Name="RecordButton"
+                Grid.Row="0"
                 Grid.RowSpan="2"
                 Grid.Column="0"
                 Classes="accent"

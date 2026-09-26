@@ -20,6 +20,7 @@ public partial class App : Application
     {
         Controller = new AudioRecorderToolController(CreateLog());
         Controller.Initialize();
+        ThemeApplicator.Apply(Controller.Model.Settings.Theme);
 
         Dispatcher.UIThread.UnhandledException += (_, e) =>
         {
@@ -37,7 +38,7 @@ public partial class App : Application
 
     private static ILog CreateLog()
     {
-        var log = new HtmlLog(AppPaths.Logs);
+        var log = new NLogLog(AppPaths.Logs);
         log.Open();
         return log;
     }

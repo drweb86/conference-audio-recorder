@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>App:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Change folder</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Choose audio input device (microphone):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Choose audio output device (headphone):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Conference audio recorder</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Conference recordings</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Device recording dey off</value></data>
+  <data name="GotIt" xml:space="preserve"><value>I don understand</value></data>
+  <data name="Help1" xml:space="preserve"><value>First, choose the audio devices wey the conference software dey use.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Then do test recording. If you hear echo, microphone dey hear the speaker. Off speaker recording or use headphone.</value></data>
+  <data name="Help3" xml:space="preserve"><value>When meeting start, start recording, and stop am when meeting end.</value></data>
+  <data name="Help4" xml:space="preserve"><value>The MP3 file go save for recordings folder. The button 'See recordings' go open the folder.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>License</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Logs folder</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Privacy policy</value></data>
+  <data name="Recording" xml:space="preserve"><value>Recording</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Recording {0} from {1} to {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Recording from device "{0}" dey on</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Save recordings to folder:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>See recordings</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Start recording</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Support</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>About the app</value></data>
+  <data name="Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="Theme" xml:space="preserve"><value>Theme</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Dark</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Light</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Use system theme</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Language</value></data>
+  <data name="Close" xml:space="preserve"><value>Close</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Third-party notices</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Third-party components keep their own licenses. The license texts dey in English.</value></data>
+</root>

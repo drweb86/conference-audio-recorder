@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Εφαρμογή:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Αλλαγή φακέλου</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Επιλέξτε συσκευή εισόδου ήχου (μικρόφωνο):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Επιλέξτε συσκευή εξόδου ήχου (ακουστικά):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Εγγραφή ήχου συνδιάσκεψης</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Εγγραφές συνδιασκέψεων</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Η εγγραφή της συσκευής είναι απενεργοποιημένη</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Το κατάλαβα</value></data>
+  <data name="Help1" xml:space="preserve"><value>Πρώτα επιλέξτε τις συσκευές ήχου που χρησιμοποιεί το πρόγραμμα συνδιάσκεψης.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Έπειτα κάντε μια δοκιμαστική εγγραφή. Αν ακούτε ηχώ, το μικρόφωνο ακούει το ηχείο. Απενεργοποιήστε την εγγραφή του ηχείου ή χρησιμοποιήστε ακουστικά.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Στην αρχή της συνάντησης ξεκινήστε την εγγραφή και σταματήστε την στο τέλος.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Το αρχείο MP3 αποθηκεύεται στον φάκελο εγγραφών. Το κουμπί «Προβολή εγγραφών» τον ανοίγει.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Άδεια</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Φάκελος αρχείων καταγραφής</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Πολιτική απορρήτου</value></data>
+  <data name="Recording" xml:space="preserve"><value>Εγγραφή</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Εγγραφή {0} από {1} έως {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Η εγγραφή από τη συσκευή "{0}" είναι ενεργή</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Αποθήκευση εγγραφών στον φάκελο:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Προβολή εγγραφών</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Έναρξη εγγραφής</value></data>
+  <data name="Stop" xml:space="preserve"><value>Διακοπή</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Υποστήριξη</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Σχετικά</value></data>
+  <data name="Settings" xml:space="preserve"><value>Ρυθμίσεις</value></data>
+  <data name="Theme" xml:space="preserve"><value>Θέμα</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Σκούρο</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Ανοιχτό</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Θέμα συστήματος</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Γλώσσα</value></data>
+  <data name="Close" xml:space="preserve"><value>Κλείσιμο</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Σημειώσεις τρίτων</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Τα στοιχεία τρίτων διατηρούν τις δικές τους άδειες. Τα κείμενα των αδειών είναι στα αγγλικά.</value></data>
+</root>

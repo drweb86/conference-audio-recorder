@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Ilova:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Jildni almashtirish</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Audio kirish qurilmasini tanlang (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Audio chiqish qurilmasini tanlang (quloqchin):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferensiya audio yozuvchisi</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferensiya yozuvlari</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Qurilmadan yozib olish o‘chirilgan</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Tushundim</value></data>
+  <data name="Help1" xml:space="preserve"><value>Avval konferensiya dasturi ishlatadigan audio qurilmalarni tanlang.</value></data>
+  <data name="Help2" xml:space="preserve"><value>So‘ng sinov yozuvi oling. Aks-sado eshitsangiz, mikrofon karnayni eshitayapti. Karnay yozuvini o‘chiring yoki quloqchin ishlating.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Uchrashuv boshlanganda yozishni boshlang va tugaganda to‘xtating.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 fayl yozuvlar jildiga saqlanadi. «Yozuvlarni ko‘rish» tugmasi uni ochadi.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Litsenziya</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Jurnallar jildi</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Maxfiylik siyosati</value></data>
+  <data name="Recording" xml:space="preserve"><value>Yozib olish</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Yozuv {0}, {1} dan {2} gacha</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>«{0}» qurilmasidan yozib olish yoqilgan</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Yozuvlarni jildga saqlash:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Yozuvlarni ko‘rish</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Yozishni boshlash</value></data>
+  <data name="Stop" xml:space="preserve"><value>To‘xtatish</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Yordam</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Ilova haqida</value></data>
+  <data name="Settings" xml:space="preserve"><value>Sozlamalar</value></data>
+  <data name="Theme" xml:space="preserve"><value>Mavzu</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Qorong‘i</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Yorug‘</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Tizim mavzusidan foydalanish</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Til</value></data>
+  <data name="Close" xml:space="preserve"><value>Yopish</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Uchinchi tomon eslatmalari</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Uchinchi tomon tarkibiy qismlari o‘z litsenziyalarini saqlaydi. Litsenziya matnlari ingliz tilida.</value></data>
+</root>

@@ -87,4 +87,28 @@
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
   </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="ThemeDark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="ThemeLight" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="ThemeSystem" xml:space="preserve">
+    <value>Use system theme</value>
+  </data>
+  <data name="DocumentLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ThirdPartyNotices" xml:space="preserve">
+    <value>Third-party notices</value>
+  </data>
+  <data name="ThirdPartyNote" xml:space="preserve">
+    <value>Third-party components keep their own licenses. The license texts are reproduced in English.</value>
+  </data>
 </root>

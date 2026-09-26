@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplicație:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Schimbă folderul</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Alegeți dispozitivul de intrare audio (microfon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Alegeți dispozitivul de ieșire audio (căști):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Înregistrare audio pentru conferințe</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Înregistrări de conferință</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Înregistrarea dispozitivului este dezactivată</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Am înțeles</value></data>
+  <data name="Help1" xml:space="preserve"><value>Mai întâi alegeți dispozitivele audio folosite de programul de conferință.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Apoi faceți o înregistrare de probă. Dacă auziți ecou, microfonul aude difuzorul. Dezactivați înregistrarea difuzorului sau folosiți căști.</value></data>
+  <data name="Help3" xml:space="preserve"><value>La începutul întâlnirii porniți înregistrarea și opriți-o la final.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Fișierul MP3 este salvat în folderul de înregistrări. Butonul „Vezi înregistrările” îl deschide.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licență</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Folder jurnale</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Politica de confidențialitate</value></data>
+  <data name="Recording" xml:space="preserve"><value>Înregistrare</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Înregistrare {0} de la {1} la {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Înregistrarea de pe dispozitivul "{0}" este activată</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Salvează înregistrările în folderul:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Vezi înregistrările</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Pornește înregistrarea</value></data>
+  <data name="Stop" xml:space="preserve"><value>Oprește</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Asistență</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Despre aplicație</value></data>
+  <data name="Settings" xml:space="preserve"><value>Setări</value></data>
+  <data name="Theme" xml:space="preserve"><value>Temă</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Întunecată</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Luminoasă</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Folosește tema sistemului</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Limbă</value></data>
+  <data name="Close" xml:space="preserve"><value>Închide</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Notificări de la terți</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Componentele terților își păstrează licențele. Textele licențelor sunt în engleză.</value></data>
+</root>

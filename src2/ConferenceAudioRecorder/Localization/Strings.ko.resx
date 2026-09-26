@@ -1,90 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="Application" xml:space="preserve">
-    <value>애플리케이션:</value>
-  </data>
-  <data name="ChangeFolder" xml:space="preserve">
-    <value>폴더 변경</value>
-  </data>
-  <data name="ChooseAudioInputDevice" xml:space="preserve">
-    <value>오디오 입력 장치(마이크) 선택:</value>
-  </data>
-  <data name="ChooseAudioOutputDevice" xml:space="preserve">
-    <value>오디오 출력 장치(헤드폰) 선택:</value>
-  </data>
-  <data name="ConferenceAudioRecorder" xml:space="preserve">
-    <value>회의 오디오 녹음기</value>
-  </data>
-  <data name="ConferenceRecordingsFolder" xml:space="preserve">
-    <value>회의 녹음</value>
-  </data>
-  <data name="DeviceRecordingIsDisabled" xml:space="preserve">
-    <value>장치 녹음이 비활성화되었습니다</value>
-  </data>
-  <data name="GotIt" xml:space="preserve">
-    <value>알겠습니다!</value>
-  </data>
-  <data name="Help1" xml:space="preserve">
-    <value>먼저, 녹음하려는 회의 소프트웨어에서 사용하는 오디오 장치를 선택하세요.</value>
-  </data>
-  <data name="Help2" xml:space="preserve">
-    <value>둘째, 테스트 녹음을 수행하세요. 녹음에서 에코가 들리면 마이크가 스피커 소리를 듣고 있을 가능성이 있습니다. 이 경우 스피커 녹음을 비활성화하거나 헤드폰을 사용하세요.</value>
-  </data>
-  <data name="Help3" xml:space="preserve">
-    <value>셋째, 회의 시작 시 녹음 시작을 클릭하고 회의가 끝나면 중지하세요.</value>
-  </data>
-  <data name="Help4" xml:space="preserve">
-    <value>녹음된 MP3 파일은 녹음 폴더에 저장됩니다. '녹음 보기' 버튼을 클릭하여 해당 폴더로 이동하세요.</value>
-  </data>
-  <data name="LicenseLink" xml:space="preserve">
-    <value>라이선스</value>
-  </data>
-  <data name="LogsFolder" xml:space="preserve">
-    <value>로그 폴더</value>
-  </data>
-  <data name="PrivatePolicyLink" xml:space="preserve">
-    <value>개인정보 처리방침</value>
-  </data>
-  <data name="Recording" xml:space="preserve">
-    <value>녹음</value>
-  </data>
-  <data name="RecordingFileName" xml:space="preserve">
-    <value>녹음 {0} {1}부터 {2}까지</value>
-  </data>
-  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve">
-    <value>"{0}" 장치에서 녹음이 활성화되었습니다</value>
-  </data>
-  <data name="SaveRecordingsToFolder" xml:space="preserve">
-    <value>녹음을 폴더에 저장:</value>
-  </data>
-  <data name="SeeRecordings" xml:space="preserve">
-    <value>녹음 보기</value>
-  </data>
-  <data name="StartRecording" xml:space="preserve">
-    <value>녹음 시작</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>중지</value>
-  </data>
-  <data name="SupportLink" xml:space="preserve">
-    <value>지원</value>
-  </data>
-  <data name="TheApplicationView" xml:space="preserve">
-    <value>애플리케이션 정보</value>
-  </data>
-  <data name="Settings" xml:space="preserve">
-    <value>설정</value>
-  </data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>애플리케이션:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>폴더 변경</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>오디오 입력 장치(마이크) 선택:</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>오디오 출력 장치(헤드폰) 선택:</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>회의 오디오 녹음기</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>회의 녹음</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>장치 녹음이 비활성화되었습니다</value></data>
+  <data name="GotIt" xml:space="preserve"><value>알겠습니다!</value></data>
+  <data name="Help1" xml:space="preserve"><value>먼저, 녹음하려는 회의 소프트웨어에서 사용하는 오디오 장치를 선택하세요.</value></data>
+  <data name="Help2" xml:space="preserve"><value>둘째, 테스트 녹음을 수행하세요. 녹음에서 에코가 들리면 마이크가 스피커 소리를 듣고 있을 가능성이 있습니다. 이 경우 스피커 녹음을 비활성화하거나 헤드폰을 사용하세요.</value></data>
+  <data name="Help3" xml:space="preserve"><value>셋째, 회의 시작 시 녹음 시작을 클릭하고 회의가 끝나면 중지하세요.</value></data>
+  <data name="Help4" xml:space="preserve"><value>녹음된 MP3 파일은 녹음 폴더에 저장됩니다. '녹음 보기' 버튼을 클릭하여 해당 폴더로 이동하세요.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>라이선스</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>로그 폴더</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>개인정보 처리방침</value></data>
+  <data name="Recording" xml:space="preserve"><value>녹음</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>녹음 {0} {1}부터 {2}까지</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>"{0}" 장치에서 녹음이 활성화되었습니다</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>녹음을 폴더에 저장:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>녹음 보기</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>녹음 시작</value></data>
+  <data name="Stop" xml:space="preserve"><value>중지</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>지원</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>애플리케이션 정보</value></data>
+  <data name="Settings" xml:space="preserve"><value>설정</value></data>
+  <data name="Theme" xml:space="preserve"><value>테마</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>어둡게</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>밝게</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>시스템 테마 사용</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>언어</value></data>
+  <data name="Close" xml:space="preserve"><value>닫기</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>제3자 고지</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>제3자 구성 요소는 자체 라이선스를 유지합니다. 라이선스 본문은 영어입니다.</value></data>
 </root>

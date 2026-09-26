@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplicació:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Canvia la carpeta</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Trieu el dispositiu d'entrada d'àudio (micròfon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Trieu el dispositiu de sortida d'àudio (auriculars):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Enregistrador d'àudio de conferències</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Enregistraments de conferències</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>L'enregistrament del dispositiu està desactivat</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Entesos</value></data>
+  <data name="Help1" xml:space="preserve"><value>Primer, trieu els dispositius d'àudio que fa servir el programari de conferències.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Després feu un enregistrament de prova. Si sentiu eco, el micròfon sent l'altaveu. Desactiveu l'enregistrament de l'altaveu o feu servir auriculars.</value></data>
+  <data name="Help3" xml:space="preserve"><value>En començar la reunió, inicieu l'enregistrament i atureu-lo en acabar.</value></data>
+  <data name="Help4" xml:space="preserve"><value>El fitxer MP3 es desa a la carpeta d'enregistraments. El botó «Veure enregistraments» l'obre.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Llicència</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Carpeta de registres</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Política de privadesa</value></data>
+  <data name="Recording" xml:space="preserve"><value>Enregistrament</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Enregistrament {0} de {1} a {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>L'enregistrament del dispositiu "{0}" està activat</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Desa els enregistraments a la carpeta:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Veure enregistraments</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Inicia l'enregistrament</value></data>
+  <data name="Stop" xml:space="preserve"><value>Atura</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Suport</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Quant a l'aplicació</value></data>
+  <data name="Settings" xml:space="preserve"><value>Configuració</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Fosc</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Clar</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Usa el tema del sistema</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Llengua</value></data>
+  <data name="Close" xml:space="preserve"><value>Tanca</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Avisos de tercers</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Els components de tercers conserven les seves llicències. Els textos de llicència són en anglès.</value></data>
+</root>

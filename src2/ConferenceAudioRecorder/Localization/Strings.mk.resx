@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Апликација:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Смени папка</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Изберете влезен аудиоуред (микрофон):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Изберете излезен аудиоуред (слушалки):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Снимач на звук од конференции</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Снимки од конференции</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Снимањето од уредот е исклучено</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Разбрав</value></data>
+  <data name="Help1" xml:space="preserve"><value>Прво изберете ги аудиоуредите што ги користи програмот за конференции.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Потоа направете пробно снимање. Ако слушате ехо, микрофонот го слуша звучникот. Исклучете го снимањето на звучникот или користете слушалки.</value></data>
+  <data name="Help3" xml:space="preserve"><value>На почетокот на средбата започнете со снимање и запрете на крајот.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3-датотеката се зачувува во папката со снимки. Копчето „Прикажи снимки“ ја отвора.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Лиценца</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Папка со дневници</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Политика за приватност</value></data>
+  <data name="Recording" xml:space="preserve"><value>Снимање</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Снимка {0} од {1} до {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Снимањето од уредот „{0}“ е вклучено</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Зачувувај ги снимките во папка:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Прикажи снимки</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Започни снимање</value></data>
+  <data name="Stop" xml:space="preserve"><value>Запри</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Поддршка</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>За апликацијата</value></data>
+  <data name="Settings" xml:space="preserve"><value>Поставки</value></data>
+  <data name="Theme" xml:space="preserve"><value>Тема</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Темна</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Светла</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Користи ја системската тема</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Јазик</value></data>
+  <data name="Close" xml:space="preserve"><value>Затвори</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Известувања за трети страни</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Компонентите од трети страни ги задржуваат своите лиценци. Текстовите на лиценците се на англиски.</value></data>
+</root>

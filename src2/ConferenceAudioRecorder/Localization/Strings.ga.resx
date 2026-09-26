@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Feidhmchlár:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Athraigh fillteán</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Roghnaigh gléas ionchuir fuaime (micreafón):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Roghnaigh gléas aschuir fuaime (cluasáin):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Taifeadán fuaime comhdhála</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Taifeadtaí comhdhála</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Tá taifeadadh an ghléis múchta</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Tuigim</value></data>
+  <data name="Help1" xml:space="preserve"><value>Ar dtús, roghnaigh na gléasanna fuaime a úsáideann an bogearra comhdhála.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Ansin déan taifeadadh trialach. Má chloiseann tú macalla, cloiseann an micreafón an callaire. Múch taifeadadh an challaire nó bain úsáid as cluasáin.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Nuair a thosaíonn an cruinniú, tosaigh ag taifeadadh, agus stop nuair a chríochnaíonn sé.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Sábhálann an comhad MP3 san fhillteán taifeadtaí. Osclaíonn "Féach ar thaifeadtaí" an fillteán sin.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Ceadúnas</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Fillteán logaí</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Polasaí príobháideachais</value></data>
+  <data name="Recording" xml:space="preserve"><value>Taifeadadh</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Taifeadadh {0} ó {1} go {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Tá taifeadadh ón ngléas "{0}" ar siúl</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Sábháil taifeadtaí san fhillteán:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Féach ar thaifeadtaí</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Tosaigh ag taifeadadh</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Tacaíocht</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Maidir leis an bhfeidhmchlár</value></data>
+  <data name="Settings" xml:space="preserve"><value>Socruithe</value></data>
+  <data name="Theme" xml:space="preserve"><value>Téama</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Dorcha</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Geal</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Úsáid téama an chórais</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Teanga</value></data>
+  <data name="Close" xml:space="preserve"><value>Dún</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Fógraí tríú páirtí</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Coimeádann comhpháirteanna tríú páirtí a gceadúnais féin. Tá téacsanna na gceadúnas i mBéarla.</value></data>
+</root>

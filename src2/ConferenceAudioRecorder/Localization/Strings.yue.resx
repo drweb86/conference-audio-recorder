@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>應用程式：</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>轉資料夾</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>揀音訊輸入裝置（咪）：</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>揀音訊輸出裝置（耳機）：</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>會議錄音程式</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>會議錄音</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>裝置錄音已停用</value></data>
+  <data name="GotIt" xml:space="preserve"><value>明白！</value></data>
+  <data name="Help1" xml:space="preserve"><value>首先揀你想錄低嘅會議軟件用緊嘅音訊裝置。</value></data>
+  <data name="Help2" xml:space="preserve"><value>然後做一次測試錄音。如果聽到回音，可能係咪收到喇叭聲。停用喇叭錄音，或者用耳機。</value></data>
+  <data name="Help3" xml:space="preserve"><value>會議開始就開始錄音，完咗就停。</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 會存喺錄音資料夾。「睇錄音」會打開嗰個資料夾。</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>授權</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>記錄檔資料夾</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>私隱政策</value></data>
+  <data name="Recording" xml:space="preserve"><value>錄音</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>錄音 {0} 由 {1} 到 {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>已啟用由「{0}」裝置錄音</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>將錄音存到資料夾：</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>睇錄音</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>開始錄音</value></data>
+  <data name="Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>支援</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>關於應用程式</value></data>
+  <data name="Settings" xml:space="preserve"><value>設定</value></data>
+  <data name="Theme" xml:space="preserve"><value>主題</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>深色</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>淺色</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>用系統主題</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>語言</value></data>
+  <data name="Close" xml:space="preserve"><value>關閉</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>第三方聲明</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>第三方組件保留自己嘅授權。授權正文用英文。</value></data>
+</root>

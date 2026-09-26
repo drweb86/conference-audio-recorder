@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Кушымта:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Папканы алыштыру</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Тавыш кертү җайланмасын сайлагыз (микрофон):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Тавыш чыгару җайланмасын сайлагыз (колкап):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Конференция тавышын яздыргыч</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Конференция язмалары</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Җайланмадан яздыру сүндерелгән</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Аңладым</value></data>
+  <data name="Help1" xml:space="preserve"><value>Башта конференция программасы куллана торган тавыш җайланмаларын сайлагыз.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Аннан соң сынау язмасы ясагыз. Яңгыраш ишетсәгез, микрофон динамикны ишетә. Динамик яздыруны сүндерегез яки колкап кулланыгыз.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Очрашу башлангач яздыруны башлагыз һәм беткәч туктатыгыз.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 файл язмалар папкасында саклана. «Язмаларны карау» төймәсе аны ача.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Лицензия</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Журналлар папкасы</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Хосусыйлык сәясәте</value></data>
+  <data name="Recording" xml:space="preserve"><value>Яздыру</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Язма {0}, {1} дән {2} гә кадәр</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>«{0}» җайланмасыннан яздыру кабызылган</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Язмаларны папкага саклау:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Язмаларны карау</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Яздыруны башлау</value></data>
+  <data name="Stop" xml:space="preserve"><value>Туктату</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Ярдәм</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Кушымта турында</value></data>
+  <data name="Settings" xml:space="preserve"><value>Көйләүләр</value></data>
+  <data name="Theme" xml:space="preserve"><value>Тема</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Караңгы</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Якты</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Система темасын куллану</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Тел</value></data>
+  <data name="Close" xml:space="preserve"><value>Ябу</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Өченче яклар турында хәбәрләр</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Өченче яклар компонентлары үз лицензияләрен саклый. Лицензия текстлары инглизчә.</value></data>
+</root>

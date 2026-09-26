@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Applikatioun:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Dossier wiesselen</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Wielt den Audio-Agang (Mikro):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Wielt den Audio-Ausgab (Kopfhörer):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferenz-Audio-Recorder</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferenzopnamen</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>D'Opnam vum Apparat ass aus</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Verstanen</value></data>
+  <data name="Help1" xml:space="preserve"><value>Wielt fir d'éischt d'Audiogeräter, déi de Konferenzprogramm benotzt.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Maacht duerno eng Proufopnam. Wann Dir en Echo héiert, héiert de Mikro de Lautsprecher. Schalt d'Lautsprecheropnam aus oder benotzt Kopfhörer.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Um Ufank vun der Reunioun fänkt d'Opnam un a stoppt se um Enn.</value></data>
+  <data name="Help4" xml:space="preserve"><value>D'MP3-Datei gëtt am Opnamendossier gespäichert. De Knäppchen „Opname weisen“ mécht en op.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lizenz</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Log-Dossier</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Dateschutzrichtlinn</value></data>
+  <data name="Recording" xml:space="preserve"><value>Opnam</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Opnam {0} vun {1} bis {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Opnam vum Apparat "{0}" ass un</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Opnamen am Dossier späicheren:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Opname weisen</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Opnam starten</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stoppen</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Ënnerstëtzung</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Iwwer d'Applikatioun</value></data>
+  <data name="Settings" xml:space="preserve"><value>Astellungen</value></data>
+  <data name="Theme" xml:space="preserve"><value>Theema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Däischter</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Hell</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Systemtheema benotzen</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Sprooch</value></data>
+  <data name="Close" xml:space="preserve"><value>Zoumaachen</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Drëttubidder-Hiwäiser</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Drëttubidder-Komponente behalen hir eege Lizenzen. D'Lizenztxten stinn op Englesch.</value></data>
+</root>

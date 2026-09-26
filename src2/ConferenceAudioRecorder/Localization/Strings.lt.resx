@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Programa:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Keisti aplanką</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Pasirinkite garso įvestį (mikrofoną):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Pasirinkite garso išvestį (ausines):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferencijų garso įrašytuvas</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferencijų įrašai</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Įrenginio įrašymas išjungtas</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Supratau</value></data>
+  <data name="Help1" xml:space="preserve"><value>Pirmiausia pasirinkite garso įrenginius, kuriuos naudoja konferencijų programa.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Tada padarykite bandomąjį įrašą. Jei girdite aidą, mikrofonas girdi garsiakalbį. Išjunkite garsiakalbio įrašymą arba naudokite ausines.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Susitikimo pradžioje pradėkite įrašymą ir baikite jį pabaigoje.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 failas įrašomas į įrašų aplanką. Mygtukas „Rodyti įrašus“ jį atidaro.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licencija</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Žurnalų aplankas</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Privatumo politika</value></data>
+  <data name="Recording" xml:space="preserve"><value>Įrašymas</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Įrašas {0} nuo {1} iki {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Įrašymas iš įrenginio "{0}" įjungtas</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Įrašus saugoti aplanke:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Rodyti įrašus</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Pradėti įrašymą</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stabdyti</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Pagalba</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Apie programą</value></data>
+  <data name="Settings" xml:space="preserve"><value>Nustatymai</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Tamsi</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Šviesi</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Naudoti sistemos temą</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Kalba</value></data>
+  <data name="Close" xml:space="preserve"><value>Uždaryti</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Trečiųjų šalių pranešimai</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Trečiųjų šalių komponentai išlaiko savo licencijas. Licencijų tekstai pateikti anglų kalba.</value></data>
+</root>

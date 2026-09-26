@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>აპლიკაცია:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>საქაღალდის შეცვლა</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>აირჩიეთ ხმის შემავალი მოწყობილობა (მიკროფონი):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>აირჩიეთ ხმის გამომავალი მოწყობილობა (ყურსასმენი):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>კონფერენციის ხმის ჩამწერი</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>კონფერენციის ჩანაწერები</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>მოწყობილობის ჩაწერა გამორთულია</value></data>
+  <data name="GotIt" xml:space="preserve"><value>გასაგებია</value></data>
+  <data name="Help1" xml:space="preserve"><value>ჯერ აირჩიეთ ხმის მოწყობილობები, რომლებსაც კონფერენციის პროგრამა იყენებს.</value></data>
+  <data name="Help2" xml:space="preserve"><value>შემდეგ გააკეთეთ საცდელი ჩანაწერი. თუ ექო გესმით, მიკროფონი დინამიკს ისმენს. გამორთეთ დინამიკის ჩაწერა ან გამოიყენეთ ყურსასმენი.</value></data>
+  <data name="Help3" xml:space="preserve"><value>შეხვედრის დასაწყისში დაიწყეთ ჩაწერა და დასრულებისას გააჩერეთ.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 ფაილი ინახება ჩანაწერების საქაღალდეში. „ჩანაწერების ნახვა“ ხსნის მას.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>ლიცენზია</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>ჟურნალების საქაღალდე</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>კონფიდენციალურობის პოლიტიკა</value></data>
+  <data name="Recording" xml:space="preserve"><value>ჩაწერა</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>ჩანაწერი {0}, {1}-დან {2}-მდე</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>ჩაწერა მოწყობილობიდან „{0}“ ჩართულია</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>ჩანაწერების შენახვა საქაღალდეში:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>ჩანაწერების ნახვა</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>ჩაწერის დაწყება</value></data>
+  <data name="Stop" xml:space="preserve"><value>გაჩერება</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>მხარდაჭერა</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>აპლიკაციის შესახებ</value></data>
+  <data name="Settings" xml:space="preserve"><value>პარამეტრები</value></data>
+  <data name="Theme" xml:space="preserve"><value>თემა</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>მუქი</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>ღია</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>სისტემის თემის გამოყენება</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>ენა</value></data>
+  <data name="Close" xml:space="preserve"><value>დახურვა</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>მესამე მხარის შეტყობინებები</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>მესამე მხარის კომპონენტები ინარჩუნებენ საკუთარ ლიცენზიებს. ლიცენზიის ტექსტები ინგლისურადაა.</value></data>
+</root>

@@ -48,40 +48,41 @@ internal class AudioRecorderService
     public void StopRecording(string folderName)
     {
         _recordingEnded = DateTime.Now;
-        string fileToConvert = null;
+        string mixWave = null;
         try
         {
             _microphone?.Stop();
             _speaker?.Stop();
 
-            if (_microphone?.WaveFile == null || _speaker?.WaveFile == null)
-                fileToConvert = _microphone?.WaveFile ?? _speaker?.WaveFile;
-            else
-            {
-                fileToConvert = Path.GetTempFileName();
-                MixFiles(_microphone.WaveFile, _speaker.WaveFile, fileToConvert);
-            }
-
-            if (fileToConvert == null)
-                return;
-
             if (!Directory.Exists(folderName))
                 Directory.CreateDirectory(folderName);
 
-            if (_microphone?.WaveFile != null)
-            {
-                var waveInFile = FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - 🎤");
-                ConvertWaveToMp3(_microphone.WaveFile, waveInFile);
-            }
+            var microphoneFile = ExistingWave(_microphone);
+            var speakerFile = ExistingWave(_speaker);
+            if (microphoneFile == null && speakerFile == null)
+                return;
 
-            if (_speaker?.WaveFile != null)
+            if (microphoneFile != null && speakerFile != null)
             {
-                var speakerFile = FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - 🔈");
-                ConvertWaveToMp3(_speaker.WaveFile, speakerFile);
-            }
+                ConvertWaveToMp3(
+                    microphoneFile,
+                    FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - microphone"));
+                ConvertWaveToMp3(
+                    speakerFile,
+                    FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - speaker"));
 
-            var outputMp3FileName = FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName);
-            ConvertWaveToMp3(fileToConvert, outputMp3FileName);
+                mixWave = Path.GetTempFileName();
+                MixFiles(microphoneFile, speakerFile, mixWave);
+                ConvertWaveToMp3(
+                    mixWave,
+                    FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName));
+            }
+            else
+            {
+                ConvertWaveToMp3(
+                    microphoneFile ?? speakerFile,
+                    FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName));
+            }
         }
         catch (Exception e)
         {
@@ -92,9 +93,17 @@ internal class AudioRecorderService
         {
             DeleteSessionFile(ref _microphone);
             DeleteSessionFile(ref _speaker);
-            if (fileToConvert != null && File.Exists(fileToConvert))
-                File.Delete(fileToConvert);
+            if (mixWave != null && File.Exists(mixWave))
+                File.Delete(mixWave);
         }
+    }
+
+    private static string ExistingWave(ICaptureSession session)
+    {
+        if (session?.WaveFile == null || !File.Exists(session.WaveFile))
+            return null;
+
+        return session.WaveFile;
     }
 
     private void ConvertWaveToMp3(string sourceWaveFile, string destinationMp3File)

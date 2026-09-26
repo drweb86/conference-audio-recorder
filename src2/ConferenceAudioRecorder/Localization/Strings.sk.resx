@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplikácia:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Zmeniť priečinok</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Vyberte vstupné zvukové zariadenie (mikrofón):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Vyberte výstupné zvukové zariadenie (slúchadlá):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Záznam zvuku konferencií</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Záznamy konferencií</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Záznam zo zariadenia je vypnutý</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Rozumiem</value></data>
+  <data name="Help1" xml:space="preserve"><value>Najprv vyberte zvukové zariadenia, ktoré používa konferenčný program.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Potom urobte skúšobný záznam. Ak počujete ozvenu, mikrofón počuje reproduktor. Vypnite záznam reproduktora alebo použite slúchadlá.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Na začiatku stretnutia spustite záznam a na konci ho zastavte.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Súbor MP3 sa uloží do priečinka záznamov. Tlačidlo „Zobraziť záznamy“ ho otvorí.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licencia</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Priečinok denníkov</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Zásady ochrany súkromia</value></data>
+  <data name="Recording" xml:space="preserve"><value>Záznam</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Záznam {0} od {1} do {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Záznam zo zariadenia „{0}“ je zapnutý</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Ukladať záznamy do priečinka:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Zobraziť záznamy</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Spustiť záznam</value></data>
+  <data name="Stop" xml:space="preserve"><value>Zastaviť</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Podpora</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>O aplikácii</value></data>
+  <data name="Settings" xml:space="preserve"><value>Nastavenia</value></data>
+  <data name="Theme" xml:space="preserve"><value>Téma</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Tmavá</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Svetlá</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Použiť tému systému</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Jazyk</value></data>
+  <data name="Close" xml:space="preserve"><value>Zavrieť</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Oznámenia tretích strán</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Súčasti tretích strán si ponechávajú vlastné licencie. Texty licencií sú v angličtine.</value></data>
+</root>

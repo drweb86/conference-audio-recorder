@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Sovellus:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Vaihda kansio</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Valitse äänitulo (mikrofoni):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Valitse äänilähtö (kuulokkeet):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Kokousten äänitallennin</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Kokoustallenteet</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Laitteen tallennus on pois käytöstä</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Selvä</value></data>
+  <data name="Help1" xml:space="preserve"><value>Valitse ensin äänilaitteet, joita kokoussovellus käyttää.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Tee sitten koetallenne. Jos kuulet kaiun, mikrofoni kuulee kaiuttimen. Poista kaiuttimen tallennus käytöstä tai käytä kuulokkeita.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Aloita tallennus kokouksen alussa ja lopeta se kokouksen päättyessä.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3-tiedosto tallennetaan tallennekansioon. "Näytä tallenteet" avaa kansion.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lisenssi</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Lokikansio</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Tietosuojakäytäntö</value></data>
+  <data name="Recording" xml:space="preserve"><value>Tallennus</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Tallenne {0} klo {1}–{2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Tallennus laitteesta "{0}" on käytössä</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Tallenna kansioon:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Näytä tallenteet</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Aloita tallennus</value></data>
+  <data name="Stop" xml:space="preserve"><value>Pysäytä</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Tuki</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Tietoja sovelluksesta</value></data>
+  <data name="Settings" xml:space="preserve"><value>Asetukset</value></data>
+  <data name="Theme" xml:space="preserve"><value>Teema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Tumma</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Vaalea</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Käytä järjestelmän teemaa</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Kieli</value></data>
+  <data name="Close" xml:space="preserve"><value>Sulje</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Kolmannen osapuolen ilmoitukset</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Kolmannen osapuolen osat säilyttävät omat lisenssinsä. Lisenssitekstit ovat englanniksi.</value></data>
+</root>

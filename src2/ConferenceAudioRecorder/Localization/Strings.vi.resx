@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Ứng dụng:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Đổi thư mục</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Chọn thiết bị vào âm thanh (micro):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Chọn thiết bị ra âm thanh (tai nghe):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Trình ghi âm hội nghị</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Bản ghi hội nghị</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Đã tắt ghi từ thiết bị</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Đã hiểu</value></data>
+  <data name="Help1" xml:space="preserve"><value>Trước hết, hãy chọn thiết bị âm thanh mà phần mềm họp đang dùng.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Sau đó hãy ghi thử. Nếu nghe tiếng vọng, micro đang thu loa. Hãy tắt ghi loa hoặc dùng tai nghe.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Khi cuộc họp bắt đầu thì bắt đầu ghi, và dừng khi cuộc họp kết thúc.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Tệp MP3 được lưu trong thư mục bản ghi. Nút "Xem bản ghi" sẽ mở thư mục đó.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Giấy phép</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Thư mục nhật ký</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Chính sách quyền riêng tư</value></data>
+  <data name="Recording" xml:space="preserve"><value>Ghi âm</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Bản ghi {0} từ {1} đến {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Đang ghi từ thiết bị "{0}"</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Lưu bản ghi vào thư mục:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Xem bản ghi</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Bắt đầu ghi</value></data>
+  <data name="Stop" xml:space="preserve"><value>Dừng</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Hỗ trợ</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Giới thiệu</value></data>
+  <data name="Settings" xml:space="preserve"><value>Cài đặt</value></data>
+  <data name="Theme" xml:space="preserve"><value>Giao diện</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Tối</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Sáng</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Dùng giao diện hệ thống</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Ngôn ngữ</value></data>
+  <data name="Close" xml:space="preserve"><value>Đóng</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Thông báo bên thứ ba</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Thành phần bên thứ ba giữ giấy phép của họ. Nội dung giấy phép được đưa bằng tiếng Anh.</value></data>
+</root>

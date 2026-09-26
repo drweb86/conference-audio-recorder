@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Uygulama:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Klasörü değiştir</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Ses giriş aygıtını seçin (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Ses çıkış aygıtını seçin (kulaklık):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferans ses kaydedici</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferans kayıtları</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Aygıt kaydı kapalı</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Anladım</value></data>
+  <data name="Help1" xml:space="preserve"><value>Önce kaydetmek istediğiniz konferans programının kullandığı ses aygıtlarını seçin.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Sonra bir deneme kaydı yapın. Yankı duyarsanız mikrofon hoparlörü duyuyordur. Hoparlör kaydını kapatın veya kulaklık kullanın.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Toplantı başlarken kaydı başlatın, bittiğinde durdurun.</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 dosyası kayıtlar klasörüne kaydedilir. "Kayıtları gör" düğmesi klasörü açar.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lisans</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Günlük klasörü</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Gizlilik ilkesi</value></data>
+  <data name="Recording" xml:space="preserve"><value>Kayıt</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Kayıt {0}, {1}–{2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>"{0}" aygıtından kayıt açık</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Kayıtları klasöre kaydet:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Kayıtları gör</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Kaydı başlat</value></data>
+  <data name="Stop" xml:space="preserve"><value>Durdur</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Destek</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Uygulama hakkında</value></data>
+  <data name="Settings" xml:space="preserve"><value>Ayarlar</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Koyu</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Açık</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Sistem temasını kullan</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Dil</value></data>
+  <data name="Close" xml:space="preserve"><value>Kapat</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Üçüncü taraf bildirimleri</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Üçüncü taraf bileşenler kendi lisanslarını korur. Lisans metinleri İngilizce olarak verilir.</value></data>
+</root>

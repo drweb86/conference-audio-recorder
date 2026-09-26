@@ -8,8 +8,10 @@
         MinWidth="560"
         MinHeight="320"
         WindowStartupLocation="CenterScreen">
-    <Grid ColumnDefinitions="188,*">
-        <Border Grid.Column="0"
+    <Grid ColumnDefinitions="Auto,*">
+        <Border x:Name="NavPane"
+                Grid.Column="0"
+                Width="56"
                 BorderThickness="0,0,1,0"
                 BorderBrush="{DynamicResource ThemeBorderLowBrush}"
                 Padding="8">
@@ -18,22 +20,31 @@
                              Classes="nav"
                              GroupName="pages"
                              IsChecked="True"
+                             ToolTip.Tip="{loc:Loc Recording}"
                              Click="OnShowRecording">
                     <StackPanel Orientation="Horizontal" Spacing="8">
                         <PathIcon Data="{x:Static icons:AppIcons.Record}" Width="16" Height="16" />
-                        <TextBlock Text="{loc:Loc Recording}" VerticalAlignment="Center" />
+                        <TextBlock x:Name="RecordingLabel" Text="{loc:Loc Recording}" IsVisible="False" VerticalAlignment="Center" />
                     </StackPanel>
                 </RadioButton>
-                <RadioButton Classes="nav" GroupName="pages" Click="OnShowSettings">
+                <RadioButton x:Name="SettingsNav"
+                             Classes="nav"
+                             GroupName="pages"
+                             ToolTip.Tip="{loc:Loc Settings}"
+                             Click="OnShowSettings">
                     <StackPanel Orientation="Horizontal" Spacing="8">
                         <PathIcon Data="{x:Static icons:AppIcons.Settings}" Width="16" Height="16" />
-                        <TextBlock Text="{loc:Loc Settings}" VerticalAlignment="Center" />
+                        <TextBlock x:Name="SettingsLabel" Text="{loc:Loc Settings}" IsVisible="False" VerticalAlignment="Center" />
                     </StackPanel>
                 </RadioButton>
-                <RadioButton Classes="nav" GroupName="pages" Click="OnShowAbout">
+                <RadioButton x:Name="AboutNav"
+                             Classes="nav"
+                             GroupName="pages"
+                             ToolTip.Tip="{loc:Loc TheApplicationView}"
+                             Click="OnShowAbout">
                     <StackPanel Orientation="Horizontal" Spacing="8">
                         <PathIcon Data="{x:Static icons:AppIcons.Info}" Width="16" Height="16" />
-                        <TextBlock Text="{loc:Loc TheApplicationView}" VerticalAlignment="Center" />
+                        <TextBlock x:Name="AboutLabel" Text="{loc:Loc TheApplicationView}" IsVisible="False" VerticalAlignment="Center" />
                     </StackPanel>
                 </RadioButton>
             </StackPanel>

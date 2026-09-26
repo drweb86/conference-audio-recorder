@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Toepassing:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Verander vouer</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Kies die klankinvoer (mikrofoon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Kies die klankuitvoer (oorfone):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Konferensie-klankopnemer</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Konferensie-opnames</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Toestelopname is af</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Reg so</value></data>
+  <data name="Help1" xml:space="preserve"><value>Kies eers die klanktoestelle wat die konferensieprogram gebruik.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Maak dan ’n toetsopname. As jy eggo hoor, hoor die mikrofoon die luidspreker. Skakel luidsprekeropname af of gebruik oorfone.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Begin opneem wanneer die vergadering begin, en stop wanneer dit eindig.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Die MP3-lêer word in die opnamvouer gestoor. "Sien opnames" maak daardie vouer oop.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lisensie</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Logvouer</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Privaatheidsbeleid</value></data>
+  <data name="Recording" xml:space="preserve"><value>Opname</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Opname {0} van {1} tot {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Opname vanaf toestel "{0}" is aan</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Stoor opnames in vouer:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Sien opnames</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Begin opname</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Ondersteuning</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Oor die toepassing</value></data>
+  <data name="Settings" xml:space="preserve"><value>Instellings</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Donker</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Lig</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Gebruik die stelseltema</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Taal</value></data>
+  <data name="Close" xml:space="preserve"><value>Maak toe</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Derdeparty-kennisgewings</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Derdeparty-komponente hou hul eie lisensies. Die lisensietekste is in Engels.</value></data>
+</root>

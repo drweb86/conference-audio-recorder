@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>แอปพลิเคชัน:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>เปลี่ยนโฟลเดอร์</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>เลือกอุปกรณ์รับเสียง (ไมโครโฟน):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>เลือกอุปกรณ์ส่งเสียง (หูฟัง):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>โปรแกรมบันทึกเสียงการประชุม</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>ไฟล์บันทึกการประชุม</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>ปิดการบันทึกจากอุปกรณ์แล้ว</value></data>
+  <data name="GotIt" xml:space="preserve"><value>เข้าใจแล้ว</value></data>
+  <data name="Help1" xml:space="preserve"><value>ก่อนอื่น เลือกอุปกรณ์เสียงที่โปรแกรมประชุมใช้งาน</value></data>
+  <data name="Help2" xml:space="preserve"><value>จากนั้นทดลองบันทึก หากได้ยินเสียงสะท้อน แสดงว่าไมโครโฟนได้ยินลำโพง ให้ปิดการบันทึกลำโพงหรือใช้หูฟัง</value></data>
+  <data name="Help3" xml:space="preserve"><value>เมื่อการประชุมเริ่ม ให้เริ่มบันทึก และหยุดเมื่อการประชุมจบ</value></data>
+  <data name="Help4" xml:space="preserve"><value>ไฟล์ MP3 จะอยู่ในโฟลเดอร์บันทึก ปุ่ม "ดูไฟล์บันทึก" จะเปิดโฟลเดอร์นั้น</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>สัญญาอนุญาต</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>โฟลเดอร์บันทึกระบบ</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>นโยบายความเป็นส่วนตัว</value></data>
+  <data name="Recording" xml:space="preserve"><value>การบันทึก</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>บันทึก {0} ตั้งแต่ {1} ถึง {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>เปิดบันทึกจากอุปกรณ์ "{0}" แล้ว</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>บันทึกไฟล์ลงโฟลเดอร์:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>ดูไฟล์บันทึก</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>เริ่มบันทึก</value></data>
+  <data name="Stop" xml:space="preserve"><value>หยุด</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>การสนับสนุน</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>เกี่ยวกับแอป</value></data>
+  <data name="Settings" xml:space="preserve"><value>การตั้งค่า</value></data>
+  <data name="Theme" xml:space="preserve"><value>ธีม</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>มืด</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>สว่าง</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>ใช้ธีมของระบบ</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>ภาษา</value></data>
+  <data name="Close" xml:space="preserve"><value>ปิด</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>ประกาศของบุคคลที่สาม</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>ส่วนประกอบของบุคคลที่สามยังใช้สัญญาอนุญาตของตนเอง ข้อความสัญญาอนุญาตเป็นภาษาอังกฤษ</value></data>
+</root>

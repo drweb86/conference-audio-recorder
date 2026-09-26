@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>اپلیکیشن:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>فولډر بدل کړئ</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>د غږ داخلولو وسیله وټاکئ (مایکروفون):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>د غږ وتلو وسیله وټاکئ (هیډفون):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>د غونډې غږ ثبتوونکی</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>د غونډو ثبتونه</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>د وسیلې ثبت بند دی</value></data>
+  <data name="GotIt" xml:space="preserve"><value>پوه شوم</value></data>
+  <data name="Help1" xml:space="preserve"><value>لومړی هغه غږیز وسایل وټاکئ چې د غونډې پروګرام یې کاروي.</value></data>
+  <data name="Help2" xml:space="preserve"><value>بیا آزمویښتي ثبت وکړئ. که غږ تکرار اورئ، مایکروفون سپیکر اوري. د سپیکر ثبت بند کړئ یا هیډفون وکاروئ.</value></data>
+  <data name="Help3" xml:space="preserve"><value>کله چې ناسته پیل شي ثبت پیل کړئ او کله چې پای ته ورسېږي یې ودروئ.</value></data>
+  <data name="Help4" xml:space="preserve"><value>د MP3 فایل د ثبتونو په فولډر کې ساتل کېږي. "ثبتونه وګورئ" هغه فولډر پرانیزي.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>جواز</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>د لاګ فولډر</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>د محرمیت تګلاره</value></data>
+  <data name="Recording" xml:space="preserve"><value>ثبت</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>ثبت {0} له {1} تر {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>له "{0}" وسیلې ثبت فعال دی</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>ثبتونه په دې فولډر کې وساتئ:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>ثبتونه وګورئ</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>ثبت پیل کړئ</value></data>
+  <data name="Stop" xml:space="preserve"><value>ودروئ</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>ملاتړ</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>د اپلیکیشن په اړه</value></data>
+  <data name="Settings" xml:space="preserve"><value>تنظیمات</value></data>
+  <data name="Theme" xml:space="preserve"><value>بڼه</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>تیاره</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>روښانه</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>د سیستم بڼه وکاروئ</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>ژبه</value></data>
+  <data name="Close" xml:space="preserve"><value>بند</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>د درېیم اړخ خبرتیاوې</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>د درېیم اړخ برخې خپل جوازونه ساتي. د جواز متن په انګلیسي دی.</value></data>
+</root>

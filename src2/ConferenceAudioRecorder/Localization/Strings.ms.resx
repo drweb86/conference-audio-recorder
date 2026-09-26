@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Aplikasi:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Tukar folder</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Pilih peranti input audio (mikrofon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Pilih peranti output audio (fon kepala):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Perakam audio persidangan</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Rakaman persidangan</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Rakaman peranti dimatikan</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Faham</value></data>
+  <data name="Help1" xml:space="preserve"><value>Mula-mula pilih peranti audio yang digunakan oleh perisian persidangan.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Kemudian buat rakaman ujian. Jika anda mendengar gema, mikrofon menangkap pembesar suara. Matikan rakaman pembesar suara atau gunakan fon kepala.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Mulakan rakaman apabila mesyuarat bermula, dan hentikan apabila mesyuarat tamat.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Fail MP3 disimpan dalam folder rakaman. Butang "Lihat rakaman" membuka folder itu.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Lesen</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Folder log</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Dasar privasi</value></data>
+  <data name="Recording" xml:space="preserve"><value>Rakaman</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Rakaman {0} dari {1} hingga {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Rakaman daripada peranti "{0}" dihidupkan</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Simpan rakaman ke folder:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Lihat rakaman</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Mulakan rakaman</value></data>
+  <data name="Stop" xml:space="preserve"><value>Henti</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Sokongan</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Perihal aplikasi</value></data>
+  <data name="Settings" xml:space="preserve"><value>Tetapan</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Gelap</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Cerah</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Guna tema sistem</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Bahasa</value></data>
+  <data name="Close" xml:space="preserve"><value>Tutup</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Notis pihak ketiga</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Komponen pihak ketiga mengekalkan lesen mereka sendiri. Teks lesen ditulis dalam bahasa Inggeris.</value></data>
+</root>

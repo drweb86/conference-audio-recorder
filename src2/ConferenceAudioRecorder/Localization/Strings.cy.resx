@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Rhaglen:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Newid ffolder</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Dewiswch y ddyfais mewnbwn sain (meicroffon):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Dewiswch y ddyfais allbwn sain (clustffonau):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Recordydd sain cynadleddau</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Recordiadau cynadleddau</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>Mae recordio'r ddyfais wedi'i ddiffodd</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Iawn</value></data>
+  <data name="Help1" xml:space="preserve"><value>Yn gyntaf, dewiswch y dyfeisiau sain y mae'r rhaglen gynadledda yn eu defnyddio.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Yna gwnewch recordiad prawf. Os clywch atsain, mae'r meicroffon yn clywed y seinydd. Diffoddwch recordio'r seinydd neu defnyddiwch glustffonau.</value></data>
+  <data name="Help3" xml:space="preserve"><value>Dechreuwch recordio pan fydd y cyfarfod yn dechrau, a stopiwch pan ddaw i ben.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Caiff y ffeil MP3 ei chadw yn y ffolder recordiadau. Mae "Gweld recordiadau" yn agor y ffolder honno.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Trwydded</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Ffolder logiau</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Polisi preifatrwydd</value></data>
+  <data name="Recording" xml:space="preserve"><value>Recordio</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Recordiad {0} o {1} i {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>Mae recordio o'r ddyfais "{0}" ymlaen</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Cadw recordiadau yn y ffolder:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Gweld recordiadau</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Dechrau recordio</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stopio</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Cymorth</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Ynghylch y rhaglen</value></data>
+  <data name="Settings" xml:space="preserve"><value>Gosodiadau</value></data>
+  <data name="Theme" xml:space="preserve"><value>Thema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Tywyll</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Golau</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Defnyddio thema'r system</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Iaith</value></data>
+  <data name="Close" xml:space="preserve"><value>Cau</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Hysbysiadau trydydd parti</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>Mae cydrannau trydydd parti yn cadw eu trwyddedau eu hunain. Mae testunau'r trwyddedau yn Saesneg.</value></data>
+</root>

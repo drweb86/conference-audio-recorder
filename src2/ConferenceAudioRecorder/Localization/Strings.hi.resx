@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>अनुप्रयोग:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>फ़ोल्डर बदलें</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>ऑडियो इनपुट उपकरण चुनें (माइक्रोफ़ोन):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>ऑडियो आउटपुट उपकरण चुनें (हेडफ़ोन):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>कॉन्फ़्रेंस ऑडियो रिकॉर्डर</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>कॉन्फ़्रेंस रिकॉर्डिंग</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>उपकरण की रिकॉर्डिंग बंद है</value></data>
+  <data name="GotIt" xml:space="preserve"><value>समझ गया</value></data>
+  <data name="Help1" xml:space="preserve"><value>पहले वे ऑडियो उपकरण चुनें जिनका उपयोग कॉन्फ़्रेंस सॉफ़्टवेयर करता है।</value></data>
+  <data name="Help2" xml:space="preserve"><value>फिर एक परीक्षण रिकॉर्डिंग करें। यदि प्रतिध्वनि सुनाई दे, तो माइक्रोफ़ोन स्पीकर सुन रहा है। स्पीकर रिकॉर्डिंग बंद करें या हेडफ़ोन का उपयोग करें।</value></data>
+  <data name="Help3" xml:space="preserve"><value>मीटिंग शुरू होते ही रिकॉर्डिंग शुरू करें और समाप्त होने पर रोकें।</value></data>
+  <data name="Help4" xml:space="preserve"><value>MP3 फ़ाइल रिकॉर्डिंग फ़ोल्डर में सहेजी जाती है। "रिकॉर्डिंग देखें" वह फ़ोल्डर खोलता है।</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>लाइसेंस</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>लॉग फ़ोल्डर</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>गोपनीयता नीति</value></data>
+  <data name="Recording" xml:space="preserve"><value>रिकॉर्डिंग</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>रिकॉर्डिंग {0}, {1} से {2} तक</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>उपकरण "{0}" से रिकॉर्डिंग चालू है</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>रिकॉर्डिंग इस फ़ोल्डर में सहेजें:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>रिकॉर्डिंग देखें</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>रिकॉर्डिंग शुरू करें</value></data>
+  <data name="Stop" xml:space="preserve"><value>रोकें</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>सहायता</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>अनुप्रयोग के बारे में</value></data>
+  <data name="Settings" xml:space="preserve"><value>सेटिंग्स</value></data>
+  <data name="Theme" xml:space="preserve"><value>थीम</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>गहरा</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>हल्का</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>सिस्टम थीम का उपयोग करें</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>भाषा</value></data>
+  <data name="Close" xml:space="preserve"><value>बंद करें</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>तृतीय-पक्ष सूचनाएँ</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>तृतीय-पक्ष घटक अपने लाइसेंस रखते हैं। लाइसेंस पाठ अंग्रेज़ी में दिया गया है।</value></data>
+</root>

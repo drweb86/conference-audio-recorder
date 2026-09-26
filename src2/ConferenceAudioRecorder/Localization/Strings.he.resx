@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>יישום:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>החלפת תיקייה</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>בחרו התקן קלט שמע (מיקרופון):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>בחרו התקן פלט שמע (אוזניות):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>מקליט שמע לשיחות ועידה</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>הקלטות שיחות</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>ההקלטה מההתקן כבויה</value></data>
+  <data name="GotIt" xml:space="preserve"><value>הבנתי</value></data>
+  <data name="Help1" xml:space="preserve"><value>תחילה בחרו את התקני השמע שבהם משתמשת תוכנת השיחה.</value></data>
+  <data name="Help2" xml:space="preserve"><value>לאחר מכן בצעו הקלטת ניסיון. אם נשמע הד, המיקרופון קולט את הרמקול. כבו את הקלטת הרמקול או השתמשו באוזניות.</value></data>
+  <data name="Help3" xml:space="preserve"><value>בתחילת הפגישה התחילו להקליט, ובסיומה עצרו.</value></data>
+  <data name="Help4" xml:space="preserve"><value>קובץ ה-MP3 נשמר בתיקיית ההקלטות. הכפתור «הצגת הקלטות» פותח אותה.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>רישיון</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>תיקיית יומנים</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>מדיניות פרטיות</value></data>
+  <data name="Recording" xml:space="preserve"><value>הקלטה</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>הקלטה {0} מ-{1} עד {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>ההקלטה מההתקן "{0}" פעילה</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>שמירת הקלטות בתיקייה:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>הצגת הקלטות</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>התחלת הקלטה</value></data>
+  <data name="Stop" xml:space="preserve"><value>עצירה</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>תמיכה</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>אודות היישום</value></data>
+  <data name="Settings" xml:space="preserve"><value>הגדרות</value></data>
+  <data name="Theme" xml:space="preserve"><value>ערכת נושא</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>כהה</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>בהירה</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>שימוש בערכת הנושא של המערכת</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>שפה</value></data>
+  <data name="Close" xml:space="preserve"><value>סגירה</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>הודעות צד שלישי</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>רכיבי צד שלישי שומרים על הרישיונות שלהם. נוסחי הרישיונות מובאים באנגלית.</value></data>
+</root>

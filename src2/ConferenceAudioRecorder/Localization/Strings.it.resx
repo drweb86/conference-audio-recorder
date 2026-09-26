@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Application" xml:space="preserve"><value>Applicazione:</value></data>
+  <data name="ChangeFolder" xml:space="preserve"><value>Cambia cartella</value></data>
+  <data name="ChooseAudioInputDevice" xml:space="preserve"><value>Scegli il dispositivo di ingresso audio (microfono):</value></data>
+  <data name="ChooseAudioOutputDevice" xml:space="preserve"><value>Scegli il dispositivo di uscita audio (cuffie):</value></data>
+  <data name="ConferenceAudioRecorder" xml:space="preserve"><value>Registratore audio per conferenze</value></data>
+  <data name="ConferenceRecordingsFolder" xml:space="preserve"><value>Registrazioni delle conferenze</value></data>
+  <data name="DeviceRecordingIsDisabled" xml:space="preserve"><value>La registrazione del dispositivo è disattivata</value></data>
+  <data name="GotIt" xml:space="preserve"><value>Capito</value></data>
+  <data name="Help1" xml:space="preserve"><value>Per prima cosa seleziona i dispositivi audio usati dal programma di conferenza che vuoi registrare.</value></data>
+  <data name="Help2" xml:space="preserve"><value>Poi fai una registrazione di prova. Se senti l'eco, il microfono sente l'altoparlante. Disattiva la registrazione dell'altoparlante oppure usa le cuffie.</value></data>
+  <data name="Help3" xml:space="preserve"><value>All'inizio della riunione avvia la registrazione e fermala quando la riunione finisce.</value></data>
+  <data name="Help4" xml:space="preserve"><value>Il file MP3 viene salvato nella cartella delle registrazioni. Il pulsante «Vedi registrazioni» la apre.</value></data>
+  <data name="LicenseLink" xml:space="preserve"><value>Licenza</value></data>
+  <data name="LogsFolder" xml:space="preserve"><value>Cartella dei registri</value></data>
+  <data name="PrivatePolicyLink" xml:space="preserve"><value>Informativa sulla privacy</value></data>
+  <data name="Recording" xml:space="preserve"><value>Registrazione</value></data>
+  <data name="RecordingFileName" xml:space="preserve"><value>Registrazione {0} dalle {1} alle {2}</value></data>
+  <data name="RecordingFromDeviceIsEnabled" xml:space="preserve"><value>La registrazione dal dispositivo "{0}" è attiva</value></data>
+  <data name="SaveRecordingsToFolder" xml:space="preserve"><value>Salva le registrazioni nella cartella:</value></data>
+  <data name="SeeRecordings" xml:space="preserve"><value>Vedi registrazioni</value></data>
+  <data name="StartRecording" xml:space="preserve"><value>Avvia registrazione</value></data>
+  <data name="Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="SupportLink" xml:space="preserve"><value>Supporto</value></data>
+  <data name="TheApplicationView" xml:space="preserve"><value>Informazioni</value></data>
+  <data name="Settings" xml:space="preserve"><value>Impostazioni</value></data>
+  <data name="Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Scuro</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Chiaro</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Usa il tema di sistema</value></data>
+  <data name="DocumentLanguage" xml:space="preserve"><value>Lingua</value></data>
+  <data name="Close" xml:space="preserve"><value>Chiudi</value></data>
+  <data name="ThirdPartyNotices" xml:space="preserve"><value>Note di terze parti</value></data>
+  <data name="ThirdPartyNote" xml:space="preserve"><value>I componenti di terze parti restano sotto le proprie licenze. I testi delle licenze sono in inglese.</value></data>
+</root>
