@@ -111,4 +111,13 @@
   <data name="ThirdPartyNote" xml:space="preserve">
     <value>Third-party components keep their own licenses. The license texts are reproduced in English.</value>
   </data>
+  <data name="RecordingFormat" xml:space="preserve">
+    <value>Microphone and speaker</value>
+  </data>
+  <data name="RecordingFormatHint" xml:space="preserve">
+    <value>The mixed recording uses the same format, so both tracks stay aligned.</value>
+  </data>
+  <data name="EncodingQuality" xml:space="preserve">
+    <value>MP3 quality</value>
+  </data>
 </root>

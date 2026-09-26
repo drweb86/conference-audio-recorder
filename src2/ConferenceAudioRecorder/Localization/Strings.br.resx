@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Serriñ</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Kemennoù tredeoù</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>An elfennoù tredeoù a vir o lañvazioù. Testennoù al lañvazioù zo e saozneg.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikro ha difuzer</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>An enrolladur mesket a implij ar memes furmad, evit ma chomo an div roudenn steudet.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Perzhded MP3</value></data>
 </root>

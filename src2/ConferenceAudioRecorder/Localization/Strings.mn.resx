@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Хаах</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Гуравдагч этгээдийн мэдэгдэл</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Гуравдагч этгээдийн бүрэлдэхүүн хэсгүүд өөрсдийн лицензээ хадгална. Лицензийн текст англиар байна.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Микрофон ба чанга яригч</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Холимог бичлэг ижил формат ашигладаг тул хоёр зам зэрэгцээ үлдэнэ.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 чанар</value></data>
 </root>

@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Fermi</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Sciigoj pri triaj komponantoj</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Triaj komponantoj konservas siajn proprajn permesilojn. La permesilaj tekstoj estas en la angla.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofono kaj laŭtparolilo</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>La miksita registrado uzas la saman formaton, tiel ke ambaŭ spuroj restas vicigitaj.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3-kvalito</value></data>
 </root>

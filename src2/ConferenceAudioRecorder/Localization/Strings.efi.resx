@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Bed</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Ntọt mbon en̄wen</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Mme ikpeghe mbon en̄wen enyene laisin mmọ. Ewet etop laisin ke English.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon ye spika</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Rekọdin emi ekedianade ekama format kiet, man mme trak iba eduk ke itie kiet.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Ndaha MP3</value></data>
 </root>

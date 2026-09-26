@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Stäng</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Tredjepartsmeddelanden</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Tredjepartskomponenter behåller sina egna licenser. Licenstexterna återges på engelska.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon och högtalare</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Den mixade inspelningen använder samma format så att båda spåren hålls i linje.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3-kvalitet</value></data>
 </root>

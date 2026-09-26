@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Luk</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Tredjepartsmeddelelser</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Tredjepartskomponenter beholder deres egne licenser. Licensteksterne er på engelsk.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon og højttaler</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Den blandede optagelse bruger samme format, så begge spor forbliver justeret.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3-kvalitet</value></data>
 </root>

@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Κλείσιμο</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Σημειώσεις τρίτων</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Τα στοιχεία τρίτων διατηρούν τις δικές τους άδειες. Τα κείμενα των αδειών είναι στα αγγλικά.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Μικρόφωνο και ηχείο</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Η μικτή εγγραφή χρησιμοποιεί την ίδια μορφή, ώστε τα δύο κανάλια να μένουν ευθυγραμμισμένα.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Ποιότητα MP3</value></data>
 </root>

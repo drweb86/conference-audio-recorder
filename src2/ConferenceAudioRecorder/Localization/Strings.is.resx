@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Loka</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Tilkynningar þriðju aðila</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Íhlutir þriðju aðila halda eigin leyfum. Leyfistextarnir eru á ensku.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Hljóðnemi og hátalari</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Blandaða upptakan notar sama snið svo bæði sporin haldist jöfnuð.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3-gæði</value></data>
 </root>

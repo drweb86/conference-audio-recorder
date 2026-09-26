@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Kapat</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Üçüncü taraf bildirimleri</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Üçüncü taraf bileşenler kendi lisanslarını korur. Lisans metinleri İngilizce olarak verilir.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon ve hoparlör</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Karışık kayıt aynı biçimi kullanır, böylece iki parça hizalı kalır.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 kalitesi</value></data>
 </root>

@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Chiudi</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Note di terze parti</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>I componenti di terze parti restano sotto le proprie licenze. I testi delle licenze sono in inglese.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Microfono e altoparlante</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>La registrazione mixata usa lo stesso formato, così le due tracce restano allineate.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Qualità MP3</value></data>
 </root>

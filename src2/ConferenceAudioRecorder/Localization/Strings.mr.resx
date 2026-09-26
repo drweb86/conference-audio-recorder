@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>बंद करा</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>तृतीय-पक्ष सूचना</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>तृतीय-पक्ष घटक त्यांचे परवाने ठेवतात. परवाना मजकूर इंग्रजीत आहे.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>मायक्रोफोन आणि स्पीकर</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>मिश्रित रेकॉर्डिंग त्याच फॉरमॅटचा वापर करते, त्यामुळे दोन्ही ट्रॅक संरेखित राहतात.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 गुणवत्ता</value></data>
 </root>

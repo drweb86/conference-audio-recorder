@@ -15,6 +15,7 @@ internal class AudioRecorderService
     private DateTime _recordingEnded;
     private ICaptureSession _speaker;
     private ICaptureSession _microphone;
+    private RecordingProfile _profile = RecordingProfile.FromSettings(null);
 
     public AudioRecorderService(ILog log, IAudioBackend audio)
     {
@@ -24,17 +25,18 @@ internal class AudioRecorderService
 
     public bool IsAudioRecording => _microphone != null || _speaker != null;
 
-    public void StartRecording(string inputDeviceFriendlyName, string outputDeviceFriendlyName)
+    public void StartRecording(string inputDeviceFriendlyName, string outputDeviceFriendlyName, RecordingProfile profile)
     {
-        _log.Debug($"Start recording input {inputDeviceFriendlyName}, output {outputDeviceFriendlyName}");
+        _profile = profile ?? RecordingProfile.FromSettings(null);
+        _log.Debug($"Start recording input {inputDeviceFriendlyName}, output {outputDeviceFriendlyName} at {_profile.SampleRate} Hz, {_profile.BitRate} bps.");
 
         if (outputDeviceFriendlyName != null)
-            _speaker = _audio.StartOutputCapture(outputDeviceFriendlyName);
+            _speaker = _audio.StartOutputCapture(outputDeviceFriendlyName, _profile.SampleRate, RecordingProfile.Channels);
 
         try
         {
             if (inputDeviceFriendlyName != null)
-                _microphone = _audio.StartInputCapture(inputDeviceFriendlyName);
+                _microphone = _audio.StartInputCapture(inputDeviceFriendlyName, _profile.SampleRate, RecordingProfile.Channels);
         }
         catch
         {
@@ -66,13 +68,13 @@ internal class AudioRecorderService
             {
                 ConvertWaveToMp3(
                     microphoneFile,
-                    FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - microphone"));
+                    FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - 🎤"));
                 ConvertWaveToMp3(
                     speakerFile,
-                    FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - speaker"));
+                    FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName, " - 🔊"));
 
                 mixWave = Path.GetTempFileName();
-                MixFiles(microphoneFile, speakerFile, mixWave);
+                MixFiles(microphoneFile, speakerFile, mixWave, _profile.WaveFormat);
                 ConvertWaveToMp3(
                     mixWave,
                     FileNameGenerator.GetOutputMp3FileName(_recordingStarted, _recordingEnded, folderName));
@@ -121,23 +123,51 @@ internal class AudioRecorderService
             Genre = "Audio recording"
         };
 
-        RecordingFileEncoder.WriteMp3(sourceWaveFile, destinationMp3File, tags, _log);
+        var formatted = EnsureFormat(sourceWaveFile, _profile.WaveFormat);
+        try
+        {
+            RecordingFileEncoder.WriteMp3(formatted, destinationMp3File, tags, _log, _profile.BitRate);
+        }
+        finally
+        {
+            if (!string.Equals(formatted, sourceWaveFile, StringComparison.OrdinalIgnoreCase) && File.Exists(formatted))
+                File.Delete(formatted);
+        }
     }
 
-    private void MixFiles(string inputWaveFile1, string inputWaveFile2, string resultWaveFile)
+    private static string EnsureFormat(string source, WaveFormat target)
+    {
+        using (var probe = new WaveFileReader(source))
+        {
+            if (probe.WaveFormat.Encoding == WaveFormatEncoding.Pcm &&
+                probe.WaveFormat.BitsPerSample == target.BitsPerSample &&
+                probe.WaveFormat.SampleRate == target.SampleRate &&
+                probe.WaveFormat.Channels == target.Channels)
+                return source;
+        }
+
+        var formatted = Path.GetTempFileName();
+        try
+        {
+            using var reader = new WaveFileReader(source);
+            WaveFileWriter.CreateWaveFile16(formatted, Fit(reader.ToSampleProvider(), target));
+            return formatted;
+        }
+        catch
+        {
+            if (File.Exists(formatted))
+                File.Delete(formatted);
+            throw;
+        }
+    }
+
+    private void MixFiles(string inputWaveFile1, string inputWaveFile2, string resultWaveFile, WaveFormat outputFormat)
     {
         _log.Debug("Preparing to mix microphone and speaker recordings.");
         using var reader1 = new WaveFileReader(inputWaveFile1);
         using var reader2 = new WaveFileReader(inputWaveFile2);
         Dump(inputWaveFile1, reader1.WaveFormat);
         Dump(inputWaveFile2, reader2.WaveFormat);
-
-        var maxChannels = Math.Max(reader1.WaveFormat.Channels, reader2.WaveFormat.Channels);
-        var maxRate = Math.Max(reader1.WaveFormat.SampleRate, reader2.WaveFormat.SampleRate);
-        var outputFormat = new WaveFormat(
-            maxRate > 48000 ? 48000 : maxRate,
-            16,
-            maxChannels > 2 ? 2 : maxChannels);
         Dump(resultWaveFile, outputFormat);
 
         var mixed = new MixingSampleProvider(new[]

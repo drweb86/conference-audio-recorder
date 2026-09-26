@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Bezárás</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Harmadik felek közleményei</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>A harmadik felek összetevői megtartják saját licenceiket. A licencszövegek angolul szerepelnek.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon és hangszóró</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>A kevert felvétel ugyanazt a formátumot használja, így a két sáv igazítva marad.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3-minőség</value></data>
 </root>

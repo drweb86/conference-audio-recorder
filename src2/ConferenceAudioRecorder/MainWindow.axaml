@@ -11,6 +11,7 @@
     <Grid ColumnDefinitions="Auto,*">
         <Border x:Name="NavPane"
                 Grid.Column="0"
+                Classes="collapsed"
                 Width="56"
                 ClipToBounds="True"
                 BorderThickness="0,0,1,0"
@@ -22,15 +23,19 @@
                 </Transitions>
             </Border.Transitions>
             <DockPanel>
-                <StackPanel DockPanel.Dock="Bottom" Spacing="4">
+                <Grid DockPanel.Dock="Bottom" RowDefinitions="Auto,Auto" RowSpacing="4">
                     <RadioButton x:Name="SettingsNav"
-                                 Classes="nav"
+                                 Grid.Row="0"
+                                 Classes="nav compact"
                                  GroupName="pages"
+                                 HorizontalAlignment="Center"
+                                 HorizontalContentAlignment="Center"
                                  ToolTip.Tip="{loc:Loc Settings}"
                                  Click="OnShowSettings">
-                        <StackPanel Orientation="Horizontal" Spacing="8">
+                        <StackPanel x:Name="SettingsItem" Orientation="Horizontal" HorizontalAlignment="Center">
                             <PathIcon Data="{x:Static icons:AppIcons.Settings}" Width="16" Height="16" />
                             <TextBlock x:Name="SettingsLabel"
+                                       Margin="8,0,0,0"
                                        Text="{loc:Loc Settings}"
                                        TextTrimming="CharacterEllipsis"
                                        IsVisible="False"
@@ -38,22 +43,30 @@
                         </StackPanel>
                     </RadioButton>
                     <RadioButton x:Name="AboutNav"
-                                 Classes="nav"
+                                 Grid.Row="1"
+                                 Classes="nav compact"
                                  GroupName="pages"
+                                 HorizontalAlignment="Center"
+                                 HorizontalContentAlignment="Center"
                                  ToolTip.Tip="{loc:Loc TheApplicationView}"
                                  Click="OnShowAbout">
-                        <StackPanel Orientation="Horizontal" Spacing="8">
+                        <StackPanel x:Name="AboutItem" Orientation="Horizontal" HorizontalAlignment="Center">
                             <PathIcon Data="{x:Static icons:AppIcons.Info}" Width="16" Height="16" />
                             <TextBlock x:Name="AboutLabel"
+                                       Margin="8,0,0,0"
                                        Text="{loc:Loc TheApplicationView}"
                                        TextTrimming="CharacterEllipsis"
                                        IsVisible="False"
                                        VerticalAlignment="Center" />
                         </StackPanel>
                     </RadioButton>
-                </StackPanel>
-                <StackPanel Spacing="4">
-                    <Button Classes="navtoggle"
+                </Grid>
+                <Grid RowDefinitions="Auto,Auto" RowSpacing="4">
+                    <Button x:Name="NavToggle"
+                            Grid.Row="0"
+                            Classes="navtoggle compact"
+                            HorizontalAlignment="Center"
+                            HorizontalContentAlignment="Center"
                             Click="OnToggleNav">
                         <PathIcon x:Name="NavToggleIcon"
                                   Data="{x:Static icons:AppIcons.ChevronRight}"
@@ -61,21 +74,25 @@
                                   Height="16" />
                     </Button>
                     <RadioButton x:Name="RecordingNav"
-                                 Classes="nav"
+                                 Grid.Row="1"
+                                 Classes="nav compact"
                                  GroupName="pages"
                                  IsChecked="True"
+                                 HorizontalAlignment="Center"
+                                 HorizontalContentAlignment="Center"
                                  ToolTip.Tip="{loc:Loc Recording}"
                                  Click="OnShowRecording">
-                        <StackPanel Orientation="Horizontal" Spacing="8">
+                        <StackPanel x:Name="RecordingItem" Orientation="Horizontal" HorizontalAlignment="Center">
                             <PathIcon Data="{x:Static icons:AppIcons.Record}" Width="16" Height="16" />
                             <TextBlock x:Name="RecordingLabel"
+                                       Margin="8,0,0,0"
                                        Text="{loc:Loc Recording}"
                                        TextTrimming="CharacterEllipsis"
                                        IsVisible="False"
                                        VerticalAlignment="Center" />
                         </StackPanel>
                     </RadioButton>
-                </StackPanel>
+                </Grid>
             </DockPanel>
         </Border>
         <ContentControl x:Name="PageHost" Grid.Column="1" />

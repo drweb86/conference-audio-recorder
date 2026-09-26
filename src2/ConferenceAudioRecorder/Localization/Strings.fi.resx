@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Sulje</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Kolmannen osapuolen ilmoitukset</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Kolmannen osapuolen osat säilyttävät omat lisenssinsä. Lisenssitekstit ovat englanniksi.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofoni ja kaiutin</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Yhdistetty tallenne käyttää samaa muotoa, jotta molemmat raidat pysyvät kohdakkain.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3-laatu</value></data>
 </root>

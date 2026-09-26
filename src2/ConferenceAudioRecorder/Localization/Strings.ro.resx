@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Închide</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Notificări de la terți</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Componentele terților își păstrează licențele. Textele licențelor sunt în engleză.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Microfon și difuzor</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Înregistrarea mixtă folosește același format, astfel încât cele două piste rămân aliniate.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Calitate MP3</value></data>
 </root>

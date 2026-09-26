@@ -19,14 +19,14 @@ internal readonly struct RecordingTags
 
 internal static class RecordingFileEncoder
 {
-    public static void WriteMp3(string sourceWave, string destinationMp3, RecordingTags tags, ILog log)
+    public static void WriteMp3(string sourceWave, string destinationMp3, RecordingTags tags, ILog log, int bitRate)
     {
-        if (TryWriteWithSoundFile(sourceWave, destinationMp3, tags, log))
+        if (TryWriteWithSoundFile(sourceWave, destinationMp3, tags, log, bitRate))
             return;
 
         if (OperatingSystem.IsWindows())
         {
-            WriteWithMediaFoundation(sourceWave, destinationMp3);
+            WriteWithMediaFoundation(sourceWave, destinationMp3, bitRate);
             return;
         }
 
@@ -34,7 +34,7 @@ internal static class RecordingFileEncoder
             "Cannot write an MP3 file. Install libsndfile with MP3 support (package libsndfile1 on Debian and Ubuntu).");
     }
 
-    private static bool TryWriteWithSoundFile(string sourceWave, string destinationMp3, RecordingTags tags, ILog log)
+    private static bool TryWriteWithSoundFile(string sourceWave, string destinationMp3, RecordingTags tags, ILog log, int bitRate)
     {
         try
         {
@@ -55,9 +55,11 @@ internal static class RecordingFileEncoder
             ? reader
             : new SampleToWaveProvider16(reader.ToSampleProvider());
 
+        var quality = RecordingProfile.CompressionLevelFor(bitRate);
+        log.Debug($"Encoding MP3 with libsndfile at {bitRate} bps (compression level {quality:0.00}, where 0 is highest quality).");
         var options = new SoundFileWriterOptions
         {
-            VbrQuality = 0.9,
+            VbrQuality = quality,
             Tags = new SoundFileTags
             {
                 Title = tags.Title,
@@ -73,9 +75,9 @@ internal static class RecordingFileEncoder
     }
 
     [SupportedOSPlatform("windows")]
-    private static void WriteWithMediaFoundation(string sourceWave, string destinationMp3)
+    private static void WriteWithMediaFoundation(string sourceWave, string destinationMp3, int bitRate)
     {
         using var reader = new WaveFileReader(sourceWave);
-        MediaFoundationEncoder.EncodeToMp3(reader, destinationMp3, 320000);
+        MediaFoundationEncoder.EncodeToMp3(reader, destinationMp3, bitRate);
     }
 }

@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Tanca</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Avisos de tercers</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Els components de tercers conserven les seves llicències. Els textos de llicència són en anglès.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Micròfon i altaveu</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>L'enregistrament mesclat fa servir el mateix format, així que les dues pistes queden alineades.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Qualitat MP3</value></data>
 </root>

@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Закрити</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Повідомлення про сторонні компоненти</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Сторонні компоненти зберігають власні ліцензії. Тексти ліцензій наведено англійською.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Мікрофон і динамік</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Зведений запис використовує той самий формат, тож обидві доріжки лишаються вирівняними.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Якість MP3</value></data>
 </root>

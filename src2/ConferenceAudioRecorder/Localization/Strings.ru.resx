@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Закрыть</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Уведомления о сторонних компонентах</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Сторонние компоненты сохраняют свои лицензии. Тексты лицензий приведены на английском языке.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Микрофон и динамик</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Сведенная запись использует тот же формат, поэтому обе дорожки остаются совмещёнными.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Качество MP3</value></data>
 </root>

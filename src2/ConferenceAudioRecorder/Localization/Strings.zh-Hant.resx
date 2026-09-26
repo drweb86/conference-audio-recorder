@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>關閉</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>第三方聲明</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>第三方元件保留各自的授權。授權全文以英文提供。</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>麥克風與喇叭</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>混合錄音使用相同格式，因此兩條音軌保持對齊。</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 品質</value></data>
 </root>

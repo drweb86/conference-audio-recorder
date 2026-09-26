@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Փակել</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Երրորդ կողմի ծանուցումներ</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Երրորդ կողմի բաղադրիչները պահում են իրենց արտոնագրերը։ Արտոնագրերի տեքստերը անգլերեն են։</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Խոսափող և բարձրախոս</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Խառը ձայնագրությունն օգտագործում է նույն ձևաչափը, որպեսզի երկու ձայնագրությունները մնան համընկնած։</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 որակ</value></data>
 </root>

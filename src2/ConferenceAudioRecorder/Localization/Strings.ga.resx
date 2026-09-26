@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Dún</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Fógraí tríú páirtí</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Coimeádann comhpháirteanna tríú páirtí a gceadúnais féin. Tá téacsanna na gceadúnas i mBéarla.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Micreafón agus callaire</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Úsáideann an taifeadadh measctha an fhormáid chéanna, ionas go bhfanann an dá rian ailínithe.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Cáilíocht MP3</value></data>
 </root>

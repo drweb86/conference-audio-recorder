@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Zarrar</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Avisos de terceros</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Los componentes de terceros caltienen les sos llicencies. Los testos de llicencia tán n'inglés.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Micrófonu y altavoz</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>La grabación mezclada usa'l mesmu formatu, asina que los dos pistes queden alliniaes.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Calidá MP3</value></data>
 </root>

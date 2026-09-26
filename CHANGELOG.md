@@ -1,14 +1,19 @@
 # 2026.09.26
+(unpublished)
 
 ## New Features
 
-- Avalonia rewrite with a dark theme by default and a theme switcher in Settings.
-- Side menu shows titles only while it has focus. The record button is focused when the window opens.
-- Logs are plain text files written with NLog.
-- License, privacy policy, and third-party notices open inside the app and follow the same languages as BUtil.
-- Separate microphone and speaker MP3 files are saved before they are mixed. Their names end with ` - microphone` and ` - speaker`.
-- Windows setup, MSIX, WinGet, and Ubuntu deb/APT packages.
+- Migrate to .Net 10 and Avalonia.
+- Microphone, Speaker tracks are near the mixed recording to address need of some user to have possibility of mix by herself.
+- Ubuntu support.
+- Standalone installer support.
+- Windows binaries distribution.
+- Win-get support (needs approval though).
 
-## Bug Fixes
+## Removed Features
 
-- Opening a folder or a link uses the system opener on Windows, macOS, and Linux.
+- Html Logs are reduced to texts.
+
+## Changes
+
+- Documentation is improved.

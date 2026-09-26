@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Schließen</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Hinweise zu Drittanbietern</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Komponenten von Drittanbietern behalten ihre eigenen Lizenzen. Die Lizenztexte stehen auf Englisch.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon und Lautsprecher</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Die gemischte Aufnahme verwendet dasselbe Format, damit beide Spuren ausgerichtet bleiben.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3-Qualität</value></data>
 </root>

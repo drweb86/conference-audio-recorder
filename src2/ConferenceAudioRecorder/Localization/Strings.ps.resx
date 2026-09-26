@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>بند</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>د درېیم اړخ خبرتیاوې</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>د درېیم اړخ برخې خپل جوازونه ساتي. د جواز متن په انګلیسي دی.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>مایکروفون او سپیکر</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>ګډه ثبتونه هماغه بڼه کاروي، نو دواړه لارې سمون پاتې کېږي.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>د MP3 کیفیت</value></data>
 </root>

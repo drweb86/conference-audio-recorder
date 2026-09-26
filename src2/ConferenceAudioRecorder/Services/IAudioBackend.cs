@@ -15,7 +15,7 @@ internal interface IAudioBackend : IDisposable
 
     event EventHandler DevicesChanged;
 
-    ICaptureSession StartInputCapture(string deviceName);
+    ICaptureSession StartInputCapture(string deviceName, int sampleRate, int channels);
 
-    ICaptureSession StartOutputCapture(string deviceName);
+    ICaptureSession StartOutputCapture(string deviceName, int sampleRate, int channels);
 }

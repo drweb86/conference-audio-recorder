@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>დახურვა</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>მესამე მხარის შეტყობინებები</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>მესამე მხარის კომპონენტები ინარჩუნებენ საკუთარ ლიცენზიებს. ლიცენზიის ტექსტები ინგლისურადაა.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>მიკროფონი და დინამიკი</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>შერეული ჩანაწერი იყენებს იმავე ფორმატს, რათა ორივე ჩანაწერი დარჩეს გასწორებული.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 ხარისხი</value></data>
 </root>

@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Zapri</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Obvestila tretjih oseb</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Komponente tretjih oseb ohranijo lastne licence. Besedila licenc so v angleščini.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon in zvočnik</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Mešani posnetek uporablja enako obliko, zato obe stezi ostaneta poravnani.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Kakovost MP3</value></data>
 </root>

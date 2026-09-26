@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Tutup</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Pemberitahuan pihak ketiga</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Komponen pihak ketiga tetap memakai lisensinya sendiri. Teks lisensi ditulis dalam bahasa Inggris.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon dan speaker</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Rekaman campuran memakai format yang sama, sehingga kedua trek tetap sejajar.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Kualitas MP3</value></data>
 </root>

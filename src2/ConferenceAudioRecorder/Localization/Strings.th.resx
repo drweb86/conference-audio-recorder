@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>ปิด</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>ประกาศของบุคคลที่สาม</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>ส่วนประกอบของบุคคลที่สามยังใช้สัญญาอนุญาตของตนเอง ข้อความสัญญาอนุญาตเป็นภาษาอังกฤษ</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>ไมโครโฟนและลำโพง</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>ไฟล์ที่ผสมใช้รูปแบบเดียวกัน เพื่อให้ทั้งสองแทร็กตรงกัน</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>คุณภาพ MP3</value></data>
 </root>

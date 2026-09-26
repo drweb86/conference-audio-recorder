@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Đóng</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Thông báo bên thứ ba</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Thành phần bên thứ ba giữ giấy phép của họ. Nội dung giấy phép được đưa bằng tiếng Anh.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Micro và loa</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Bản ghi đã trộn dùng cùng định dạng để hai track luôn khớp nhau.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Chất lượng MP3</value></data>
 </root>

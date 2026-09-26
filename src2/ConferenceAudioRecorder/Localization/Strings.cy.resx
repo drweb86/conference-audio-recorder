@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Cau</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Hysbysiadau trydydd parti</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Mae cydrannau trydydd parti yn cadw eu trwyddedau eu hunain. Mae testunau'r trwyddedau yn Saesneg.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Meicroffon a seinydd</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Mae'r recordiad cymysg yn defnyddio'r un fformat, felly mae'r ddwy drac yn aros wedi'u halinio.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Ansawdd MP3</value></data>
 </root>

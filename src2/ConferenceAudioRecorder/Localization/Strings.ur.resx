@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>بند کریں</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>فریق ثالث کے نوٹس</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>فریق ثالث کے اجزا اپنے لائسنس رکھتے ہیں۔ لائسنس کا متن انگریزی میں ہے۔</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>مائیکروفون اور اسپیکر</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>مخلوط ریکارڈنگ وہی فارمیٹ استعمال کرتی ہے، تاکہ دونوں ٹریک ہم آہنگ رہیں۔</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 معیار</value></data>
 </root>

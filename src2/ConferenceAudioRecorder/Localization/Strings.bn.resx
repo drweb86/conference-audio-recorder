@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>বন্ধ</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>তৃতীয় পক্ষের বিজ্ঞপ্তি</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>তৃতীয় পক্ষের উপাদান নিজস্ব লাইসেন্স রাখে। লাইসেন্সের পাঠ্য ইংরেজিতে।</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>মাইক্রোফোন ও স্পিকার</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>মিশ্র রেকর্ডিং একই ফরম্যাট ব্যবহার করে, তাই দুটি ট্র্যাক সারিবদ্ধ থাকে।</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 গুণমান</value></data>
 </root>

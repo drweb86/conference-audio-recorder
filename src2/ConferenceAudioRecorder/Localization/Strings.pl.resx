@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Zamknij</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Informacje o składnikach innych firm</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Składniki innych firm zachowują własne licencje. Treść licencji jest po angielsku.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofon i głośnik</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Nagranie zmiksowane używa tego samego formatu, więc obie ścieżki pozostają wyrównane.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Jakość MP3</value></data>
 </root>

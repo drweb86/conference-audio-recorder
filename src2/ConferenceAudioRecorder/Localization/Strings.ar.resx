@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>إغلاق</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>إشعارات الجهات الخارجية</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>تحتفظ مكونات الجهات الخارجية بتراخيصها. نصوص التراخيص واردة بالإنجليزية.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>الميكروفون ومكبر الصوت</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>يستخدم التسجيل المدمج التنسيق نفسه، فيبقى المساران متوافقين.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>جودة MP3</value></data>
 </root>

@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Pechar</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Avisos de terceiros</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Os compoñentes de terceiros manteñen as súas licenzas. Os textos das licenzas están en inglés.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Micrófono e altofalante</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>A gravación mesturada usa o mesmo formato, para que as dúas pistas queden aliñadas.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Calidade MP3</value></data>
 </root>

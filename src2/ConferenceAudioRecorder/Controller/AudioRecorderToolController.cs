@@ -1,6 +1,7 @@
 using System;
 using ConferenceAudioRecorder.Commands;
 using ConferenceAudioRecorder.Model;
+using ConferenceAudioRecorder.Services;
 
 namespace ConferenceAudioRecorder.Controller;
 
@@ -39,7 +40,8 @@ internal class AudioRecorderToolController : IDisposable
 
             Services.AudioRecorderService.StartRecording(
                 Model.Settings.AudioInputDevice,
-                Model.Settings.AudioOutputDevice);
+                Model.Settings.AudioOutputDevice,
+                RecordingProfile.FromSettings(Model.Settings));
         }
     }
 
@@ -95,6 +97,18 @@ internal class AudioRecorderToolController : IDisposable
     {
         lock (_gate)
             new UpdateSettingsCommand().UpdateSaveRecordingToFolder(this, saveRecordingToFolder);
+    }
+
+    public void UpdateRecordingSampleRate(int sampleRate)
+    {
+        lock (_gate)
+            new UpdateSettingsCommand().UpdateRecordingSampleRate(this, sampleRate);
+    }
+
+    public void UpdateEncodingBitRate(int bitRate)
+    {
+        lock (_gate)
+            new UpdateSettingsCommand().UpdateEncodingBitRate(this, bitRate);
     }
 
     public void UpdateTheme(string theme)

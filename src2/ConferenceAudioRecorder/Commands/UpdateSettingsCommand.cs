@@ -31,6 +31,24 @@ internal class UpdateSettingsCommand
         }
     }
 
+    public void UpdateRecordingSampleRate(AudioRecorderToolController controller, int sampleRate)
+    {
+        if (controller.Model.Settings.RecordingSampleRate != sampleRate)
+        {
+            controller.Model.Settings.RecordingSampleRate = sampleRate;
+            controller.Services.AudioRecorderSettingsService.Save(controller.Model.Settings);
+        }
+    }
+
+    public void UpdateEncodingBitRate(AudioRecorderToolController controller, int bitRate)
+    {
+        if (controller.Model.Settings.EncodingBitRate != bitRate)
+        {
+            controller.Model.Settings.EncodingBitRate = bitRate;
+            controller.Services.AudioRecorderSettingsService.Save(controller.Model.Settings);
+        }
+    }
+
     public void UpdateTheme(AudioRecorderToolController controller, string theme)
     {
         if (controller.Model.Settings.Theme != theme)

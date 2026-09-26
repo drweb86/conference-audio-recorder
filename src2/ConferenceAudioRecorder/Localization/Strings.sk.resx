@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>Zavrieť</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>Oznámenia tretích strán</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>Súčasti tretích strán si ponechávajú vlastné licencie. Texty licencií sú v angličtine.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>Mikrofón a reproduktor</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>Zmiešaná nahrávka používa rovnaký formát, takže obe stopy zostanú zarovnané.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>Kvalita MP3</value></data>
 </root>

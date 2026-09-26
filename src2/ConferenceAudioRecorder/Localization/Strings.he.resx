@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>סגירה</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>הודעות צד שלישי</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>רכיבי צד שלישי שומרים על הרישיונות שלהם. נוסחי הרישיונות מובאים באנגלית.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>מיקרופון ורמקול</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>ההקלטה המעורבת משתמשת באותו פורמט, כדי ששני הערוצים יישארו מיושרים.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>איכות MP3</value></data>
 </root>

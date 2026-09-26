@@ -13,14 +13,6 @@ namespace ConferenceAudioRecorder.Services;
 [SupportedOSPlatform("linux")]
 internal sealed class LinuxAudioBackend : IAudioBackend, IDisposable
 {
-    private static readonly WaveFormat[] CaptureFormats =
-    {
-        new WaveFormat(48000, 16, 2),
-        new WaveFormat(44100, 16, 2),
-        new WaveFormat(48000, 16, 1),
-        new WaveFormat(44100, 16, 1)
-    };
-
     private readonly ILog _log;
     private readonly Timer _poll;
     private string _signature = string.Empty;
@@ -62,16 +54,16 @@ internal sealed class LinuxAudioBackend : IAudioBackend, IDisposable
         return Prefer(GetOutputDevices(), "default", "sysdefault", "pulse", "pipewire", "monitor");
     }
 
-    public ICaptureSession StartInputCapture(string deviceName)
+    public ICaptureSession StartInputCapture(string deviceName, int sampleRate, int channels)
     {
-        return new LinuxCaptureSession(IdOf(deviceName), _log);
+        return new LinuxCaptureSession(IdOf(deviceName), sampleRate, channels, _log);
     }
 
-    public ICaptureSession StartOutputCapture(string deviceName)
+    public ICaptureSession StartOutputCapture(string deviceName, int sampleRate, int channels)
     {
         var pcm = ResolveMonitor(IdOf(deviceName));
         _log.Debug($"Speaker capture uses ALSA device '{pcm}' for '{deviceName}'.");
-        return new LinuxCaptureSession(pcm, _log);
+        return new LinuxCaptureSession(pcm, sampleRate, channels, _log);
     }
 
     public void Dispose()
@@ -227,13 +219,13 @@ internal sealed class LinuxAudioBackend : IAudioBackend, IDisposable
         private readonly WaveFileWriter _writer;
         private readonly string _waveFile;
 
-        public LinuxCaptureSession(string pcmName, ILog log)
+        public LinuxCaptureSession(string pcmName, int sampleRate, int channels, ILog log)
         {
             _waveFile = Path.GetTempFileName();
             if (File.Exists(_waveFile))
                 File.Delete(_waveFile);
 
-            (_capture, _writer) = Open(pcmName, _waveFile, log);
+            (_capture, _writer) = Open(pcmName, _waveFile, sampleRate, channels, log);
         }
 
         public string WaveFile => _waveFile;
@@ -254,7 +246,7 @@ internal sealed class LinuxAudioBackend : IAudioBackend, IDisposable
             WaveNormalizer.Normalize(_waveFile);
         }
 
-        private static (AlsaIn Capture, WaveFileWriter Writer) Open(string pcmName, string waveFile, ILog log)
+        private static (AlsaIn Capture, WaveFileWriter Writer) Open(string pcmName, string waveFile, int sampleRate, int channels, ILog log)
         {
             var candidates = new List<string> { PlugName(pcmName) };
             if (!string.Equals(candidates[0], pcmName, StringComparison.Ordinal))
@@ -263,7 +255,7 @@ internal sealed class LinuxAudioBackend : IAudioBackend, IDisposable
             Exception last = null;
             foreach (var device in candidates.Distinct())
             {
-                foreach (var format in CaptureFormats)
+                foreach (var format in FormatsToTry(sampleRate, channels))
                 {
                     var input = new AlsaIn(device);
                     input.WaveFormat = format;
@@ -295,6 +287,39 @@ internal sealed class LinuxAudioBackend : IAudioBackend, IDisposable
             }
 
             throw new InvalidOperationException($"Cannot open ALSA capture device '{pcmName}'.", last);
+        }
+
+        private static List<WaveFormat> FormatsToTry(int sampleRate, int channels)
+        {
+            var formats = new List<WaveFormat>
+            {
+                new WaveFormat(sampleRate, 16, channels),
+                new WaveFormat(48000, 16, 2),
+                new WaveFormat(44100, 16, 2),
+                new WaveFormat(48000, 16, 1),
+                new WaveFormat(44100, 16, 1)
+            };
+
+            var unique = new List<WaveFormat>();
+            foreach (var format in formats)
+            {
+                var seen = false;
+                foreach (var existing in unique)
+                {
+                    if (existing.SampleRate == format.SampleRate &&
+                        existing.BitsPerSample == format.BitsPerSample &&
+                        existing.Channels == format.Channels)
+                    {
+                        seen = true;
+                        break;
+                    }
+                }
+
+                if (!seen)
+                    unique.Add(format);
+            }
+
+            return unique;
         }
 
         private static string PlugName(string pcmName)

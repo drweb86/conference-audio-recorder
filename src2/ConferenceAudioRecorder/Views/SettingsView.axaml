@@ -15,6 +15,17 @@
         <Button Content="{loc:Loc ChangeFolder}"
                 HorizontalAlignment="Left"
                 Click="OnChangeFolder" />
+        <TextBlock Text="{loc:Loc RecordingFormat}" Margin="0,12,0,0" />
+        <TextBlock Text="{loc:Loc RecordingFormatHint}" TextWrapping="Wrap" Opacity="0.75" />
+        <ComboBox x:Name="FormatBox"
+                  HorizontalAlignment="Left"
+                  MinWidth="220"
+                  SelectionChanged="OnFormatChanged" />
+        <TextBlock Text="{loc:Loc EncodingQuality}" Margin="0,12,0,0" />
+        <ComboBox x:Name="EncodingBox"
+                  HorizontalAlignment="Left"
+                  MinWidth="220"
+                  SelectionChanged="OnEncodingChanged" />
         <TextBlock Text="{loc:Loc Theme}" Margin="0,12,0,0" />
         <ComboBox x:Name="ThemeBox"
                   HorizontalAlignment="Left"

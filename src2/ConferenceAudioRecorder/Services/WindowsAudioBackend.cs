@@ -47,14 +47,16 @@ internal sealed class WindowsAudioBackend : IAudioBackend
         return DefaultDevice(DataFlow.Render, Role.Multimedia);
     }
 
-    public ICaptureSession StartInputCapture(string deviceName)
+    public ICaptureSession StartInputCapture(string deviceName, int sampleRate, int channels)
     {
+        _log.Debug($"Microphone capture keeps the Windows device format, then converts to {sampleRate} Hz, {channels} ch.");
         var device = FindDevice(DataFlow.Capture, deviceName);
         return new WindowsCaptureSession(device, loopback: false);
     }
 
-    public ICaptureSession StartOutputCapture(string deviceName)
+    public ICaptureSession StartOutputCapture(string deviceName, int sampleRate, int channels)
     {
+        _log.Debug($"Speaker capture keeps the Windows device format, then converts to {sampleRate} Hz, {channels} ch.");
         var device = FindDevice(DataFlow.Render, deviceName);
         return new WindowsCaptureSession(device, loopback: true);
     }

@@ -37,4 +37,7 @@
   <data name="Close" xml:space="preserve"><value>మూసివేయి</value></data>
   <data name="ThirdPartyNotices" xml:space="preserve"><value>మూడవ పక్ష ప్రకటనలు</value></data>
   <data name="ThirdPartyNote" xml:space="preserve"><value>మూడవ పక్ష భాగాలు తమ లైసెన్స్‌లను ఉంచుకుంటాయి. లైసెన్స్ పాఠ్యం ఇంగ్లీషులో ఉంటుంది.</value></data>
+  <data name="RecordingFormat" xml:space="preserve"><value>మైక్రోఫోన్ మరియు స్పీకర్</value></data>
+  <data name="RecordingFormatHint" xml:space="preserve"><value>మిశ్రమ రికార్డింగ్ అదే ఫార్మాట్‌ను ఉపయోగిస్తుంది, కాబట్టి రెండు ట్రాక్‌లు సరిపోయి ఉంటాయి.</value></data>
+  <data name="EncodingQuality" xml:space="preserve"><value>MP3 నాణ్యత</value></data>
 </root>
