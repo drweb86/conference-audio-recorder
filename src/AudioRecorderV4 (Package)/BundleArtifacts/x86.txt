@@ -1,2 +1,0 @@
-MainPackage=C:\Users\Administrator\Documents\audio-recorder\src\HDE.AudioRecorder\AudioRecorderV4\AudioRecorderV4 (Package)\bin\x86\Release\AudioRecorderV4 (Package)_1.0.0.0_x86.msix
-SymbolPackage=C:\Users\Administrator\Documents\audio-recorder\src\HDE.AudioRecorder\AudioRecorderV4\AudioRecorderV4 (Package)\obj\x86\Release\Symbols\AudioRecorderV4 (Package)_1.0.0.0_x86.appxsym

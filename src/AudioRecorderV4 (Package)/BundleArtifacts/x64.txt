@@ -1,2 +1,0 @@
-MainPackage=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\bin\x64\Release\A Startup Project (Package)_1.0.9.0_x64.msix
-SymbolPackage=F:\sources\conference-audio-recorder\src\AudioRecorderV4 (Package)\obj\x64\Release\Symbols\A Startup Project (Package)_1.0.9.0_x64.appxsym
