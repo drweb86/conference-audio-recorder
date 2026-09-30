@@ -1,5 +1,6 @@
-# Pack unsigned Store MSIX from published ConferenceAudioRecorder output (x64 and arm64).
+# Pack unsigned Store packages from published ConferenceAudioRecorder output (x64 and arm64).
 # Partner Center re-signs after certification; do not Authenticode-sign these packages.
+# This product was released as a Windows 10/11 bundle, so the Store upload is the .msixbundle.
 
 [CmdletBinding()]
 param(
@@ -116,6 +117,27 @@ foreach ($arch in $arches) {
     }
 }
 
+$bundleStaging = Join-Path $RepoRoot "Output\msix-bundle-input"
+if (Test-Path $bundleStaging) {
+    Remove-Item $bundleStaging -Recurse -Force
+}
+New-Item -ItemType Directory -Force -Path $bundleStaging | Out-Null
+foreach ($arch in $arches) {
+    $msixName = "conference-audio-recorder_${Version}_windows_$($arch.Folder).msix"
+    Copy-Item (Join-Path $outDir $msixName) (Join-Path $bundleStaging $msixName)
+}
+
+$bundleName = "conference-audio-recorder_${Version}_windows.msixbundle"
+$bundlePath = Join-Path $outDir $bundleName
+if (Test-Path $bundlePath) { Remove-Item $bundlePath -Force }
+
+Write-Output "Bundling $bundleName (Identity Version $msixVersion)"
+& $makeAppx bundle /d $bundleStaging /p $bundlePath /o
+if ($LASTEXITCODE -ne 0) {
+    throw "makeappx bundle failed with exit code $LASTEXITCODE"
+}
+
 Remove-Item (Join-Path $RepoRoot "Output\msix-staging") -Recurse -Force -ErrorAction SilentlyContinue
-Write-Output "MSIX packages written to $outDir"
+Remove-Item $bundleStaging -Recurse -Force -ErrorAction SilentlyContinue
+Write-Output "MSIX bundle written to $bundlePath"
 exit 0
