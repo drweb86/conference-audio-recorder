@@ -148,6 +148,7 @@ jobs:
             Output/*.exe
             Output/*.7z
             Output/*.msix
+            Output/*.msixbundle
 
       - name: Upload Windows artifacts to GitHub Release
         if: github.event_name == 'release'
@@ -161,6 +162,7 @@ jobs:
           Get-ChildItem "Output\conference-audio-recorder_${v}_windows_*.msix" | ForEach-Object {
             gh release upload "${{ github.event.release.tag_name }}" $_.FullName --clobber
           }
+          gh release upload "${{ github.event.release.tag_name }}" "Output\conference-audio-recorder_${v}_windows.msixbundle" --clobber
 
   update-apt-repo:
     needs: build-deb
