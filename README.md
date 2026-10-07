@@ -32,7 +32,7 @@ Urdu, Uzbek, Vietnamese, Welsh, Yue Chinese, English
 
 ## Requirements
 
-**Windows 11 x64, ARM64** or **Ubuntu 24+**.
+**Windows 11 x64, ARM64** or **Linux** (glibc, amd64 and arm64).
 
 ## 📦 Installation Options
 
@@ -63,6 +63,8 @@ A self-contained build. Run `x64\ConferenceAudioRecorder.exe` or `arm64\Conferen
 <details>
 
 <summary>📦 Installation for Linux</summary>
+
+Debian, Ubuntu, and derivatives
 
 A. Installation via APT Repository
 
@@ -98,25 +100,11 @@ Recordings and settings in `~/.local/share/ConferenceAudioRecorder` are kept.
 
 B. DEB [look for asset linux_arm64.deb and linux_amd64.deb](https://github.com/drweb86/conference-audio-recorder/releases/latest)
 
-For amd64:
+Those files can be installed with `sudo dpkg -i conference-audio-recorder_*_linux_*.deb && sudo apt-get install -f`.
 
-```
-sudo dpkg -i conference-audio-recorder_*_linux_amd64.deb
-sudo apt-get install -f
-```
+Uninstall `sudo apt remove conference-audio-recorder`
 
-For ARM64:
-
-```
-sudo dpkg -i conference-audio-recorder_*_linux_arm64.deb
-sudo apt-get install -f
-```
-
-Uninstall
-
-```
-sudo apt remove conference-audio-recorder
-```
+Recordings and settings in `~/.local/share/ConferenceAudioRecorder` are kept.
 
 C. Bash script
 
@@ -132,7 +120,29 @@ Uninstallation (source install only):
 
 `wget -O - https://raw.githubusercontent.com/drweb86/conference-audio-recorder/main/src2/ubuntu-uninstall.sh | bash`
 
-After installation (APT or .deb), the command is `conference-audio-recorder`.
+Fedora, RHEL, Rocky, Alma, and openSUSE
+
+RPM [look for asset linux_x86_64.rpm and linux_aarch64.rpm](https://github.com/drweb86/conference-audio-recorder/releases/latest)
+
+`sudo dnf install ./conference-audio-recorder_*_linux_*.rpm`
+
+openSUSE: `sudo zypper install ./conference-audio-recorder_*_linux_*.rpm`
+
+Arch Linux, Manjaro, and EndeavourOS
+
+Pacman [look for asset linux_x86_64.pkg.tar.zst and linux_aarch64.pkg.tar.zst](https://github.com/drweb86/conference-audio-recorder/releases/latest)
+
+`sudo pacman -U conference-audio-recorder_*_linux_*.pkg.tar.zst`
+
+Other glibc Linux (amd64 and arm64)
+
+Tarball [look for asset linux_amd64.tar.gz and linux_arm64.tar.gz](https://github.com/drweb86/conference-audio-recorder/releases/latest)
+
+`sudo tar -C / -xzf conference-audio-recorder_*_linux_*.tar.gz`
+
+The tarball unpacks into `/usr`. The system needs glibc, libstdc++, libX11, fontconfig, ALSA, and libsndfile.
+
+After installation, the command is `conference-audio-recorder`.
 
 </details>
 

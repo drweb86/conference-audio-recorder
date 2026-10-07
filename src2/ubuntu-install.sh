@@ -24,6 +24,7 @@ echo
 wget https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh
 chmod +x /tmp/dotnet-install.sh
 /tmp/dotnet-install.sh --channel 10.0
+sudo apt install -y libsndfile1
 sudo apt install -y libasound2 || sudo apt install -y libasound2t64
 
 echo

@@ -1,3 +1,10 @@
+# 2026.10.08
+(unpublished)
+
+## New Features
+
+- RPM, Arch, and tarball Linux packages, in addition to Debian packages.
+
 # 2026.09.26
 
 ## New Features
