@@ -1,0 +1,18 @@
+Package: conference-audio-recorder
+Version: 2026.11.14
+Architecture: amd64
+Maintainer: Siarhei Kuchuk <https://github.com/drweb86>
+Installed-Size: 110568
+Depends: libc6, libgcc-s1, libstdc++6, libx11-6, libfontconfig1, libasound2 | libasound2t64, libsndfile1
+Filename: pool/main/conference-audio-recorder_2026.11.14_linux_amd64.deb
+Size: 38747364
+MD5sum: a066ea13d68943e70b9335e827139af6
+SHA1: f194ac0e336b0c374f7fb0a1fc6d1b26f9d4c07a
+SHA256: ba3c9c1c55b99917c706ae20d9fbb47004f32170873636554887bf13fc931ffc
+Section: sound
+Priority: optional
+Homepage: https://github.com/drweb86/conference-audio-recorder
+Description: Record conference calls from the microphone and speakers
+License: CC0-1.0
+Vendor: none
+
