@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.IO;
 
 namespace ConferenceAudioRecorder;
 
@@ -9,6 +10,12 @@ internal static class ShellOpen
     {
         if (string.IsNullOrWhiteSpace(target))
             return;
+
+        if (OperatingSystem.IsWindows() && Directory.Exists(target))
+        {
+            Process.Start("explorer.exe", $"\"{WindowsStorePackage.UnsandboxPath(target)}\"");
+            return;
+        }
 
         ProcessStartInfo start;
         if (OperatingSystem.IsWindows())

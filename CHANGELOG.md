@@ -1,4 +1,4 @@
-# 2026.11.13
+# 2026.11.14
 
 ## New Features
 
@@ -8,6 +8,10 @@
 
 - Migrate from .NET 10 to .NET 11, with the Runtime Async preview enabled.
 - Update Avalonia from 12.1.3 to 12.1.6, NAudio from 3.1.0 to 3.3.0, and NLog from 6.0.5 to 6.2.2.
+
+## Bug Fixes
+
+- Opening Logs folder for sandboxed version is fixed.
 
 # 2026.09.26
 
