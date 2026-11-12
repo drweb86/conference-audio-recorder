@@ -200,6 +200,9 @@ jobs:
           echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
           gpgconf --kill gpg-agent
 
+      - name: Install APT repository tools
+        run: sudo apt-get update && sudo apt-get install -y apt-utils
+
       - name: Build APT repository
         run: |
           mkdir -p apt-repo/pool/main
