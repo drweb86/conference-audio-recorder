@@ -19,11 +19,11 @@ if [ "$EUID" -eq 0 ]; then
 fi
 
 echo
-echo Install .NET 10
+echo Install .NET 11
 echo
 wget https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh
 chmod +x /tmp/dotnet-install.sh
-/tmp/dotnet-install.sh --channel 10.0
+/tmp/dotnet-install.sh --channel 11.0
 sudo apt install -y libsndfile1
 sudo apt install -y libasound2 || sudo apt install -y libasound2t64
 

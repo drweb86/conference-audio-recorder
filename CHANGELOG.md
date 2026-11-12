@@ -1,9 +1,13 @@
-# 2026.10.08
-(unpublished)
+# 2026.11.12
 
 ## New Features
 
 - RPM, Arch, and tarball Linux packages, in addition to Debian packages.
+
+## Changes
+
+- Migrate from .NET 10 to .NET 11, with the Runtime Async preview enabled.
+- Update Avalonia from 12.1.3 to 12.1.6, NAudio from 3.1.0 to 3.3.0, and NLog from 6.0.5 to 6.2.2.
 
 # 2026.09.26
 
